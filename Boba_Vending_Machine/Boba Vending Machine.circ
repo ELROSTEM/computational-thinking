@@ -21,6 +21,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
+  <lib desc="file#C:\Users\ryanz\Downloads\12-Bit BCD Converter (Final) (1).circ" name="7"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -470,11 +471,29 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(260,210)" to="(320,210)"/>
+    <wire from="(400,130)" to="(400,200)"/>
+    <wire from="(420,110)" to="(420,240)"/>
+    <wire from="(360,120)" to="(410,120)"/>
+    <wire from="(370,240)" to="(420,240)"/>
+    <wire from="(400,100)" to="(400,110)"/>
+    <wire from="(360,100)" to="(360,120)"/>
     <wire from="(230,320)" to="(230,470)"/>
+    <wire from="(280,140)" to="(390,140)"/>
     <wire from="(200,300)" to="(200,320)"/>
+    <wire from="(320,100)" to="(320,130)"/>
     <wire from="(220,150)" to="(260,150)"/>
     <wire from="(190,470)" to="(230,470)"/>
+    <wire from="(370,220)" to="(410,220)"/>
     <wire from="(200,320)" to="(230,320)"/>
+    <wire from="(410,120)" to="(410,220)"/>
+    <wire from="(370,200)" to="(400,200)"/>
+    <wire from="(370,180)" to="(390,180)"/>
+    <wire from="(400,110)" to="(420,110)"/>
+    <wire from="(280,100)" to="(280,140)"/>
+    <wire from="(390,140)" to="(390,180)"/>
+    <wire from="(320,130)" to="(400,130)"/>
+    <wire from="(260,150)" to="(260,210)"/>
     <wire from="(100,180)" to="(170,180)"/>
     <wire from="(100,120)" to="(170,120)"/>
     <wire from="(100,140)" to="(170,140)"/>
@@ -518,12 +537,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="east"/>
     </comp>
     <comp lib="5" loc="(640,100)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(260,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="12"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp loc="(170,120)" name="Money_Input"/>
     <comp lib="5" loc="(100,410)" name="Button"/>
     <comp lib="5" loc="(600,100)" name="Hex Digit Display"/>
@@ -540,6 +553,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Not Enough Money"/>
       <a name="labelloc" val="north"/>
     </comp>
+    <comp lib="7" loc="(370,180)" name="main"/>
     <comp lib="5" loc="(100,390)" name="Button"/>
     <comp lib="5" loc="(100,290)" name="Button"/>
     <comp loc="(220,370)" name="Flavor_Input"/>
