@@ -4912,4 +4912,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="2"/>
     </comp>
   </circuit>
+  <circuit name="Hold_Substitute">
+    <a name="circuit" val="Hold_Substitute"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+  </circuit>
 </project>
