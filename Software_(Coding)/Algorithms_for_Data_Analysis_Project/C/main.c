@@ -7,7 +7,8 @@
 #define SIZE 20
 
 // File read Constants
-
+#define FILESIZE 10
+#define STRINGLENGTH 15
 
 /* Code For Hashtable ----------------------------------------------*/
 struct DataItem {
@@ -43,7 +44,7 @@ struct DataItem *search(int key) {
    return NULL;        
 }
 
-void insert(int key,int data) {
+void insert(int key, int data) {
 
    struct DataItem *item = (struct DataItem*) malloc(sizeof(struct DataItem));
    item->data = data;  
@@ -110,17 +111,46 @@ void display() {
 
 /* Code For File Reading -------------------------------------------*/
 
+// Read and Write Strings and Integers from and to Files
 
 
+// int fileread() {
+
+// FILE* fileInput = NULL;
+// FILE* fileOutput = NULL;
+
+// char str[FILESIZE][STRINGLENGTH];
+// int number[FILESIZE];
+
+// fileInput = fopen("input.txt", "r");
+
+// fileOutput = fopen("output.txt", "w");
+
+// for (int i = 0; i < FILESIZE; i++)
+//    fscanf (fileInput, "%s %d", str[i], &number[i]);
+
+// for (int i = 0; i < FILESIZE; i++)
+//    fprintf(fileOutput, "string[%d] = %13s, number[%d] = %3d\n\n", i, str[i], i, number[i]*2);
+// for (int i = 0; i < FILESIZE; i++)
+//    fprintf(fileOutput, "%s ", str[i]);
+
+// fprintf(fileOutput, "\n\n");
+// fclose(fileInput);
+// fclose(fileOutput);
+
+
+/* -----------------------------------------------------------------*/
 
 
 
 int main() {
    hashtable = (struct DataItem*) malloc(sizeof(struct DataItem));
    hashtable->data = -1;  
-   hashtable->key = -1; 
+   hashtable->key = -1;
 
-   insert(1, 20);
+   int int_values[2] = {20, 20};
+
+   insert(1, int_values);
    insert(2, 70);
    insert(42, 80);
    insert(4, 25);
