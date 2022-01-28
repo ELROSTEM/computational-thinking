@@ -1,4 +1,3 @@
-
 from statistics import mean
 
 
@@ -57,7 +56,7 @@ for i in range(0, len(data)):
 pretty_print(data)
 
 # Output a file
-print("File is also outputed as 'task_1.txt'")
+print("File is also outputted as 'task_1.txt'")
 with open('task_1.txt', 'w') as outf:
     for i in data:
         outf.write(f"{i['last']} {i['first']} {i['position']} {i['state']} {i['age']} {i['salary']} \n")
