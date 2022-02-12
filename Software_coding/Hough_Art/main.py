@@ -42,7 +42,7 @@ for i in range(ROW):
                     hough[int(xx+H_COL/2)][int(yy+H_ROW/2)] = hough[int(xx+H_COL/2)][int(yy+H_ROW/2)] + 1
 
 # Write into art.ppm
-with open("python_art.ppm", "w") as out_file:
+with open("py_art.ppm", "w") as out_file:
     out_file.write(f"{file_type}{str(H_COL)} {str(H_ROW)} {ppm_color}")
     for i in range(H_ROW):
         for j in range(H_COL):

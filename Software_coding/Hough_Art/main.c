@@ -33,7 +33,7 @@ int main(int argc, const char * argv[]){
 
     /** File Open **/
     in_file = fopen(input_filename,"r"); //open input image file
-    out_file = fopen ("art100.ppm","w"); //open output image file
+    out_file = fopen ("c_art.ppm","w"); //open output image file
 
     /** Read Input Image Headers **/
     fscanf (in_file, "%s", ppm_file_type); //read ppm file type
