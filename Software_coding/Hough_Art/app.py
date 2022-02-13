@@ -4,6 +4,7 @@ import streamlit as st
 
 
 def hough(img_inp,  amplitude = 2.5, frequency = 1.0, phase_x = 0.0, phase_y = 0.0): 
+    """This is the hough art function"""
     # Program Constants
     file_type = 'P3'
     ppm_color = 255
@@ -37,6 +38,9 @@ def hough(img_inp,  amplitude = 2.5, frequency = 1.0, phase_x = 0.0, phase_y = 0
                 out_file.write(f"{int(hough[i][j]*(1.0 + i/23.0))} {int(hough[i][j]*(H_COL - j)/20)} {int(hough[i][j]*(H_ROW - j)/30)} ")
 
 
+
+# --- Main -------------------------------------------------------------------------------
+
 ppm_upload = st.file_uploader("Choose a PPM file", accept_multiple_files=False)
 if ppm_upload is not None:
     st.write("https://www.cs.rhodes.edu/welshc/COMP141_F16/ppmReader.html")
@@ -59,6 +63,13 @@ if ppm_upload is not None:
                 data=file,
                 file_name="art.ppm",
             )
+
+
+
+
+
+
+# Attempts to display ppm on streamlit
 
     # stringio = StringIO(ppm_upload.getvalue().decode("utf-8"))
     # st.write(stringio)
