@@ -34,7 +34,9 @@ with open(infile, 'r') as f:
             'position': line_lst[2],
             'state': line_lst[3],
             'age': int(line_lst[4]),
-            'salary': int(line_lst[5])
+            'salary': int(line_lst[5]),
+            'education': line_lst[6],
+            'exp': int(line_lst[7])
         }
         data.append(row)
 
@@ -59,7 +61,7 @@ pretty_print(data)
 print("File is also outputted as 'task_1.txt'")
 with open('task_1.txt', 'w') as outf:
     for i in data:
-        outf.write(f"{i['last']} {i['first']} {i['position']} {i['state']} {i['age']} {i['salary']} \n")
+        outf.write(f"{i['last']} {i['first']} {i['position']} {i['state']} {i['age']} {i['salary']} {i['education']} {i['exp']} \n")
 
 
 ######################################################################################################
