@@ -21,9 +21,9 @@ float randomFloat()
 }
 
 // function to evaluate summation and activation
-int calculateOutput(float weights[], float x, float y)
+int calculateOutput(float weights[], float sat, float gpa, float essay, float rec, float extra)
 {
-    float sum = x * weights[2] + y * weights[1] + weights[0];   // summation function. sum of the inputs * weights and bias.
+    float sum = sat * weights[5] + gpa * weights[4] + essay * weights[3] + rec * weights[2] + extra * weights[1] + weights[0];   // summation function. sum of the inputs * weights and bias.
     return (sum >= 0) ? 1 : -1;                                 // activation, threshold or transfer function. output 1 if sum >= 0; output -1 otherwise (sign function).
 }
 
@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
     }
     
     p = 0;                                                      // initialize pattern index.
-    while (fscanf(fpatterns, "%f %f %f %f %f %d", &x[p], &y[p], &outputs[p]) != EOF) // reading training data one by one till the end of file, and store them in arrays.
+    while (fscanf(fpatterns, "%f %f %f %f %f %d", &sat[p], &gpa[p], &essay[p], &rec[p], &extra[p], &outputs[p]) != EOF) // reading training data one by one till the end of file, and store them in arrays.
     {
         if (outputs[p] == 0)
             outputs[p] = -1;                                    // change the output value to 1 and -1 instead of 0 and 1 (sign function instead of step function.
@@ -59,10 +59,15 @@ int main(int argc, char *argv[])
     }
     patternCount = p;                                           // record no. of training data.
     printf("\nNumber of training patterns: %d\n", patternCount);    // print out the number of training file.
-    
-    weights[2] = randomFloat();                                 // initialize weights with random values between 0 and 1.
+   
+                                    
+    weights[5] = randomFloat();                                 // initialize weights with random values between 0 and 1.
+    weights[4] = randomFloat();
+    weights[3] = randomFloat();  
+    weights[2] = randomFloat();                                
     weights[1] = randomFloat();
     weights[0] = randomFloat();
+  
     
     printf("\n                                     ");
     printf("Initial weights : w2 = %8.4f w1 = %8.4f w0 = %8.4f \n", weights[2], weights[1], weights[0]);    // print out initial weights.
@@ -73,16 +78,22 @@ int main(int argc, char *argv[])
         iteration++;                                            // increment iteration.
         globalError = 0;                                        // initialize global error.
         for (i = 0; i < patternCount; i++) {                    // for each iteration, run through all training pattrens.
-            output = calculateOutput(weights, x[i], y[i]);      // calculate output (1 or -1) by giving inputs and weights.
+            output = calculateOutput(weights, sat[i], gpa[i], essay[i], rec[i], extra[i]);      // calculate output (1 or -1) by giving inputs and weights.
             
             localError = outputs[i] - output;                   // calculate local error, the output for each pattern.
-            weights[2] += LEARNING_RATE * localError * x[i];    // updating weight based on learning rate, local errors, and inputs.
-            weights[1] += LEARNING_RATE * localError * y[i];
+            weights[5] += LEARNING_RATE * localError * sat[i];    // updating weight based on learning rate, local errors, and inputs.
+            weights[4] += LEARNING_RATE * localError * gpa[i];
+            weights[3] += LEARNING_RATE * localError * essay[i];
+            weights[2] += LEARNING_RATE * localError * rec[i];    
+            weights[1] += LEARNING_RATE * localError * extra[i];
             weights[0] += LEARNING_RATE * localError;
             
             globalError += (localError*localError);             // accumulate golbal errors by adding  squared local error.
         }
-        
+        //STORING PRINT FUNCTION takes too long to type :(
+        printf("%f %f %f %f %f", weights[5], weights[4], weights[3], weights[2], weights[1]);
+
+
         /* Root Mean Squared Error */
         printf("\nIteration %d : RMSE = %.4f          ", iteration, sqrt(globalError/patternCount));                    // print out root mean square global error.
         printf("Training weights: w2 = %8.4f w1 = %8.4f w0 = %8.4f \n", weights[2], weights[1], weights[0]);            // print out updated weights.
