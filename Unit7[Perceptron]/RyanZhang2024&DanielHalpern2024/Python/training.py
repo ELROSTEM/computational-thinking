@@ -56,7 +56,7 @@ result = []
 weights = [random(), random(), random(), random(), random(), random()]
 
 # Read the data from the file
-with open('data.txt', 'r') as f:
+with open('training.txt', 'r') as f:
     for row in f:
             row_lst = row.split()
             sat.append(float(row_lst[0]))
@@ -80,7 +80,7 @@ for i in range(0, len(gpa)):
 print("Initial Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {} \n".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
 
 epoch = 0
-learning_rate = 0.1
+learning_rate = 0.0001
 
 while True:
     epoch += 1
@@ -109,10 +109,13 @@ while True:
     print("-----------------------------------------------------")
 
     # Break if the error is == 0
-    if global_error == 0 or epoch == 10000:
+    if global_error == 0 or epoch == 20000:
         break
     else:
         continue
 
+
+with open('weights.txt', 'w') as f:
+    f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
 
 
