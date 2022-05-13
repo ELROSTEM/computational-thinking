@@ -29,7 +29,7 @@ int calculateOutput(float weights[], float x, float y)
 
 int main(int argc, char *argv[])
 {
-    float x[MAX_PATTERN], y[MAX_PATTERN], weights[3], localError, globalError;
+    float sat[MAX_PATTERN], gpa[MAX_PATTERN], essay[MAX_PATTERN], rec[MAX_PATTERN], extra[MAX_PATTERN], weights[6], localError, globalError;
     int outputs[MAX_PATTERN], patternCount, i, p, iteration, output;
     
     FILE *fpatterns;                                            // declare input file pointer.
@@ -44,14 +44,14 @@ int main(int argc, char *argv[])
     
     fweights = fopen("weights.txt", "w");                       // open weights file, the training results, the coefficients of linear function (decision boundary).
     
-    if ((fpatterns = fopen("training.txt", "r")) == NULL)      // open training data file.
+    if ((fpatterns = fopen("data.txt", "r")) == NULL)      // open training data file.
     {
         printf("Cannot open file.\n");
         exit(1);                                                // stop program if can not open training file.
     }
     
     p = 0;                                                      // initialize pattern index.
-    while (fscanf(fpatterns, "%f %f %d", &x[p], &y[p], &outputs[p]) != EOF) // reading training data one by one till the end of file, and store them in arrays.
+    while (fscanf(fpatterns, "%f %f %f %f %f %d", &x[p], &y[p], &outputs[p]) != EOF) // reading training data one by one till the end of file, and store them in arrays.
     {
         if (outputs[p] == 0)
             outputs[p] = -1;                                    // change the output value to 1 and -1 instead of 0 and 1 (sign function instead of step function.

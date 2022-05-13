@@ -16,6 +16,26 @@ int calculateOutput(float weights[], float x, float y)
     return (sum >= 0) ? 1 : -1;
 }
 
+// normalization function
+void normalize(float x[], float y[], int n)
+{
+    float x_max = x[0], x_min = x[0];
+    float y_max = y[0], y_min = y[0];
+    for (int i = 1; i < n; i++)
+    {
+        if (x[i] > x_max) x_max = x[i];
+        if (x[i] < x_min) x_min = x[i];
+        if (y[i] > y_max) y_max = y[i];
+        if (y[i] < y_min) y_min = y[i];
+    }
+    for (int i = 0; i < n; i++)
+    {
+        x[i] = (x[i] - x_min) / (x_max - x_min);
+        y[i] = (y[i] - y_min) / (y_max - y_min);
+    }
+}
+
+
 int main(int argc, char *argv[])
 {
     float x[MAX_PATTERN], y[MAX_PATTERN], weights[3];
