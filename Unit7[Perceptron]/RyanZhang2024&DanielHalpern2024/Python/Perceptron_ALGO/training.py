@@ -80,8 +80,8 @@ for i in range(0, len(gpa)):
 
 print("Initial Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {} \n".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
 
-learning_rate = 0.001
-max_epoch = 10000000
+learning_rate = 0.0001
+max_epoch = 5000000
 
 epoch = 0
 while True:

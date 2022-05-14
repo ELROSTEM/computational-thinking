@@ -63,7 +63,7 @@ with open(f'./runs/{run}', 'r') as f:
         weights = [float(i) for i in weights]
         
 # Read the data from the file
-with open('validation.txt', 'r') as f:
+with open('data.txt', 'r') as f:
     for row in f:
             row_lst = row.split()
             sat.append(float(row_lst[0]))
