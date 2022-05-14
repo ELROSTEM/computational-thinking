@@ -81,15 +81,13 @@ for i in range(0, len(gpa)):
 print("Initial Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {} \n".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
 
 learning_rate = 0.0001
-max_epoch = 5000000
+max_epoch = 100000
 
 epoch = 0
 while True:
     epoch += 1
     r = randint(0, len(result)-1)
-    if calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) == result[r]:
-        continue
-    elif calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) > result[r]:
+    if calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) > result[r]:
         weights[1] -= learning_rate * sat[r]
         weights[2] -= learning_rate * gpa[r]
         weights[3] -= learning_rate * essay[r]
