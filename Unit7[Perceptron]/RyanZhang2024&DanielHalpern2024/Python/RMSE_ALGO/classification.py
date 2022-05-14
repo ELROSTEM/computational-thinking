@@ -1,3 +1,5 @@
+
+import os
 from random import random
 
 
@@ -30,6 +32,7 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
     :param extra: extra score
     :return: the output of the perceptron
     """
+
     sum =  weights[1] * sat + weights[2] * gpa + weights[3] * essay + weights[4] * rec + weights[5] * extra + weights[0]
     if sum >= 0:
         return 1
@@ -44,7 +47,7 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
 ########################################################################################################################
 
 
-# Training Data
+# Data
 sat = []
 gpa = []
 essay = []
@@ -52,11 +55,16 @@ rec = []
 extra = []
 result = []
 
-# Weights
-weights = [random(), random(), random(), random(), random(), random()]
-
+# most recent run
+run = os.listdir('./runs')[-1]
+with open(f'./runs/{run}', 'r') as f:
+    for row in f:
+        weights = row.split()
+        weights = [i.replace(',', '') for i in weights]
+        weights = [float(i) for i in weights]
+        
 # Read the data from the file
-with open('training.txt', 'r') as f:
+with open('validation.txt', 'r') as f:
     for row in f:
             row_lst = row.split()
             sat.append(float(row_lst[0]))
@@ -69,6 +77,7 @@ with open('training.txt', 'r') as f:
             else:
                 result.append(-1)
 
+
 # Normalize the sat score
 for i in range(0, len(sat)):
     sat[i] = normalize_sat(sat[i], max(sat), min(sat))
@@ -77,45 +86,19 @@ for i in range(0, len(sat)):
 for i in range(0, len(gpa)):
     gpa[i] = normalize_gpa(gpa[i])
 
-print("Initial Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {} \n".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
+# Calculate the output
+val = []
+for i in range(0, len(result)):
+    val.append(calculateOutput(weights, sat[i], gpa[i], essay[i], rec[i], extra[i]))
 
-epoch = 0
-learning_rate = 0.0001
 
-while True:
-    epoch += 1
-    global_error = 0
-    for i in range(0, len(result)):
-        output = calculateOutput(weights, sat[i], gpa[i], essay[i], rec[i], extra[i])
-
-        # Calculate the error
-        local_error = result[i] - output
-
-        # Update the weights
-        weights[1] += learning_rate * local_error * sat[i]
-        weights[2] += learning_rate * local_error * gpa[i]
-        weights[3] += learning_rate * local_error * essay[i]
-        weights[4] += learning_rate * local_error * rec[i]
-        weights[5] += learning_rate * local_error * extra[i]
-        weights[0] += learning_rate * local_error
-
-        # Update global error
-        global_error += local_error**2
-
-    # Root Mean Square Error
-    print("-----------------------------------------------------")
-    print("Epoch {}: RMSE = {} ".format(epoch, (global_error/len(result))**0.5))
-    print("Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {}".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
-    print("-----------------------------------------------------")
-
-    # Break if the error is == 0
-    if global_error == 0 or epoch == 20000:
-        break
+correct = 0
+for i in range(0, len(result)):
+    if result[i] == val[i]:
+        print('Correct')
+        correct += 1
     else:
-        continue
+        print('Incorrect')
 
-
-with open('weights.txt', 'w') as f:
-    f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
-
-
+print('Accuracy:', 100*(correct/len(result)))
+    
