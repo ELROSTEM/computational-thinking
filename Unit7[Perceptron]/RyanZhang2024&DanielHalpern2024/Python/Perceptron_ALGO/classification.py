@@ -36,7 +36,7 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
     if sum > 0:
         return 1
     else:
-        return 0
+        return -1
 
 
 ########################################################################################################################
@@ -74,7 +74,7 @@ with open('validation.txt', 'r') as f:
             if row_lst[5] == 'A':
                 result.append(1)
             else:
-                result.append(0)
+                result.append(-1)
 
 
 # Normalize the sat score

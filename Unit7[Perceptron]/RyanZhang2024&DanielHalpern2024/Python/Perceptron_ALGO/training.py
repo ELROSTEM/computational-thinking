@@ -31,11 +31,11 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
     :param extra: extra score
     :return: the output of the perceptron
     """
-    sum =  weights[1] * sat + weights[2] * gpa + weights[3] * essay + weights[4] * rec + weights[5] * extra + weights[0]
+    sum = weights[1] * sat + weights[2] * gpa + weights[3] * essay + weights[4] * rec + weights[5] * extra + weights[0]
     if sum > 0:
         return 1
     else:
-        return 0
+        return -1
 
 
 ########################################################################################################################
@@ -57,7 +57,7 @@ result = []
 weights = [random()*10, random()*10, random()*10, random()*10, random()*10, random()*10]
 
 # Read the data from the file
-with open('training.txt', 'r') as f:
+with open('data.txt', 'r') as f:
     for row in f:
             row_lst = row.split()
             sat.append(float(row_lst[0]))
@@ -81,14 +81,15 @@ for i in range(0, len(gpa)):
 print("Initial Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {} \n".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
 
 learning_rate = 0.001
-max_epoch = 10000
+max_epoch = 10000000
 
 epoch = 0
 while True:
     epoch += 1
-
     r = randint(0, len(result)-1)
-    if calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) > result[r]:
+    if calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) == result[r]:
+        continue
+    elif calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) > result[r]:
         weights[1] -= learning_rate * sat[r]
         weights[2] -= learning_rate * gpa[r]
         weights[3] -= learning_rate * essay[r]
@@ -110,13 +111,8 @@ while True:
     print("-----------------------------------------------------")
 
     # if the epoch == max_epoch
-    if epoch == max_epoch:
+    if epoch > max_epoch:
         break
-    else:
-        continue
-
-
-
 
 try:
     run = os.listdir('./runs')[-1][0]
