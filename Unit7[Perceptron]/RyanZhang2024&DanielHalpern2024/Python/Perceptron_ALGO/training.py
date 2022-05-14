@@ -1,3 +1,4 @@
+import os
 from random import randint, random
 
 
@@ -31,10 +32,10 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
     :return: the output of the perceptron
     """
     sum =  weights[1] * sat + weights[2] * gpa + weights[3] * essay + weights[4] * rec + weights[5] * extra + weights[0]
-    if sum >= 0:
+    if sum > 0:
         return 1
     else:
-        return -1
+        return 0
 
 
 ########################################################################################################################
@@ -87,14 +88,14 @@ while True:
     epoch += 1
 
     r = randint(0, len(result)-1)
-    if result[r] < 1:
+    if calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) > result[r]:
         weights[1] -= learning_rate * sat[r]
         weights[2] -= learning_rate * gpa[r]
         weights[3] -= learning_rate * essay[r]
         weights[4] -= learning_rate * rec[r]
         weights[5] -= learning_rate * extra[r]
         weights[0] -= learning_rate
-    elif result[r] > -1:
+    elif calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) < result[r]:
         weights[1] += learning_rate * sat[r]
         weights[2] += learning_rate * gpa[r]
         weights[3] += learning_rate * essay[r]
@@ -115,7 +116,14 @@ while True:
         continue
 
 
-with open('weights.txt', 'w') as f:
-    f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
+
+
+try:
+    run = os.listdir('./runs')[-1][0]
+    with open(f'./runs/{int(run)+1}.txt', 'w') as f:
+        f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
+except Exception as e:
+    with open(f'./runs/1.txt', 'w') as f:
+        f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
 
 

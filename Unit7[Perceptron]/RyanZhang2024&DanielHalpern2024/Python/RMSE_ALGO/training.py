@@ -118,7 +118,7 @@ while True:
 
 
 try:
-    run = os.listdir('./runs')[-1]
+    run = os.listdir('./runs')[-1][0]
     with open(f'./runs/{int(run)+1}.txt', 'w') as f:
         f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
 except Exception as e:

@@ -1,5 +1,5 @@
 
-from random import random
+import os
 
 
 def normalize_gpa(gpa):
@@ -33,7 +33,7 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
     """
 
     sum =  weights[1] * sat + weights[2] * gpa + weights[3] * essay + weights[4] * rec + weights[5] * extra + weights[0]
-    if sum >= 0:
+    if sum > 0:
         return 1
     else:
         return 0
@@ -54,8 +54,9 @@ rec = []
 extra = []
 result = []
 
-# Read the weights from the file
-with open('weights.txt', 'r') as f:
+# most recent run
+run = os.listdir('./runs')[-1]
+with open(f'./runs/{run}', 'r') as f:
     for row in f:
         weights = row.split()
         weights = [i.replace(',', '') for i in weights]
@@ -73,7 +74,7 @@ with open('validation.txt', 'r') as f:
             if row_lst[5] == 'A':
                 result.append(1)
             else:
-                result.append(-1)
+                result.append(0)
 
 
 # Normalize the sat score
@@ -98,5 +99,5 @@ for i in range(0, len(result)):
     else:
         print('Incorrect')
 
-print('Accuracy:', 100*(correct/len(result)))
+print(f'Run-{run} Accuracy:', 100*(correct/len(result)))
     
