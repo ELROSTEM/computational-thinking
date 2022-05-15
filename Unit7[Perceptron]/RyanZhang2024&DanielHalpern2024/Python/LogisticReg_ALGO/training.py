@@ -1,5 +1,5 @@
-
 import os
+from random import randint, random
 
 
 def normalize_gpa(gpa):
@@ -31,12 +31,11 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
     :param extra: extra score
     :return: the output of the perceptron
     """
-
-    sum =  weights[1] * sat + weights[2] * gpa + weights[3] * essay + weights[4] * rec + weights[5] * extra + weights[0]
+    sum = weights[1] * sat + weights[2] * gpa + weights[3] * essay + weights[4] * rec + weights[5] * extra + weights[0]
     if sum > 0:
-        return 1, sum
+        return 1
     else:
-        return -1, sum
+        return -1
 
 
 ########################################################################################################################
@@ -46,7 +45,7 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
 ########################################################################################################################
 
 
-# Data
+# Training Data
 sat = []
 gpa = []
 essay = []
@@ -54,14 +53,9 @@ rec = []
 extra = []
 result = []
 
-# most recent run
-run = os.listdir('./runs')[-1]
-with open(f'./runs/{run}', 'r') as f:
-    for row in f:
-        weights = row.split()
-        weights = [i.replace(',', '') for i in weights]
-        weights = [float(i) for i in weights]
-        
+# Weights
+weights = [random()*10, random()*10, random()*10, random()*10, random()*10, random()*10]
+
 # Read the data from the file
 with open('data.txt', 'r') as f:
     for row in f:
@@ -76,7 +70,6 @@ with open('data.txt', 'r') as f:
             else:
                 result.append(-1)
 
-
 # Normalize the sat score
 for i in range(0, len(sat)):
     sat[i] = normalize_sat(sat[i], max(sat), min(sat))
@@ -85,26 +78,46 @@ for i in range(0, len(sat)):
 for i in range(0, len(gpa)):
     gpa[i] = normalize_gpa(gpa[i])
 
-# Calculate the output
-val = []
-err = []
-for i in range(0, len(result)):
-    out, error = calculateOutput(weights, sat[i], gpa[i], essay[i], rec[i], extra[i])
-    val.append(out)
-    err.append(error)
+print("Initial Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {} \n".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
+
+learning_rate = 0.0001
+max_epoch = 100000
+
+epoch = 0
+while True:
+    epoch += 1
+    r = randint(0, len(result)-1)
+    if calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) > result[r]:
+        weights[1] -= learning_rate * sat[r]
+        weights[2] -= learning_rate * gpa[r]
+        weights[3] -= learning_rate * essay[r]
+        weights[4] -= learning_rate * rec[r]
+        weights[5] -= learning_rate * extra[r]
+        weights[0] -= learning_rate
+    elif calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) < result[r]:
+        weights[1] += learning_rate * sat[r]
+        weights[2] += learning_rate * gpa[r]
+        weights[3] += learning_rate * essay[r]
+        weights[4] += learning_rate * rec[r]
+        weights[5] += learning_rate * extra[r]
+        weights[0] += learning_rate
+
+    # Print each epoch
+    print("-----------------------------------------------------")
+    print("Epoch {}:".format(epoch))
+    print("Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {}".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
+    print("-----------------------------------------------------")
+
+    # if the epoch == max_epoch
+    if epoch > max_epoch:
+        break
+
+try:
+    run = os.listdir('./runs')[-1][0]
+    with open(f'./runs/{int(run)+1}.txt', 'w') as f:
+        f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
+except Exception as e:
+    with open(f'./runs/1.txt', 'w') as f:
+        f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
 
 
-
-correct = 0
-for i in range(0, len(result)):
-    if result[i] == val[i]:
-        print('Correct')
-        correct += 1
-    else:
-        print(f'Incorrect: {err[i]}')
-
-print(result[-10:])
-print(val[-10:])
-
-print(f'Run-{run} Accuracy:', 100*(correct/len(result)))
-    
