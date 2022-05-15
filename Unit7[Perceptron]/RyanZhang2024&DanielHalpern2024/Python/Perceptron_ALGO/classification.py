@@ -34,9 +34,9 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
 
     sum =  weights[1] * sat + weights[2] * gpa + weights[3] * essay + weights[4] * rec + weights[5] * extra + weights[0]
     if sum > 0:
-        return 1
+        return 1, sum
     else:
-        return -1
+        return -1, sum
 
 
 ########################################################################################################################
@@ -87,8 +87,12 @@ for i in range(0, len(gpa)):
 
 # Calculate the output
 val = []
+err = []
 for i in range(0, len(result)):
-    val.append(calculateOutput(weights, sat[i], gpa[i], essay[i], rec[i], extra[i]))
+    out, error = calculateOutput(weights, sat[i], gpa[i], essay[i], rec[i], extra[i])
+    val.append(out)
+    err.append(error)
+
 
 
 correct = 0
@@ -97,7 +101,10 @@ for i in range(0, len(result)):
         print('Correct')
         correct += 1
     else:
-        print('Incorrect')
+        print(f'Incorrect: {err[i]}')
+
+print(result[-10:])
+print(val[-10:])
 
 print(f'Run-{run} Accuracy:', 100*(correct/len(result)))
     
