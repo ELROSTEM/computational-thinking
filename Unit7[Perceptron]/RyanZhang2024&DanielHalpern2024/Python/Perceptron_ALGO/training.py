@@ -102,11 +102,19 @@ while True:
         weights[5] += learning_rate * extra[r]
         weights[0] += learning_rate
 
+    error = 0
+    for i in range(0, len(result)):
+        if result[i] != calculateOutput(weights, sat[i], gpa[i], essay[i], rec[i], extra[i]):
+            error += 1
     # Print each epoch
     print("-----------------------------------------------------")
     print("Epoch {}:".format(epoch))
     print("Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {}".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
+    print(f"Iteration: {epoch} Equation {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0 \t ERR =", 100*(error/len(result)), "%")
     print("-----------------------------------------------------")
+
+    #with open(f'./runs/training_output.txt', 'w') as f:
+    #    f.write(f"Iteration: {epoch} Equation {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0 \t ERR =", 100*(error/len(result)), "%\n")
 
     # if the epoch == max_epoch
     if epoch > max_epoch:
