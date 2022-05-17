@@ -1,5 +1,9 @@
 import os
 from random import randint, random
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def normalize_gpa(gpa):
@@ -18,7 +22,7 @@ def normalize_sat(sat, max_sat, min_sat):
     :param min_sat: minimum SAT score
     :return: normalized SAT score
     """
-    return (10*((sat - min_sat) / (max_sat - min_sat)))
+    return (10*((sat - 1200) / (1600 - 1200)))
 
 def calculateOutput(weights, sat, gpa, essay, rec, extra):
     """
@@ -82,7 +86,8 @@ print("Initial Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = 
 
 learning_rate = 0.0001
 max_epoch = 100000
-
+errorList = []
+epochs = []
 epoch = 0
 while True:
     epoch += 1
@@ -106,13 +111,18 @@ while True:
     for i in range(0, len(result)):
         if result[i] != calculateOutput(weights, sat[i], gpa[i], essay[i], rec[i], extra[i]):
             error += 1
+
+    # For graphs    
+    errorList.append(100*(error/len(result)))
+    epochs.append(epoch)
+    
     # Print each epoch
     print("-----------------------------------------------------")
     print("Epoch {}:".format(epoch))
     print("Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {}".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
     print(f"Iteration: {epoch} Equation {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0 \t ERR =", 100*(error/len(result)), "%")
     print("-----------------------------------------------------")
-
+    
     #with open(f'./runs/training_output.txt', 'w') as f:
     #    f.write(f"Iteration: {epoch} Equation {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0 \t ERR =", 100*(error/len(result)), "%\n")
 
@@ -128,4 +138,23 @@ except Exception as e:
     with open(f'./runs/1.txt', 'w') as f:
         f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
 
+#plotting graph
+
+#sns.set_theme(style="darkgrid")
+
+#setting up dataframe
+#zipped = list(zip(errorList, epochs))
+#df = pd.DataFrame(zipped, columns=['Error Rate', 'Iterations'])
+
+#More complicated, but more customizable appearance (seaborn)        
+#g = sns.relplot(x="Error Rate", y="Iterations", kind="line", data=df)
+#g.figure.autofmt_xdate()
+#plt.show()
+
+#simple matplotlib
+plt.plot(epochs, errorList)
+plt.title('Error rate vs iterations')
+plt.xlabel('Iterations')
+plt.ylabel('Error rate (%)')
+plt.show()
 
