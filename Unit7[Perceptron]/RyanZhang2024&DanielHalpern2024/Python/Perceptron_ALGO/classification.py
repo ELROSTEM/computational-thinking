@@ -107,4 +107,11 @@ print(result[-10:])
 print(val[-10:])
 
 print(f'Run-{run} Accuracy:', 100*(correct/len(result)))
+
+outputList = []
+for i in range(0, len(result)):
+    outputList.append([sat[i], gpa[i], essay[i], rec[i], extra[i], result[i], val[i]])
+with open(f'./runs/testing_output.txt', 'w') as f:
+    for i in range(0, len(trainingOut_list)):
+        f.write(f"{trainingOut_list[i]}\n")
     

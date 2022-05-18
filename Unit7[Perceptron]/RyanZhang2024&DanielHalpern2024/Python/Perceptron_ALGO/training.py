@@ -86,9 +86,10 @@ for i in range(0, len(gpa)):
 print("Initial Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {} \n".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
 
 learning_rate = 0.0001
-max_epoch = 100000
+max_epoch = 1000
 errorList = []
 epochs = []
+trainingOut_list = []
 epoch = 0
 while True:
     epoch += 1
@@ -121,9 +122,10 @@ while True:
     print("-----------------------------------------------------")
     print("Epoch {}:".format(epoch))
     print("Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {}".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
-    print(f"Iteration: {epoch} Equation {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0 \t ERR =", 100*(error/len(result)), "%")
+#    print(f"Iteration: {epoch} Equation {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0 \t ERR =", 100*(error/len(result)), "%")
     print("-----------------------------------------------------")
-    
+    trainingOut_list.append(f"Iteration: {epoch} Equation {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0 \tERR ="+ str(100*(error/len(result)))+ "%")
+
     #with open(f'./runs/training_output.txt', 'w') as f:
     #   f.write(f"Iteration: {epoch} Equation {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0 \t ERR =", 100*(error/len(result)), "%\n")
 
@@ -147,7 +149,10 @@ except Exception as e:
     with open(f'./runs/errors.txt', 'w') as f:
        for i in range(0, len(errorList)):
            f.write(f"{errorList[i]}\n")
-       #f.write(f"{errorList}\n")
+    
+    with open(f'./runs/training_output.txt', 'w') as f:
+       for i in range(0, len(trainingOut_list)):
+           f.write(f"{trainingOut_list[i]}\n")
 
 # plotting graph
 
