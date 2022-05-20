@@ -108,10 +108,10 @@ print(val[-10:])
 
 print(f'Run-{run} Accuracy:', 100*(correct/len(result)))
 
-outputList = []
-for i in range(0, len(result)):
-    outputList.append([sat[i], gpa[i], essay[i], rec[i], extra[i], result[i], val[i]])
-with open(f'./runs/testing_output.txt', 'w') as f:
-    for i in range(0, len(trainingOut_list)):
-        f.write(f"{trainingOut_list[i]}\n")
+
+    
+with open(f'./outputs/testing_output.txt', 'w') as f:
+    f.write("Descision Boundry\n\n")
+    for i in range(0, len(result)):
+        f.write(f"{i}) SAT: {sat[i]} GPA: {gpa[i]} Essay: {essay[i]} Rec: {rec[i]} ExtraC: {extra[i]} \n")
     

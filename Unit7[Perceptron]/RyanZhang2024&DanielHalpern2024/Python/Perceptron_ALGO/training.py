@@ -60,6 +60,7 @@ result = []
 
 # Weights
 weights = [random()*10, random()*10, random()*10, random()*10, random()*10, random()*10]
+startingWeights = weights
 
 # Read the data from the file
 with open('data.txt', 'r') as f:
@@ -146,13 +147,15 @@ except Exception as e:
     with open(f'./runs/1.txt', 'w') as f:
         f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
 
-    with open(f'./runs/errors.txt', 'w') as f:
+    with open(f'./outputs/errors.txt', 'w') as f:
        for i in range(0, len(errorList)):
            f.write(f"{errorList[i]}\n")
     
-    with open(f'./runs/training_output.txt', 'w') as f:
-       for i in range(0, len(trainingOut_list)):
+    with open(f'./outputs/training_output.txt', 'w') as f:
+        f.write(f"Initial Equation : {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0\n\n")
+        for i in range(0, len(trainingOut_list)):
            f.write(f"{trainingOut_list[i]}\n")
+        f.write(f"\nFinal Equation: {trainingOut_list[len(trainingOut_list)-1]}")
 
 # plotting graph
 
