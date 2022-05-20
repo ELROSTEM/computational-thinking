@@ -1,1001 +1,204 @@
-test
-0) SAT: 3.875 GPA: 5.75 Essay: 6.9 Rec: 6.7 ExtraC: 2.2 
-1) SAT: 7.0 GPA: 8.25 Essay: 9.6 Rec: 9.5 ExtraC: 3.9 
-2) SAT: 6.725 GPA: 8.75 Essay: 4.2 Rec: 7.2 ExtraC: 6.4 
-3) SAT: 3.125 GPA: 6.75 Essay: 7.7 Rec: 9.8 ExtraC: 8.3 
-4) SAT: 4.525 GPA: 7.25 Essay: 3.6 Rec: 8.2 ExtraC: 6.8 
-5) SAT: 6.425 GPA: 5.75 Essay: 7.3 Rec: 6.9 ExtraC: 3.5 
-6) SAT: 3.55 GPA: 8.0 Essay: 5.5 Rec: 9.6 ExtraC: 8.3 
-7) SAT: 3.775 GPA: 8.0 Essay: 6.0 Rec: 7.3 ExtraC: 6.0 
-8) SAT: 6.675 GPA: 10.0 Essay: 4.7 Rec: 9.4 ExtraC: 4.3 
-9) SAT: 7.95 GPA: 5.75 Essay: 7.5 Rec: 7.9 ExtraC: 2.8 
-10) SAT: 4.3 GPA: 9.5 Essay: 6.7 Rec: 8.1 ExtraC: 5.8 
-11) SAT: 1.3250000000000002 GPA: 5.75 Essay: 7.3 Rec: 9.0 ExtraC: 5.1 
-12) SAT: 7.925 GPA: 5.5 Essay: 10.0 Rec: 6.6 ExtraC: 2.1 
-13) SAT: 7.800000000000001 GPA: 7.5 Essay: 7.4 Rec: 6.8 ExtraC: 8.8 
-14) SAT: 1.25 GPA: 9.5 Essay: 8.9 Rec: 7.5 ExtraC: 7.8 
-15) SAT: 1.25 GPA: 5.75 Essay: 9.2 Rec: 9.1 ExtraC: 7.1 
-16) SAT: 9.775 GPA: 6.0 Essay: 6.9 Rec: 8.0 ExtraC: 7.8 
-17) SAT: 0.25 GPA: 8.25 Essay: 9.2 Rec: 8.6 ExtraC: 5.2 
-18) SAT: 2.7750000000000004 GPA: 7.25 Essay: 6.5 Rec: 7.1 ExtraC: 6.6 
-19) SAT: 5.2 GPA: 5.25 Essay: 3.7 Rec: 6.6 ExtraC: 4.1 
-20) SAT: 9.475 GPA: 6.5 Essay: 4.0 Rec: 9.2 ExtraC: 7.2 
-21) SAT: 8.65 GPA: 9.5 Essay: 8.7 Rec: 9.0 ExtraC: 7.5 
-22) SAT: 4.4 GPA: 8.75 Essay: 9.2 Rec: 10.0 ExtraC: 3.9 
-23) SAT: 6.15 GPA: 5.0 Essay: 9.2 Rec: 8.0 ExtraC: 7.3 
-24) SAT: 2.75 GPA: 9.0 Essay: 3.6 Rec: 9.1 ExtraC: 2.5 
-25) SAT: 6.675 GPA: 6.5 Essay: 3.8 Rec: 9.1 ExtraC: 5.6 
-26) SAT: 3.75 GPA: 8.5 Essay: 8.1 Rec: 8.1 ExtraC: 6.1 
-27) SAT: 3.725 GPA: 7.0 Essay: 6.0 Rec: 6.7 ExtraC: 3.1 
-28) SAT: 1.2 GPA: 8.25 Essay: 9.0 Rec: 6.1 ExtraC: 6.9 
-29) SAT: 0.9750000000000001 GPA: 8.25 Essay: 7.5 Rec: 9.9 ExtraC: 3.1 
-30) SAT: 2.925 GPA: 6.25 Essay: 9.5 Rec: 7.5 ExtraC: 2.3 
-31) SAT: 9.85 GPA: 5.25 Essay: 5.4 Rec: 6.4 ExtraC: 8.6 
-32) SAT: 7.925 GPA: 7.5 Essay: 6.8 Rec: 8.1 ExtraC: 10.0 
-33) SAT: 0.55 GPA: 9.5 Essay: 5.7 Rec: 8.0 ExtraC: 2.6 
-34) SAT: 5.15 GPA: 8.0 Essay: 7.9 Rec: 7.5 ExtraC: 7.0 
-35) SAT: 3.225 GPA: 7.5 Essay: 4.8 Rec: 9.8 ExtraC: 5.7 
-36) SAT: 3.9000000000000004 GPA: 6.25 Essay: 8.0 Rec: 7.3 ExtraC: 7.1 
-37) SAT: 7.4750000000000005 GPA: 6.5 Essay: 7.8 Rec: 6.3 ExtraC: 5.2 
-38) SAT: 5.1 GPA: 9.5 Essay: 9.1 Rec: 6.2 ExtraC: 5.2 
-39) SAT: 8.725000000000001 GPA: 5.5 Essay: 5.1 Rec: 7.0 ExtraC: 6.8 
-40) SAT: 3.75 GPA: 8.75 Essay: 4.5 Rec: 6.3 ExtraC: 3.2 
-41) SAT: 8.35 GPA: 7.0 Essay: 7.4 Rec: 6.4 ExtraC: 4.9 
-42) SAT: 0.8250000000000001 GPA: 7.5 Essay: 7.3 Rec: 9.2 ExtraC: 8.4 
-43) SAT: 2.5 GPA: 7.75 Essay: 3.7 Rec: 9.8 ExtraC: 7.1 
-44) SAT: 5.0 GPA: 7.25 Essay: 6.6 Rec: 7.5 ExtraC: 6.1 
-45) SAT: 9.125 GPA: 6.25 Essay: 7.4 Rec: 6.8 ExtraC: 6.1 
-46) SAT: 2.25 GPA: 8.0 Essay: 5.0 Rec: 7.8 ExtraC: 7.3 
-47) SAT: 4.3 GPA: 6.25 Essay: 3.5 Rec: 6.2 ExtraC: 4.9 
-48) SAT: 4.3 GPA: 5.75 Essay: 8.9 Rec: 6.2 ExtraC: 9.5 
-49) SAT: 6.375 GPA: 6.5 Essay: 6.4 Rec: 9.0 ExtraC: 3.9 
-50) SAT: 1.1500000000000001 GPA: 6.25 Essay: 7.8 Rec: 8.5 ExtraC: 7.0 
-51) SAT: 2.0 GPA: 7.75 Essay: 9.1 Rec: 9.3 ExtraC: 8.0 
-52) SAT: 3.825 GPA: 5.25 Essay: 5.4 Rec: 8.7 ExtraC: 5.9 
-53) SAT: 0.025 GPA: 5.5 Essay: 8.3 Rec: 6.3 ExtraC: 3.3 
-54) SAT: 1.225 GPA: 7.5 Essay: 5.1 Rec: 9.9 ExtraC: 6.4 
-55) SAT: 2.425 GPA: 8.0 Essay: 9.0 Rec: 8.9 ExtraC: 4.8 
-56) SAT: 0.8999999999999999 GPA: 9.25 Essay: 7.1 Rec: 9.1 ExtraC: 5.8 
-57) SAT: 2.05 GPA: 10.0 Essay: 3.1 Rec: 6.3 ExtraC: 8.5 
-58) SAT: 7.65 GPA: 7.25 Essay: 9.0 Rec: 6.4 ExtraC: 3.1 
-59) SAT: 3.4499999999999997 GPA: 5.5 Essay: 4.6 Rec: 6.4 ExtraC: 3.5 
-60) SAT: 3.875 GPA: 6.25 Essay: 7.8 Rec: 8.8 ExtraC: 3.6 
-61) SAT: 2.425 GPA: 9.75 Essay: 8.6 Rec: 6.4 ExtraC: 7.3 
-62) SAT: 1.4749999999999999 GPA: 6.0 Essay: 6.6 Rec: 8.9 ExtraC: 9.8 
-63) SAT: 9.85 GPA: 9.75 Essay: 9.7 Rec: 6.0 ExtraC: 2.2 
-64) SAT: 7.65 GPA: 8.75 Essay: 6.4 Rec: 8.5 ExtraC: 9.0 
-65) SAT: 6.2250000000000005 GPA: 9.75 Essay: 9.9 Rec: 9.4 ExtraC: 2.6 
-66) SAT: 1.625 GPA: 6.25 Essay: 5.2 Rec: 9.4 ExtraC: 9.5 
-67) SAT: 5.125 GPA: 5.5 Essay: 9.1 Rec: 7.3 ExtraC: 3.5 
-68) SAT: 5.375 GPA: 7.25 Essay: 5.7 Rec: 6.2 ExtraC: 3.6 
-69) SAT: 3.525 GPA: 5.25 Essay: 4.0 Rec: 7.2 ExtraC: 2.3 
-70) SAT: 1.675 GPA: 5.5 Essay: 8.7 Rec: 8.6 ExtraC: 7.6 
-71) SAT: 6.800000000000001 GPA: 6.5 Essay: 7.7 Rec: 8.7 ExtraC: 3.1 
-72) SAT: 7.55 GPA: 9.25 Essay: 5.7 Rec: 6.3 ExtraC: 7.4 
-73) SAT: 3.175 GPA: 8.0 Essay: 8.4 Rec: 6.8 ExtraC: 9.2 
-74) SAT: 9.675 GPA: 8.75 Essay: 5.6 Rec: 7.4 ExtraC: 8.3 
-75) SAT: 5.6499999999999995 GPA: 8.5 Essay: 8.7 Rec: 8.8 ExtraC: 2.1 
-76) SAT: 8.575000000000001 GPA: 9.5 Essay: 3.6 Rec: 8.7 ExtraC: 6.3 
-77) SAT: 7.95 GPA: 6.75 Essay: 8.8 Rec: 7.9 ExtraC: 2.1 
-78) SAT: 9.6 GPA: 6.25 Essay: 8.9 Rec: 7.4 ExtraC: 4.4 
-79) SAT: 5.15 GPA: 8.25 Essay: 9.2 Rec: 7.2 ExtraC: 8.8 
-80) SAT: 7.800000000000001 GPA: 6.25 Essay: 7.1 Rec: 6.6 ExtraC: 6.9 
-81) SAT: 3.65 GPA: 8.5 Essay: 5.2 Rec: 6.7 ExtraC: 5.4 
-82) SAT: 3.2750000000000004 GPA: 5.25 Essay: 5.1 Rec: 7.7 ExtraC: 7.7 
-83) SAT: 8.375 GPA: 6.0 Essay: 3.4 Rec: 8.6 ExtraC: 7.5 
-84) SAT: 0.65 GPA: 8.0 Essay: 9.4 Rec: 9.6 ExtraC: 9.7 
-85) SAT: 2.125 GPA: 7.0 Essay: 7.4 Rec: 6.4 ExtraC: 7.7 
-86) SAT: 4.8 GPA: 9.5 Essay: 9.8 Rec: 6.3 ExtraC: 2.2 
-87) SAT: 5.85 GPA: 7.25 Essay: 8.1 Rec: 9.6 ExtraC: 6.9 
-88) SAT: 1.575 GPA: 6.25 Essay: 7.6 Rec: 7.8 ExtraC: 7.2 
-89) SAT: 3.675 GPA: 6.5 Essay: 9.1 Rec: 7.7 ExtraC: 9.7 
-90) SAT: 5.550000000000001 GPA: 7.5 Essay: 7.1 Rec: 7.9 ExtraC: 5.1 
-91) SAT: 5.425 GPA: 8.5 Essay: 8.7 Rec: 6.7 ExtraC: 8.3 
-92) SAT: 5.2 GPA: 8.25 Essay: 7.6 Rec: 8.0 ExtraC: 7.7 
-93) SAT: 6.800000000000001 GPA: 5.5 Essay: 4.0 Rec: 7.7 ExtraC: 9.9 
-94) SAT: 7.625 GPA: 7.75 Essay: 4.5 Rec: 7.7 ExtraC: 2.3 
-95) SAT: 8.625 GPA: 9.0 Essay: 5.3 Rec: 8.9 ExtraC: 3.8 
-96) SAT: 2.8499999999999996 GPA: 6.5 Essay: 8.0 Rec: 9.5 ExtraC: 8.1 
-97) SAT: 1.0 GPA: 7.0 Essay: 6.1 Rec: 9.6 ExtraC: 6.6 
-98) SAT: 2.3000000000000003 GPA: 7.25 Essay: 4.6 Rec: 9.6 ExtraC: 9.4 
-99) SAT: 9.425 GPA: 7.75 Essay: 3.1 Rec: 6.4 ExtraC: 9.9 
-100) SAT: 9.95 GPA: 9.25 Essay: 6.9 Rec: 6.8 ExtraC: 4.2 
-101) SAT: 5.8999999999999995 GPA: 5.5 Essay: 3.5 Rec: 9.7 ExtraC: 8.5 
-102) SAT: 2.925 GPA: 6.0 Essay: 3.7 Rec: 6.0 ExtraC: 2.6 
-103) SAT: 8.575000000000001 GPA: 5.5 Essay: 6.4 Rec: 7.2 ExtraC: 2.1 
-104) SAT: 0.6 GPA: 7.75 Essay: 6.2 Rec: 7.2 ExtraC: 5.4 
-105) SAT: 3.8 GPA: 6.25 Essay: 3.0 Rec: 7.6 ExtraC: 4.6 
-106) SAT: 9.85 GPA: 7.0 Essay: 4.3 Rec: 8.2 ExtraC: 6.8 
-107) SAT: 4.6000000000000005 GPA: 5.75 Essay: 7.7 Rec: 8.1 ExtraC: 2.5 
-108) SAT: 4.825 GPA: 9.25 Essay: 4.9 Rec: 8.3 ExtraC: 8.7 
-109) SAT: 3.375 GPA: 7.25 Essay: 9.6 Rec: 9.3 ExtraC: 8.0 
-110) SAT: 9.525 GPA: 9.5 Essay: 5.0 Rec: 7.6 ExtraC: 3.4 
-111) SAT: 7.125 GPA: 9.0 Essay: 5.8 Rec: 8.9 ExtraC: 3.4 
-112) SAT: 7.2250000000000005 GPA: 8.5 Essay: 7.0 Rec: 9.6 ExtraC: 4.0 
-113) SAT: 1.7249999999999999 GPA: 6.75 Essay: 5.7 Rec: 9.4 ExtraC: 9.2 
-114) SAT: 4.375 GPA: 6.75 Essay: 8.1 Rec: 8.8 ExtraC: 9.3 
-115) SAT: 5.6000000000000005 GPA: 5.25 Essay: 5.5 Rec: 8.0 ExtraC: 8.9 
-116) SAT: 1.0 GPA: 7.25 Essay: 8.2 Rec: 7.5 ExtraC: 8.9 
-117) SAT: 9.125 GPA: 5.5 Essay: 7.5 Rec: 7.3 ExtraC: 8.5 
-118) SAT: 8.225 GPA: 5.25 Essay: 6.6 Rec: 7.6 ExtraC: 9.6 
-119) SAT: 7.574999999999999 GPA: 7.75 Essay: 5.2 Rec: 6.6 ExtraC: 5.4 
-120) SAT: 2.0749999999999997 GPA: 8.0 Essay: 8.3 Rec: 9.8 ExtraC: 4.3 
-121) SAT: 6.775 GPA: 7.5 Essay: 5.3 Rec: 6.1 ExtraC: 2.0 
-122) SAT: 1.9 GPA: 5.75 Essay: 6.2 Rec: 9.7 ExtraC: 6.2 
-123) SAT: 3.1 GPA: 9.25 Essay: 7.4 Rec: 9.8 ExtraC: 3.3 
-124) SAT: 4.325 GPA: 9.0 Essay: 4.4 Rec: 9.8 ExtraC: 3.4 
-125) SAT: 1.4749999999999999 GPA: 8.5 Essay: 8.2 Rec: 7.8 ExtraC: 8.8 
-126) SAT: 1.7000000000000002 GPA: 8.25 Essay: 6.0 Rec: 9.7 ExtraC: 6.9 
-127) SAT: 7.1499999999999995 GPA: 8.0 Essay: 3.8 Rec: 6.2 ExtraC: 7.2 
-128) SAT: 1.1 GPA: 6.25 Essay: 8.5 Rec: 8.3 ExtraC: 3.4 
-129) SAT: 3.025 GPA: 9.5 Essay: 3.2 Rec: 9.7 ExtraC: 8.7 
-130) SAT: 1.85 GPA: 6.75 Essay: 7.3 Rec: 7.6 ExtraC: 4.5 
-131) SAT: 7.9 GPA: 7.75 Essay: 3.1 Rec: 8.2 ExtraC: 10.0 
-132) SAT: 8.6 GPA: 8.5 Essay: 7.7 Rec: 7.2 ExtraC: 7.2 
-133) SAT: 2.75 GPA: 5.0 Essay: 4.8 Rec: 7.5 ExtraC: 2.4 
-134) SAT: 8.975 GPA: 7.5 Essay: 5.0 Rec: 8.7 ExtraC: 2.5 
-135) SAT: 4.65 GPA: 10.0 Essay: 9.6 Rec: 8.0 ExtraC: 9.3 
-136) SAT: 7.7749999999999995 GPA: 8.25 Essay: 4.9 Rec: 7.6 ExtraC: 2.5 
-137) SAT: 5.725 GPA: 6.0 Essay: 7.2 Rec: 8.3 ExtraC: 7.8 
-138) SAT: 6.05 GPA: 7.25 Essay: 6.1 Rec: 7.1 ExtraC: 7.9 
-139) SAT: 0.775 GPA: 7.75 Essay: 8.2 Rec: 7.3 ExtraC: 9.5 
-140) SAT: 8.025 GPA: 6.25 Essay: 6.1 Rec: 6.4 ExtraC: 9.3 
-141) SAT: 5.0249999999999995 GPA: 7.75 Essay: 9.3 Rec: 7.8 ExtraC: 2.4 
-142) SAT: 8.025 GPA: 6.25 Essay: 8.1 Rec: 6.3 ExtraC: 7.0 
-143) SAT: 7.875 GPA: 8.25 Essay: 8.6 Rec: 7.6 ExtraC: 3.8 
-144) SAT: 5.300000000000001 GPA: 5.0 Essay: 7.7 Rec: 9.9 ExtraC: 4.2 
-145) SAT: 4.175 GPA: 5.25 Essay: 8.8 Rec: 6.7 ExtraC: 5.0 
-146) SAT: 7.65 GPA: 9.75 Essay: 7.3 Rec: 6.8 ExtraC: 2.5 
-147) SAT: 5.25 GPA: 8.5 Essay: 7.4 Rec: 7.7 ExtraC: 3.3 
-148) SAT: 6.775 GPA: 6.25 Essay: 5.7 Rec: 7.6 ExtraC: 4.4 
-149) SAT: 0.05 GPA: 6.0 Essay: 9.6 Rec: 9.3 ExtraC: 6.7 
-150) SAT: 1.7249999999999999 GPA: 6.75 Essay: 7.1 Rec: 9.4 ExtraC: 4.5 
-151) SAT: 8.625 GPA: 6.25 Essay: 5.5 Rec: 8.8 ExtraC: 5.5 
-152) SAT: 7.35 GPA: 7.25 Essay: 5.8 Rec: 7.4 ExtraC: 7.3 
-153) SAT: 4.699999999999999 GPA: 9.5 Essay: 5.6 Rec: 6.4 ExtraC: 4.4 
-154) SAT: 5.324999999999999 GPA: 9.0 Essay: 6.7 Rec: 9.7 ExtraC: 3.4 
-155) SAT: 8.2 GPA: 9.75 Essay: 5.6 Rec: 9.1 ExtraC: 7.9 
-156) SAT: 9.525 GPA: 9.75 Essay: 3.6 Rec: 8.2 ExtraC: 8.3 
-157) SAT: 3.9250000000000003 GPA: 7.0 Essay: 3.4 Rec: 9.0 ExtraC: 2.8 
-158) SAT: 4.875 GPA: 7.5 Essay: 6.9 Rec: 9.6 ExtraC: 8.7 
-159) SAT: 2.275 GPA: 6.75 Essay: 8.0 Rec: 8.4 ExtraC: 5.7 
-160) SAT: 0.125 GPA: 5.75 Essay: 4.7 Rec: 8.1 ExtraC: 2.5 
-161) SAT: 4.125 GPA: 6.75 Essay: 9.9 Rec: 9.1 ExtraC: 3.0 
-162) SAT: 7.275 GPA: 8.75 Essay: 3.4 Rec: 9.3 ExtraC: 4.2 
-163) SAT: 8.425 GPA: 6.0 Essay: 7.8 Rec: 9.6 ExtraC: 9.7 
-164) SAT: 7.8500000000000005 GPA: 7.0 Essay: 6.1 Rec: 7.4 ExtraC: 4.3 
-165) SAT: 2.8499999999999996 GPA: 8.0 Essay: 7.5 Rec: 6.0 ExtraC: 3.4 
-166) SAT: 1.1 GPA: 5.0 Essay: 5.2 Rec: 7.4 ExtraC: 6.4 
-167) SAT: 3.775 GPA: 8.75 Essay: 9.4 Rec: 7.5 ExtraC: 6.4 
-168) SAT: 0.3 GPA: 5.5 Essay: 5.0 Rec: 6.4 ExtraC: 9.3 
-169) SAT: 5.6000000000000005 GPA: 9.75 Essay: 3.8 Rec: 7.0 ExtraC: 8.6 
-170) SAT: 0.775 GPA: 5.25 Essay: 4.5 Rec: 8.1 ExtraC: 5.1 
-171) SAT: 5.0249999999999995 GPA: 9.0 Essay: 9.7 Rec: 6.6 ExtraC: 8.5 
-172) SAT: 1.4000000000000001 GPA: 6.25 Essay: 8.8 Rec: 7.8 ExtraC: 6.9 
-173) SAT: 3.775 GPA: 9.25 Essay: 5.6 Rec: 7.1 ExtraC: 3.7 
-174) SAT: 9.15 GPA: 6.5 Essay: 5.1 Rec: 6.8 ExtraC: 5.2 
-175) SAT: 2.15 GPA: 8.75 Essay: 5.4 Rec: 7.3 ExtraC: 2.1 
-176) SAT: 1.675 GPA: 7.0 Essay: 3.3 Rec: 7.6 ExtraC: 9.5 
-177) SAT: 4.25 GPA: 9.5 Essay: 8.2 Rec: 7.5 ExtraC: 2.4 
-178) SAT: 5.6000000000000005 GPA: 7.75 Essay: 5.1 Rec: 7.6 ExtraC: 9.9 
-179) SAT: 9.125 GPA: 8.75 Essay: 8.8 Rec: 7.1 ExtraC: 2.4 
-180) SAT: 0.325 GPA: 6.0 Essay: 5.6 Rec: 7.4 ExtraC: 5.2 
-181) SAT: 7.75 GPA: 7.75 Essay: 4.2 Rec: 6.5 ExtraC: 9.1 
-182) SAT: 1.7249999999999999 GPA: 6.5 Essay: 5.1 Rec: 6.9 ExtraC: 7.4 
-183) SAT: 2.3499999999999996 GPA: 8.25 Essay: 7.0 Rec: 9.9 ExtraC: 2.2 
-184) SAT: 6.1 GPA: 7.75 Essay: 6.9 Rec: 9.7 ExtraC: 9.5 
-185) SAT: 5.4 GPA: 9.25 Essay: 7.9 Rec: 7.5 ExtraC: 2.9 
-186) SAT: 7.5 GPA: 7.0 Essay: 5.3 Rec: 6.5 ExtraC: 7.9 
-187) SAT: 7.25 GPA: 9.5 Essay: 5.0 Rec: 9.6 ExtraC: 2.1 
-188) SAT: 1.75 GPA: 5.25 Essay: 5.1 Rec: 7.9 ExtraC: 4.2 
-189) SAT: 9.7 GPA: 8.5 Essay: 9.5 Rec: 8.1 ExtraC: 7.6 
-190) SAT: 9.475 GPA: 5.75 Essay: 4.7 Rec: 8.0 ExtraC: 2.5 
-191) SAT: 1.7249999999999999 GPA: 5.25 Essay: 9.3 Rec: 9.5 ExtraC: 5.3 
-192) SAT: 0.125 GPA: 8.0 Essay: 8.7 Rec: 7.3 ExtraC: 8.0 
-193) SAT: 5.425 GPA: 5.25 Essay: 7.5 Rec: 9.3 ExtraC: 9.6 
-194) SAT: 6.550000000000001 GPA: 5.0 Essay: 3.1 Rec: 9.8 ExtraC: 5.9 
-195) SAT: 2.9749999999999996 GPA: 9.5 Essay: 4.3 Rec: 6.9 ExtraC: 5.7 
-196) SAT: 8.85 GPA: 5.75 Essay: 7.2 Rec: 6.5 ExtraC: 7.4 
-197) SAT: 6.7 GPA: 6.5 Essay: 8.0 Rec: 8.3 ExtraC: 3.4 
-198) SAT: 1.25 GPA: 8.0 Essay: 8.5 Rec: 9.7 ExtraC: 9.3 
-199) SAT: 5.3500000000000005 GPA: 7.5 Essay: 9.9 Rec: 6.7 ExtraC: 4.5 
-200) SAT: 9.325 GPA: 9.25 Essay: 5.3 Rec: 9.8 ExtraC: 8.3 
-201) SAT: 8.05 GPA: 6.25 Essay: 8.0 Rec: 10.0 ExtraC: 5.8 
-202) SAT: 1.675 GPA: 9.5 Essay: 7.5 Rec: 9.1 ExtraC: 2.1 
-203) SAT: 3.1 GPA: 7.25 Essay: 5.2 Rec: 6.1 ExtraC: 2.1 
-204) SAT: 4.8 GPA: 5.75 Essay: 7.1 Rec: 7.1 ExtraC: 2.7 
-205) SAT: 5.05 GPA: 9.0 Essay: 7.0 Rec: 7.9 ExtraC: 9.9 
-206) SAT: 8.85 GPA: 7.0 Essay: 8.7 Rec: 6.8 ExtraC: 5.0 
-207) SAT: 6.05 GPA: 5.0 Essay: 7.4 Rec: 7.3 ExtraC: 2.1 
-208) SAT: 0.8999999999999999 GPA: 7.5 Essay: 9.3 Rec: 8.9 ExtraC: 4.1 
-209) SAT: 9.125 GPA: 5.25 Essay: 7.9 Rec: 6.9 ExtraC: 2.6 
-210) SAT: 7.125 GPA: 8.5 Essay: 4.6 Rec: 7.2 ExtraC: 9.8 
-211) SAT: 3.15 GPA: 9.0 Essay: 8.5 Rec: 9.6 ExtraC: 4.4 
-212) SAT: 7.7 GPA: 8.75 Essay: 8.0 Rec: 8.4 ExtraC: 9.9 
-213) SAT: 0.875 GPA: 6.0 Essay: 3.0 Rec: 8.8 ExtraC: 6.1 
-214) SAT: 0.15 GPA: 9.0 Essay: 3.0 Rec: 9.7 ExtraC: 6.3 
-215) SAT: 2.6 GPA: 9.25 Essay: 7.0 Rec: 9.9 ExtraC: 2.4 
-216) SAT: 6.425 GPA: 8.5 Essay: 8.3 Rec: 9.5 ExtraC: 9.9 
-217) SAT: 7.325 GPA: 6.0 Essay: 8.6 Rec: 8.1 ExtraC: 2.6 
-218) SAT: 0.925 GPA: 6.5 Essay: 8.9 Rec: 9.2 ExtraC: 9.1 
-219) SAT: 8.299999999999999 GPA: 9.5 Essay: 3.6 Rec: 9.3 ExtraC: 6.9 
-220) SAT: 6.025 GPA: 9.25 Essay: 5.9 Rec: 8.4 ExtraC: 8.1 
-221) SAT: 9.425 GPA: 9.25 Essay: 7.2 Rec: 8.1 ExtraC: 8.7 
-222) SAT: 6.475 GPA: 5.75 Essay: 6.6 Rec: 7.6 ExtraC: 2.3 
-223) SAT: 4.95 GPA: 5.75 Essay: 4.5 Rec: 7.2 ExtraC: 7.3 
-224) SAT: 2.9 GPA: 7.0 Essay: 9.7 Rec: 6.6 ExtraC: 3.6 
-225) SAT: 8.375 GPA: 9.75 Essay: 3.6 Rec: 9.7 ExtraC: 8.4 
-226) SAT: 7.0 GPA: 7.75 Essay: 7.5 Rec: 6.5 ExtraC: 3.1 
-227) SAT: 4.1 GPA: 5.25 Essay: 3.0 Rec: 6.0 ExtraC: 6.6 
-228) SAT: 8.325 GPA: 8.25 Essay: 8.2 Rec: 7.4 ExtraC: 2.5 
-229) SAT: 7.7 GPA: 9.25 Essay: 4.4 Rec: 10.0 ExtraC: 3.1 
-230) SAT: 8.65 GPA: 6.5 Essay: 6.6 Rec: 9.3 ExtraC: 5.3 
-231) SAT: 7.1499999999999995 GPA: 8.25 Essay: 5.7 Rec: 9.2 ExtraC: 6.7 
-232) SAT: 1.825 GPA: 7.5 Essay: 3.8 Rec: 9.3 ExtraC: 7.0 
-233) SAT: 2.5 GPA: 6.25 Essay: 7.8 Rec: 7.0 ExtraC: 4.0 
-234) SAT: 2.575 GPA: 5.5 Essay: 9.3 Rec: 10.0 ExtraC: 5.5 
-235) SAT: 9.675 GPA: 8.75 Essay: 4.9 Rec: 6.7 ExtraC: 8.0 
-236) SAT: 4.074999999999999 GPA: 5.25 Essay: 3.2 Rec: 9.7 ExtraC: 8.9 
-237) SAT: 4.475 GPA: 8.25 Essay: 6.6 Rec: 9.3 ExtraC: 5.6 
-238) SAT: 1.05 GPA: 5.0 Essay: 9.7 Rec: 6.9 ExtraC: 8.8 
-239) SAT: 5.825 GPA: 7.25 Essay: 3.6 Rec: 7.1 ExtraC: 7.8 
-240) SAT: 3.4000000000000004 GPA: 7.5 Essay: 8.7 Rec: 7.0 ExtraC: 6.2 
-241) SAT: 2.45 GPA: 6.0 Essay: 5.0 Rec: 8.1 ExtraC: 5.1 
-242) SAT: 0.42500000000000004 GPA: 9.75 Essay: 6.0 Rec: 6.3 ExtraC: 8.9 
-243) SAT: 2.8499999999999996 GPA: 7.75 Essay: 6.5 Rec: 9.2 ExtraC: 4.9 
-244) SAT: 9.525 GPA: 9.5 Essay: 5.6 Rec: 9.7 ExtraC: 3.1 
-245) SAT: 2.25 GPA: 7.5 Essay: 7.3 Rec: 7.3 ExtraC: 8.1 
-246) SAT: 3.35 GPA: 8.25 Essay: 5.0 Rec: 6.6 ExtraC: 9.3 
-247) SAT: 8.100000000000001 GPA: 7.0 Essay: 3.9 Rec: 6.4 ExtraC: 9.4 
-248) SAT: 5.1 GPA: 5.75 Essay: 8.9 Rec: 9.8 ExtraC: 3.8 
-249) SAT: 7.05 GPA: 6.0 Essay: 8.2 Rec: 6.8 ExtraC: 2.3 
-250) SAT: 1.05 GPA: 5.75 Essay: 9.6 Rec: 7.9 ExtraC: 2.7 
-251) SAT: 0.8 GPA: 8.5 Essay: 7.1 Rec: 8.8 ExtraC: 2.2 
-252) SAT: 3.4749999999999996 GPA: 5.25 Essay: 7.8 Rec: 8.6 ExtraC: 3.4 
-253) SAT: 5.949999999999999 GPA: 7.25 Essay: 7.0 Rec: 8.9 ExtraC: 6.4 
-254) SAT: 4.95 GPA: 6.25 Essay: 7.8 Rec: 7.4 ExtraC: 3.4 
-255) SAT: 9.125 GPA: 5.25 Essay: 5.8 Rec: 8.6 ExtraC: 4.1 
-256) SAT: 4.25 GPA: 8.75 Essay: 6.0 Rec: 7.5 ExtraC: 4.0 
-257) SAT: 5.074999999999999 GPA: 7.25 Essay: 9.7 Rec: 6.4 ExtraC: 3.1 
-258) SAT: 9.825000000000001 GPA: 7.25 Essay: 4.2 Rec: 8.7 ExtraC: 2.6 
-259) SAT: 3.4499999999999997 GPA: 6.25 Essay: 6.7 Rec: 9.7 ExtraC: 9.9 
-260) SAT: 0.775 GPA: 7.0 Essay: 4.5 Rec: 9.1 ExtraC: 8.1 
-261) SAT: 3.85 GPA: 8.5 Essay: 8.8 Rec: 9.1 ExtraC: 4.8 
-262) SAT: 0.8250000000000001 GPA: 6.0 Essay: 3.8 Rec: 8.1 ExtraC: 6.6 
-263) SAT: 3.55 GPA: 5.0 Essay: 3.2 Rec: 7.3 ExtraC: 2.9 
-264) SAT: 1.6500000000000001 GPA: 6.5 Essay: 6.9 Rec: 7.3 ExtraC: 9.7 
-265) SAT: 6.324999999999999 GPA: 8.5 Essay: 4.6 Rec: 6.7 ExtraC: 6.8 
-266) SAT: 2.2 GPA: 6.25 Essay: 3.2 Rec: 7.8 ExtraC: 2.1 
-267) SAT: 7.95 GPA: 9.0 Essay: 7.9 Rec: 8.5 ExtraC: 6.8 
-268) SAT: 0.42500000000000004 GPA: 8.5 Essay: 8.7 Rec: 6.6 ExtraC: 3.7 
-269) SAT: 3.85 GPA: 7.5 Essay: 4.7 Rec: 7.6 ExtraC: 8.6 
-270) SAT: 3.5 GPA: 8.0 Essay: 3.8 Rec: 9.6 ExtraC: 9.3 
-271) SAT: 0.8500000000000001 GPA: 7.75 Essay: 7.1 Rec: 7.3 ExtraC: 7.6 
-272) SAT: 1.975 GPA: 7.75 Essay: 9.6 Rec: 6.9 ExtraC: 9.8 
-273) SAT: 9.6 GPA: 5.0 Essay: 8.6 Rec: 8.6 ExtraC: 7.1 
-274) SAT: 4.074999999999999 GPA: 8.5 Essay: 5.4 Rec: 6.9 ExtraC: 8.8 
-275) SAT: 5.6000000000000005 GPA: 8.0 Essay: 5.6 Rec: 9.2 ExtraC: 2.2 
-276) SAT: 1.875 GPA: 5.75 Essay: 7.2 Rec: 7.2 ExtraC: 2.5 
-277) SAT: 5.074999999999999 GPA: 7.0 Essay: 7.2 Rec: 6.4 ExtraC: 7.7 
-278) SAT: 3.0 GPA: 6.5 Essay: 4.8 Rec: 7.0 ExtraC: 6.2 
-279) SAT: 2.375 GPA: 6.0 Essay: 6.8 Rec: 6.2 ExtraC: 9.0 
-280) SAT: 1.9 GPA: 7.25 Essay: 7.0 Rec: 8.2 ExtraC: 7.4 
-281) SAT: 4.3 GPA: 5.5 Essay: 4.9 Rec: 9.2 ExtraC: 9.2 
-282) SAT: 2.9499999999999997 GPA: 10.0 Essay: 3.4 Rec: 9.6 ExtraC: 4.4 
-283) SAT: 1.075 GPA: 7.0 Essay: 7.8 Rec: 8.8 ExtraC: 6.0 
-284) SAT: 4.074999999999999 GPA: 5.0 Essay: 8.6 Rec: 8.7 ExtraC: 4.0 
-285) SAT: 3.3000000000000003 GPA: 9.5 Essay: 6.3 Rec: 9.5 ExtraC: 9.6 
-286) SAT: 3.375 GPA: 5.25 Essay: 5.8 Rec: 9.7 ExtraC: 6.9 
-287) SAT: 0.65 GPA: 6.75 Essay: 8.0 Rec: 7.4 ExtraC: 3.1 
-288) SAT: 6.1 GPA: 8.25 Essay: 3.9 Rec: 8.6 ExtraC: 6.3 
-289) SAT: 4.225 GPA: 8.75 Essay: 9.5 Rec: 6.5 ExtraC: 5.8 
-290) SAT: 4.375 GPA: 7.75 Essay: 6.4 Rec: 7.0 ExtraC: 3.5 
-291) SAT: 7.4 GPA: 7.75 Essay: 3.7 Rec: 6.8 ExtraC: 5.6 
-292) SAT: 0.42500000000000004 GPA: 7.75 Essay: 6.7 Rec: 7.8 ExtraC: 5.7 
-293) SAT: 1.35 GPA: 7.5 Essay: 8.6 Rec: 9.4 ExtraC: 8.8 
-294) SAT: 9.425 GPA: 7.25 Essay: 6.4 Rec: 6.3 ExtraC: 3.0 
-295) SAT: 0.2 GPA: 7.5 Essay: 9.2 Rec: 9.8 ExtraC: 6.9 
-296) SAT: 3.675 GPA: 7.0 Essay: 4.0 Rec: 9.4 ExtraC: 7.1 
-297) SAT: 3.325 GPA: 8.0 Essay: 4.5 Rec: 7.7 ExtraC: 8.4 
-298) SAT: 6.625 GPA: 7.25 Essay: 5.4 Rec: 6.8 ExtraC: 9.3 
-299) SAT: 8.025 GPA: 6.75 Essay: 5.9 Rec: 8.4 ExtraC: 3.4 
-300) SAT: 2.6500000000000004 GPA: 7.75 Essay: 7.4 Rec: 9.0 ExtraC: 7.0 
-301) SAT: 7.5249999999999995 GPA: 9.0 Essay: 3.9 Rec: 8.6 ExtraC: 7.9 
-302) SAT: 7.375 GPA: 5.0 Essay: 3.9 Rec: 9.5 ExtraC: 9.0 
-303) SAT: 7.65 GPA: 6.0 Essay: 6.2 Rec: 9.9 ExtraC: 7.1 
-304) SAT: 2.6500000000000004 GPA: 8.25 Essay: 3.8 Rec: 8.4 ExtraC: 8.7 
-305) SAT: 0.25 GPA: 7.0 Essay: 4.1 Rec: 7.8 ExtraC: 2.2 
-306) SAT: 3.325 GPA: 8.5 Essay: 7.0 Rec: 9.9 ExtraC: 5.7 
-307) SAT: 1.975 GPA: 8.5 Essay: 4.7 Rec: 7.3 ExtraC: 4.9 
-308) SAT: 9.75 GPA: 5.25 Essay: 5.7 Rec: 6.4 ExtraC: 9.5 
-309) SAT: 2.525 GPA: 9.25 Essay: 4.1 Rec: 8.9 ExtraC: 8.8 
-310) SAT: 7.95 GPA: 10.0 Essay: 6.4 Rec: 9.6 ExtraC: 6.8 
-311) SAT: 3.15 GPA: 9.75 Essay: 3.1 Rec: 7.9 ExtraC: 5.1 
-312) SAT: 0.3 GPA: 9.0 Essay: 3.6 Rec: 8.4 ExtraC: 8.2 
-313) SAT: 5.6000000000000005 GPA: 9.0 Essay: 6.5 Rec: 9.2 ExtraC: 3.0 
-314) SAT: 8.675 GPA: 9.0 Essay: 4.3 Rec: 7.0 ExtraC: 9.1 
-315) SAT: 1.2 GPA: 7.5 Essay: 8.3 Rec: 7.1 ExtraC: 3.8 
-316) SAT: 5.9750000000000005 GPA: 5.25 Essay: 4.5 Rec: 6.3 ExtraC: 9.8 
-317) SAT: 8.0 GPA: 7.0 Essay: 9.4 Rec: 9.2 ExtraC: 9.0 
-318) SAT: 2.9749999999999996 GPA: 9.25 Essay: 7.8 Rec: 7.6 ExtraC: 5.5 
-319) SAT: 4.65 GPA: 9.75 Essay: 4.7 Rec: 9.9 ExtraC: 8.0 
-320) SAT: 3.65 GPA: 9.25 Essay: 6.7 Rec: 8.2 ExtraC: 2.7 
-321) SAT: 4.175 GPA: 8.25 Essay: 7.2 Rec: 6.7 ExtraC: 9.5 
-322) SAT: 8.2 GPA: 8.75 Essay: 3.1 Rec: 6.1 ExtraC: 8.8 
-323) SAT: 9.925 GPA: 9.25 Essay: 4.8 Rec: 9.6 ExtraC: 7.1 
-324) SAT: 1.3 GPA: 6.0 Essay: 6.4 Rec: 9.3 ExtraC: 6.8 
-325) SAT: 9.25 GPA: 6.5 Essay: 6.8 Rec: 6.7 ExtraC: 4.0 
-326) SAT: 3.025 GPA: 7.75 Essay: 3.6 Rec: 9.3 ExtraC: 2.7 
-327) SAT: 1.75 GPA: 6.25 Essay: 8.3 Rec: 9.1 ExtraC: 5.4 
-328) SAT: 6.925 GPA: 8.0 Essay: 4.4 Rec: 8.8 ExtraC: 7.0 
-329) SAT: 0.475 GPA: 8.5 Essay: 6.1 Rec: 7.2 ExtraC: 6.9 
-330) SAT: 0.875 GPA: 7.25 Essay: 8.7 Rec: 8.3 ExtraC: 4.0 
-331) SAT: 4.125 GPA: 7.5 Essay: 6.8 Rec: 9.8 ExtraC: 7.3 
-332) SAT: 7.9 GPA: 6.25 Essay: 4.4 Rec: 9.5 ExtraC: 2.8 
-333) SAT: 2.8000000000000003 GPA: 5.25 Essay: 5.5 Rec: 6.1 ExtraC: 8.6 
-334) SAT: 7.824999999999999 GPA: 8.75 Essay: 5.9 Rec: 9.9 ExtraC: 5.5 
-335) SAT: 0.325 GPA: 5.25 Essay: 3.9 Rec: 7.9 ExtraC: 4.7 
-336) SAT: 7.425000000000001 GPA: 7.75 Essay: 8.4 Rec: 8.2 ExtraC: 3.2 
-337) SAT: 0.17500000000000002 GPA: 9.75 Essay: 7.5 Rec: 8.2 ExtraC: 9.5 
-338) SAT: 3.05 GPA: 6.75 Essay: 4.4 Rec: 8.0 ExtraC: 3.8 
-339) SAT: 3.0 GPA: 9.0 Essay: 5.0 Rec: 8.6 ExtraC: 8.6 
-340) SAT: 1.025 GPA: 7.25 Essay: 6.8 Rec: 8.1 ExtraC: 5.4 
-341) SAT: 9.775 GPA: 7.75 Essay: 6.2 Rec: 6.5 ExtraC: 2.3 
-342) SAT: 7.875 GPA: 9.25 Essay: 7.3 Rec: 8.2 ExtraC: 5.3 
-343) SAT: 7.55 GPA: 7.75 Essay: 5.7 Rec: 7.6 ExtraC: 3.1 
-344) SAT: 3.225 GPA: 8.5 Essay: 6.4 Rec: 8.1 ExtraC: 3.7 
-345) SAT: 7.05 GPA: 9.25 Essay: 10.0 Rec: 9.9 ExtraC: 5.9 
-346) SAT: 8.100000000000001 GPA: 5.5 Essay: 9.5 Rec: 7.4 ExtraC: 6.9 
-347) SAT: 3.55 GPA: 6.75 Essay: 4.2 Rec: 9.2 ExtraC: 5.6 
-348) SAT: 2.05 GPA: 8.0 Essay: 5.1 Rec: 9.3 ExtraC: 3.2 
-349) SAT: 7.199999999999999 GPA: 7.75 Essay: 8.1 Rec: 6.4 ExtraC: 9.8 
-350) SAT: 8.575000000000001 GPA: 7.25 Essay: 7.7 Rec: 7.4 ExtraC: 9.7 
-351) SAT: 8.75 GPA: 5.25 Essay: 8.5 Rec: 9.5 ExtraC: 2.3 
-352) SAT: 2.75 GPA: 8.5 Essay: 3.9 Rec: 6.8 ExtraC: 2.3 
-353) SAT: 7.35 GPA: 7.75 Essay: 5.6 Rec: 9.6 ExtraC: 5.0 
-354) SAT: 8.25 GPA: 5.5 Essay: 9.8 Rec: 6.5 ExtraC: 9.4 
-355) SAT: 1.25 GPA: 9.25 Essay: 6.5 Rec: 9.4 ExtraC: 9.7 
-356) SAT: 4.675000000000001 GPA: 8.5 Essay: 5.8 Rec: 6.6 ExtraC: 2.4 
-357) SAT: 3.625 GPA: 5.0 Essay: 3.7 Rec: 6.6 ExtraC: 9.1 
-358) SAT: 1.3250000000000002 GPA: 7.25 Essay: 7.0 Rec: 7.0 ExtraC: 7.1 
-359) SAT: 6.075 GPA: 10.0 Essay: 4.4 Rec: 9.9 ExtraC: 9.2 
-360) SAT: 5.675 GPA: 9.0 Essay: 3.0 Rec: 8.2 ExtraC: 9.6 
-361) SAT: 9.3 GPA: 8.25 Essay: 8.6 Rec: 7.7 ExtraC: 6.2 
-362) SAT: 7.625 GPA: 9.5 Essay: 4.6 Rec: 6.7 ExtraC: 2.3 
-363) SAT: 2.875 GPA: 7.75 Essay: 3.4 Rec: 7.6 ExtraC: 7.4 
-364) SAT: 9.399999999999999 GPA: 7.5 Essay: 3.8 Rec: 8.0 ExtraC: 8.2 
-365) SAT: 7.4 GPA: 5.5 Essay: 8.4 Rec: 9.7 ExtraC: 2.8 
-366) SAT: 6.65 GPA: 7.5 Essay: 9.4 Rec: 8.7 ExtraC: 2.4 
-367) SAT: 8.6 GPA: 8.0 Essay: 8.0 Rec: 8.6 ExtraC: 2.2 
-368) SAT: 2.3499999999999996 GPA: 7.0 Essay: 9.5 Rec: 7.9 ExtraC: 6.7 
-369) SAT: 9.675 GPA: 8.75 Essay: 3.8 Rec: 6.1 ExtraC: 3.2 
-370) SAT: 8.0 GPA: 9.75 Essay: 7.7 Rec: 9.6 ExtraC: 5.8 
-371) SAT: 4.45 GPA: 8.25 Essay: 7.2 Rec: 6.9 ExtraC: 6.7 
-372) SAT: 6.949999999999999 GPA: 9.5 Essay: 3.6 Rec: 8.5 ExtraC: 6.4 
-373) SAT: 1.35 GPA: 7.25 Essay: 4.1 Rec: 9.4 ExtraC: 3.1 
-374) SAT: 1.85 GPA: 5.5 Essay: 6.9 Rec: 6.5 ExtraC: 6.4 
-375) SAT: 1.4749999999999999 GPA: 5.5 Essay: 5.2 Rec: 7.1 ExtraC: 2.9 
-376) SAT: 4.6000000000000005 GPA: 5.25 Essay: 3.5 Rec: 6.5 ExtraC: 9.8 
-377) SAT: 5.475 GPA: 8.0 Essay: 7.4 Rec: 6.6 ExtraC: 8.3 
-378) SAT: 2.1 GPA: 9.25 Essay: 7.7 Rec: 7.2 ExtraC: 5.6 
-379) SAT: 2.3000000000000003 GPA: 7.25 Essay: 9.5 Rec: 7.5 ExtraC: 4.3 
-380) SAT: 0.6 GPA: 7.75 Essay: 5.6 Rec: 8.5 ExtraC: 7.5 
-381) SAT: 9.25 GPA: 8.75 Essay: 8.4 Rec: 7.0 ExtraC: 2.3 
-382) SAT: 8.85 GPA: 8.5 Essay: 3.8 Rec: 9.8 ExtraC: 8.7 
-383) SAT: 0.8500000000000001 GPA: 7.5 Essay: 5.8 Rec: 8.9 ExtraC: 7.2 
-384) SAT: 1.975 GPA: 9.75 Essay: 6.4 Rec: 9.5 ExtraC: 3.8 
-385) SAT: 9.425 GPA: 5.5 Essay: 7.7 Rec: 9.5 ExtraC: 5.9 
-386) SAT: 9.5 GPA: 9.75 Essay: 3.5 Rec: 7.3 ExtraC: 6.4 
-387) SAT: 7.55 GPA: 6.25 Essay: 5.2 Rec: 8.1 ExtraC: 5.9 
-388) SAT: 3.525 GPA: 7.0 Essay: 4.3 Rec: 7.8 ExtraC: 5.0 
-389) SAT: 0.22499999999999998 GPA: 7.75 Essay: 9.2 Rec: 7.7 ExtraC: 4.1 
-390) SAT: 5.375 GPA: 8.25 Essay: 4.3 Rec: 6.1 ExtraC: 6.0 
-391) SAT: 4.175 GPA: 9.75 Essay: 7.3 Rec: 6.3 ExtraC: 8.7 
-392) SAT: 1.05 GPA: 5.25 Essay: 8.4 Rec: 6.7 ExtraC: 4.8 
-393) SAT: 3.225 GPA: 9.75 Essay: 7.2 Rec: 8.6 ExtraC: 5.7 
-394) SAT: 0.8999999999999999 GPA: 10.0 Essay: 9.2 Rec: 7.1 ExtraC: 5.6 
-395) SAT: 2.6 GPA: 6.5 Essay: 3.0 Rec: 6.6 ExtraC: 7.9 
-396) SAT: 2.6750000000000003 GPA: 8.5 Essay: 5.6 Rec: 7.8 ExtraC: 7.7 
-397) SAT: 8.7 GPA: 9.5 Essay: 7.8 Rec: 7.9 ExtraC: 9.7 
-398) SAT: 5.324999999999999 GPA: 8.0 Essay: 10.0 Rec: 7.2 ExtraC: 8.1 
-399) SAT: 3.4749999999999996 GPA: 8.25 Essay: 7.9 Rec: 9.8 ExtraC: 4.2 
-400) SAT: 1.575 GPA: 5.25 Essay: 4.9 Rec: 6.2 ExtraC: 4.6 
-401) SAT: 7.199999999999999 GPA: 6.5 Essay: 7.4 Rec: 8.9 ExtraC: 5.6 
-402) SAT: 3.675 GPA: 10.0 Essay: 4.0 Rec: 8.9 ExtraC: 5.6 
-403) SAT: 8.575000000000001 GPA: 8.0 Essay: 5.3 Rec: 8.2 ExtraC: 2.7 
-404) SAT: 2.925 GPA: 5.5 Essay: 7.8 Rec: 7.1 ExtraC: 5.1 
-405) SAT: 4.45 GPA: 8.25 Essay: 3.2 Rec: 6.6 ExtraC: 6.7 
-406) SAT: 2.9 GPA: 6.5 Essay: 7.4 Rec: 8.2 ExtraC: 4.7 
-407) SAT: 9.575 GPA: 6.5 Essay: 7.5 Rec: 8.4 ExtraC: 2.0 
-408) SAT: 1.0 GPA: 9.75 Essay: 10.0 Rec: 7.0 ExtraC: 7.6 
-409) SAT: 4.5 GPA: 5.5 Essay: 5.1 Rec: 9.1 ExtraC: 7.2 
-410) SAT: 3.9000000000000004 GPA: 5.25 Essay: 8.1 Rec: 6.3 ExtraC: 4.9 
-411) SAT: 1.25 GPA: 7.5 Essay: 10.0 Rec: 6.6 ExtraC: 7.3 
-412) SAT: 5.85 GPA: 7.25 Essay: 9.7 Rec: 6.9 ExtraC: 10.0 
-413) SAT: 3.05 GPA: 6.0 Essay: 4.9 Rec: 9.8 ExtraC: 8.1 
-414) SAT: 2.75 GPA: 5.25 Essay: 8.1 Rec: 7.1 ExtraC: 4.4 
-415) SAT: 4.2 GPA: 8.5 Essay: 5.8 Rec: 8.9 ExtraC: 6.0 
-416) SAT: 0.5 GPA: 5.5 Essay: 7.1 Rec: 9.1 ExtraC: 3.5 
-417) SAT: 9.399999999999999 GPA: 9.5 Essay: 8.0 Rec: 9.8 ExtraC: 2.5 
-418) SAT: 3.7 GPA: 7.75 Essay: 6.5 Rec: 7.3 ExtraC: 8.0 
-419) SAT: 4.975 GPA: 8.25 Essay: 9.5 Rec: 9.1 ExtraC: 6.8 
-420) SAT: 6.875 GPA: 5.25 Essay: 7.6 Rec: 7.7 ExtraC: 4.6 
-421) SAT: 9.475 GPA: 9.25 Essay: 3.3 Rec: 7.4 ExtraC: 6.5 
-422) SAT: 5.5 GPA: 7.0 Essay: 7.7 Rec: 6.5 ExtraC: 3.5 
-423) SAT: 8.6 GPA: 5.25 Essay: 3.7 Rec: 8.3 ExtraC: 2.1 
-424) SAT: 1.55 GPA: 9.75 Essay: 6.8 Rec: 8.6 ExtraC: 4.2 
-425) SAT: 2.8499999999999996 GPA: 5.75 Essay: 9.4 Rec: 6.8 ExtraC: 9.4 
-426) SAT: 5.175 GPA: 9.5 Essay: 9.8 Rec: 6.7 ExtraC: 4.5 
-427) SAT: 2.9749999999999996 GPA: 5.5 Essay: 4.1 Rec: 7.4 ExtraC: 5.7 
-428) SAT: 7.075 GPA: 9.5 Essay: 9.0 Rec: 7.5 ExtraC: 2.2 
-429) SAT: 0.44999999999999996 GPA: 6.25 Essay: 3.7 Rec: 6.6 ExtraC: 8.5 
-430) SAT: 1.125 GPA: 6.5 Essay: 8.3 Rec: 8.6 ExtraC: 9.6 
-431) SAT: 0.325 GPA: 9.75 Essay: 3.8 Rec: 9.8 ExtraC: 3.2 
-432) SAT: 0.35000000000000003 GPA: 7.25 Essay: 3.3 Rec: 6.1 ExtraC: 7.1 
-433) SAT: 3.5999999999999996 GPA: 6.5 Essay: 8.3 Rec: 8.0 ExtraC: 7.2 
-434) SAT: 2.2 GPA: 6.0 Essay: 6.9 Rec: 6.3 ExtraC: 6.8 
-435) SAT: 5.75 GPA: 5.75 Essay: 8.9 Rec: 8.7 ExtraC: 4.2 
-436) SAT: 6.5249999999999995 GPA: 9.0 Essay: 7.0 Rec: 7.6 ExtraC: 5.5 
-437) SAT: 5.175 GPA: 7.25 Essay: 5.7 Rec: 8.5 ExtraC: 5.2 
-438) SAT: 5.324999999999999 GPA: 8.25 Essay: 9.1 Rec: 8.3 ExtraC: 7.4 
-439) SAT: 5.074999999999999 GPA: 9.75 Essay: 9.9 Rec: 7.1 ExtraC: 5.6 
-440) SAT: 6.425 GPA: 7.5 Essay: 7.7 Rec: 6.8 ExtraC: 6.6 
-441) SAT: 2.75 GPA: 8.75 Essay: 7.9 Rec: 6.5 ExtraC: 5.6 
-442) SAT: 9.675 GPA: 8.75 Essay: 4.6 Rec: 8.1 ExtraC: 3.4 
-443) SAT: 6.75 GPA: 5.25 Essay: 7.3 Rec: 6.2 ExtraC: 7.4 
-444) SAT: 0.15 GPA: 8.0 Essay: 5.4 Rec: 9.5 ExtraC: 3.4 
-445) SAT: 0.15 GPA: 7.0 Essay: 3.8 Rec: 6.0 ExtraC: 7.2 
-446) SAT: 5.75 GPA: 8.25 Essay: 4.0 Rec: 7.0 ExtraC: 8.7 
-447) SAT: 7.1 GPA: 7.75 Essay: 7.3 Rec: 7.6 ExtraC: 7.1 
-448) SAT: 0.5750000000000001 GPA: 7.0 Essay: 5.9 Rec: 7.2 ExtraC: 9.3 
-449) SAT: 5.925000000000001 GPA: 9.75 Essay: 9.8 Rec: 6.9 ExtraC: 2.2 
-450) SAT: 6.425 GPA: 6.25 Essay: 7.4 Rec: 9.9 ExtraC: 2.9 
-451) SAT: 8.025 GPA: 5.0 Essay: 6.5 Rec: 9.7 ExtraC: 2.1 
-452) SAT: 1.55 GPA: 7.5 Essay: 7.6 Rec: 7.2 ExtraC: 8.0 
-453) SAT: 4.95 GPA: 5.0 Essay: 4.9 Rec: 6.4 ExtraC: 5.4 
-454) SAT: 9.175 GPA: 5.75 Essay: 8.6 Rec: 7.3 ExtraC: 5.7 
-455) SAT: 7.125 GPA: 9.75 Essay: 6.0 Rec: 8.7 ExtraC: 3.1 
-456) SAT: 4.575 GPA: 6.5 Essay: 5.6 Rec: 6.3 ExtraC: 4.5 
-457) SAT: 4.8 GPA: 9.5 Essay: 5.2 Rec: 9.9 ExtraC: 8.5 
-458) SAT: 3.15 GPA: 5.75 Essay: 5.2 Rec: 9.9 ExtraC: 5.5 
-459) SAT: 0.625 GPA: 7.25 Essay: 6.2 Rec: 7.4 ExtraC: 6.6 
-460) SAT: 8.725000000000001 GPA: 6.25 Essay: 8.2 Rec: 8.7 ExtraC: 6.7 
-461) SAT: 1.925 GPA: 7.0 Essay: 6.6 Rec: 8.5 ExtraC: 2.6 
-462) SAT: 6.574999999999999 GPA: 5.5 Essay: 5.7 Rec: 6.1 ExtraC: 3.3 
-463) SAT: 6.975 GPA: 7.5 Essay: 3.4 Rec: 6.0 ExtraC: 6.0 
-464) SAT: 8.65 GPA: 6.5 Essay: 7.5 Rec: 6.7 ExtraC: 4.3 
-465) SAT: 0.75 GPA: 6.25 Essay: 8.3 Rec: 8.1 ExtraC: 6.6 
-466) SAT: 3.25 GPA: 7.0 Essay: 8.9 Rec: 6.3 ExtraC: 2.6 
-467) SAT: 4.275 GPA: 6.25 Essay: 6.3 Rec: 9.8 ExtraC: 9.0 
-468) SAT: 5.375 GPA: 8.0 Essay: 9.7 Rec: 9.7 ExtraC: 7.1 
-469) SAT: 1.25 GPA: 8.25 Essay: 4.0 Rec: 6.7 ExtraC: 7.1 
-470) SAT: 6.425 GPA: 5.25 Essay: 9.7 Rec: 7.1 ExtraC: 3.8 
-471) SAT: 2.45 GPA: 6.75 Essay: 6.3 Rec: 6.0 ExtraC: 9.1 
-472) SAT: 0.5 GPA: 6.75 Essay: 5.0 Rec: 9.6 ExtraC: 5.1 
-473) SAT: 3.65 GPA: 6.5 Essay: 7.6 Rec: 9.3 ExtraC: 4.1 
-474) SAT: 5.300000000000001 GPA: 7.0 Essay: 9.1 Rec: 8.0 ExtraC: 4.5 
-475) SAT: 5.125 GPA: 8.0 Essay: 9.5 Rec: 8.6 ExtraC: 8.4 
-476) SAT: 5.675 GPA: 6.5 Essay: 8.9 Rec: 8.1 ExtraC: 6.7 
-477) SAT: 0.75 GPA: 8.75 Essay: 9.6 Rec: 8.2 ExtraC: 8.2 
-478) SAT: 8.225 GPA: 8.0 Essay: 3.7 Rec: 6.4 ExtraC: 5.9 
-479) SAT: 4.975 GPA: 7.5 Essay: 8.6 Rec: 6.6 ExtraC: 4.5 
-480) SAT: 0.725 GPA: 8.5 Essay: 7.8 Rec: 9.8 ExtraC: 3.4 
-481) SAT: 9.95 GPA: 7.25 Essay: 8.6 Rec: 9.7 ExtraC: 3.0 
-482) SAT: 5.925000000000001 GPA: 7.5 Essay: 6.0 Rec: 7.8 ExtraC: 2.2 
-483) SAT: 0.075 GPA: 7.5 Essay: 8.6 Rec: 9.8 ExtraC: 2.5 
-484) SAT: 5.725 GPA: 8.75 Essay: 7.7 Rec: 8.7 ExtraC: 9.0 
-485) SAT: 1.5 GPA: 6.0 Essay: 5.5 Rec: 9.8 ExtraC: 4.6 
-486) SAT: 6.7 GPA: 5.25 Essay: 3.1 Rec: 7.4 ExtraC: 9.8 
-487) SAT: 1.85 GPA: 6.75 Essay: 6.1 Rec: 9.9 ExtraC: 4.3 
-488) SAT: 5.575 GPA: 8.0 Essay: 8.5 Rec: 9.9 ExtraC: 2.2 
-489) SAT: 8.100000000000001 GPA: 10.0 Essay: 6.8 Rec: 8.4 ExtraC: 9.5 
-490) SAT: 6.075 GPA: 6.0 Essay: 8.0 Rec: 7.1 ExtraC: 8.9 
-491) SAT: 5.875 GPA: 7.0 Essay: 3.3 Rec: 9.8 ExtraC: 5.0 
-492) SAT: 3.7 GPA: 8.0 Essay: 5.9 Rec: 7.5 ExtraC: 9.8 
-493) SAT: 3.85 GPA: 7.75 Essay: 5.3 Rec: 9.3 ExtraC: 6.4 
-494) SAT: 6.175000000000001 GPA: 7.0 Essay: 3.9 Rec: 7.6 ExtraC: 4.9 
-495) SAT: 1.45 GPA: 6.0 Essay: 5.5 Rec: 8.7 ExtraC: 8.6 
-496) SAT: 2.9499999999999997 GPA: 6.5 Essay: 3.0 Rec: 6.0 ExtraC: 6.5 
-497) SAT: 8.675 GPA: 8.0 Essay: 9.9 Rec: 9.6 ExtraC: 6.3 
-498) SAT: 3.675 GPA: 6.5 Essay: 4.1 Rec: 9.1 ExtraC: 7.3 
-499) SAT: 1.3250000000000002 GPA: 5.75 Essay: 4.7 Rec: 7.9 ExtraC: 9.9 
-500) SAT: 7.8500000000000005 GPA: 5.5 Essay: 5.6 Rec: 9.7 ExtraC: 5.9 
-501) SAT: 7.325 GPA: 5.25 Essay: 7.9 Rec: 6.4 ExtraC: 8.0 
-502) SAT: 5.25 GPA: 7.0 Essay: 3.3 Rec: 8.1 ExtraC: 5.2 
-503) SAT: 6.05 GPA: 7.0 Essay: 9.9 Rec: 8.4 ExtraC: 4.5 
-504) SAT: 5.324999999999999 GPA: 9.75 Essay: 7.2 Rec: 8.8 ExtraC: 7.9 
-505) SAT: 2.6 GPA: 9.25 Essay: 9.3 Rec: 8.0 ExtraC: 4.4 
-506) SAT: 8.924999999999999 GPA: 6.5 Essay: 5.7 Rec: 7.0 ExtraC: 3.6 
-507) SAT: 8.675 GPA: 10.0 Essay: 4.8 Rec: 8.3 ExtraC: 2.7 
-508) SAT: 0.05 GPA: 5.5 Essay: 6.3 Rec: 6.2 ExtraC: 7.0 
-509) SAT: 8.7 GPA: 8.25 Essay: 3.2 Rec: 9.5 ExtraC: 4.0 
-510) SAT: 3.4250000000000003 GPA: 7.0 Essay: 4.5 Rec: 9.8 ExtraC: 2.7 
-511) SAT: 9.525 GPA: 6.0 Essay: 9.4 Rec: 9.4 ExtraC: 7.6 
-512) SAT: 2.15 GPA: 8.75 Essay: 9.9 Rec: 8.4 ExtraC: 2.1 
-513) SAT: 1.85 GPA: 7.25 Essay: 3.1 Rec: 7.8 ExtraC: 2.3 
-514) SAT: 0.95 GPA: 7.25 Essay: 3.9 Rec: 8.3 ExtraC: 6.0 
-515) SAT: 7.574999999999999 GPA: 7.25 Essay: 4.1 Rec: 9.2 ExtraC: 4.4 
-516) SAT: 3.975 GPA: 5.75 Essay: 7.9 Rec: 8.4 ExtraC: 2.6 
-517) SAT: 7.95 GPA: 7.75 Essay: 4.9 Rec: 8.9 ExtraC: 5.4 
-518) SAT: 9.7 GPA: 9.75 Essay: 4.3 Rec: 9.8 ExtraC: 6.2 
-519) SAT: 1.975 GPA: 5.75 Essay: 9.9 Rec: 6.8 ExtraC: 6.7 
-520) SAT: 0.22499999999999998 GPA: 6.5 Essay: 3.3 Rec: 6.6 ExtraC: 9.0 
-521) SAT: 5.425 GPA: 9.5 Essay: 5.2 Rec: 8.8 ExtraC: 7.6 
-522) SAT: 6.25 GPA: 5.5 Essay: 8.8 Rec: 7.3 ExtraC: 7.6 
-523) SAT: 9.0 GPA: 5.75 Essay: 4.9 Rec: 6.7 ExtraC: 8.7 
-524) SAT: 6.949999999999999 GPA: 5.75 Essay: 8.4 Rec: 9.5 ExtraC: 2.8 
-525) SAT: 3.0 GPA: 5.5 Essay: 4.7 Rec: 7.2 ExtraC: 4.3 
-526) SAT: 8.4 GPA: 6.5 Essay: 7.1 Rec: 9.5 ExtraC: 5.7 
-527) SAT: 4.675000000000001 GPA: 7.25 Essay: 5.6 Rec: 9.2 ExtraC: 3.0 
-528) SAT: 0.75 GPA: 7.0 Essay: 4.5 Rec: 9.6 ExtraC: 8.0 
-529) SAT: 9.175 GPA: 9.0 Essay: 9.1 Rec: 6.8 ExtraC: 9.9 
-530) SAT: 7.199999999999999 GPA: 9.5 Essay: 3.9 Rec: 8.0 ExtraC: 8.1 
-531) SAT: 2.325 GPA: 9.0 Essay: 8.9 Rec: 7.9 ExtraC: 2.7 
-532) SAT: 1.25 GPA: 6.5 Essay: 5.9 Rec: 8.9 ExtraC: 3.7 
-533) SAT: 8.75 GPA: 6.0 Essay: 7.5 Rec: 7.0 ExtraC: 9.8 
-534) SAT: 7.574999999999999 GPA: 6.75 Essay: 5.8 Rec: 9.9 ExtraC: 3.9 
-535) SAT: 1.4749999999999999 GPA: 9.5 Essay: 3.3 Rec: 6.1 ExtraC: 2.6 
-536) SAT: 0.3 GPA: 8.75 Essay: 9.8 Rec: 6.6 ExtraC: 4.0 
-537) SAT: 7.3 GPA: 7.0 Essay: 3.3 Rec: 8.3 ExtraC: 9.0 
-538) SAT: 1.35 GPA: 8.5 Essay: 4.4 Rec: 8.2 ExtraC: 5.3 
-539) SAT: 4.074999999999999 GPA: 7.0 Essay: 7.2 Rec: 6.2 ExtraC: 7.4 
-540) SAT: 5.85 GPA: 9.0 Essay: 3.0 Rec: 9.9 ExtraC: 8.2 
-541) SAT: 2.4 GPA: 5.75 Essay: 7.7 Rec: 7.2 ExtraC: 3.3 
-542) SAT: 7.5 GPA: 6.5 Essay: 9.4 Rec: 8.9 ExtraC: 5.8 
-543) SAT: 1.55 GPA: 7.25 Essay: 9.1 Rec: 6.8 ExtraC: 2.2 
-544) SAT: 7.4750000000000005 GPA: 6.75 Essay: 8.0 Rec: 9.8 ExtraC: 9.0 
-545) SAT: 1.375 GPA: 6.75 Essay: 5.1 Rec: 9.0 ExtraC: 5.2 
-546) SAT: 9.725 GPA: 6.75 Essay: 4.4 Rec: 9.9 ExtraC: 4.6 
-547) SAT: 9.8 GPA: 6.0 Essay: 6.2 Rec: 8.6 ExtraC: 6.1 
-548) SAT: 6.15 GPA: 7.0 Essay: 8.8 Rec: 8.1 ExtraC: 2.9 
-549) SAT: 3.05 GPA: 8.5 Essay: 7.0 Rec: 6.7 ExtraC: 9.0 
-550) SAT: 5.875 GPA: 9.75 Essay: 4.5 Rec: 7.2 ExtraC: 9.0 
-551) SAT: 0.9750000000000001 GPA: 7.25 Essay: 4.7 Rec: 7.6 ExtraC: 3.6 
-552) SAT: 6.4 GPA: 6.75 Essay: 6.7 Rec: 9.4 ExtraC: 4.8 
-553) SAT: 8.45 GPA: 9.25 Essay: 7.0 Rec: 7.2 ExtraC: 5.8 
-554) SAT: 0.725 GPA: 9.5 Essay: 9.2 Rec: 9.6 ExtraC: 5.5 
-555) SAT: 9.975000000000001 GPA: 6.0 Essay: 3.8 Rec: 8.3 ExtraC: 5.1 
-556) SAT: 0.0 GPA: 5.75 Essay: 5.2 Rec: 6.9 ExtraC: 5.7 
-557) SAT: 1.975 GPA: 6.5 Essay: 9.4 Rec: 7.7 ExtraC: 7.7 
-558) SAT: 1.075 GPA: 5.5 Essay: 3.6 Rec: 8.5 ExtraC: 9.4 
-559) SAT: 4.35 GPA: 7.5 Essay: 8.3 Rec: 6.0 ExtraC: 8.3 
-560) SAT: 2.3000000000000003 GPA: 5.5 Essay: 7.9 Rec: 6.5 ExtraC: 9.8 
-561) SAT: 1.4000000000000001 GPA: 5.5 Essay: 4.3 Rec: 7.0 ExtraC: 7.4 
-562) SAT: 5.699999999999999 GPA: 6.25 Essay: 8.8 Rec: 9.6 ExtraC: 5.9 
-563) SAT: 2.9499999999999997 GPA: 5.5 Essay: 8.6 Rec: 6.8 ExtraC: 6.2 
-564) SAT: 5.2 GPA: 6.5 Essay: 7.2 Rec: 8.4 ExtraC: 9.6 
-565) SAT: 5.2 GPA: 5.25 Essay: 6.1 Rec: 7.1 ExtraC: 2.4 
-566) SAT: 2.225 GPA: 7.5 Essay: 3.9 Rec: 9.7 ExtraC: 6.9 
-567) SAT: 1.0 GPA: 5.25 Essay: 8.1 Rec: 7.1 ExtraC: 4.6 
-568) SAT: 4.074999999999999 GPA: 9.25 Essay: 7.2 Rec: 7.0 ExtraC: 8.0 
-569) SAT: 0.775 GPA: 7.75 Essay: 8.8 Rec: 9.5 ExtraC: 8.0 
-570) SAT: 3.525 GPA: 7.0 Essay: 3.5 Rec: 9.8 ExtraC: 2.1 
-571) SAT: 0.22499999999999998 GPA: 7.25 Essay: 3.4 Rec: 7.9 ExtraC: 8.0 
-572) SAT: 1.1 GPA: 8.5 Essay: 4.8 Rec: 6.9 ExtraC: 6.9 
-573) SAT: 8.7 GPA: 6.75 Essay: 7.8 Rec: 8.4 ExtraC: 7.0 
-574) SAT: 0.075 GPA: 5.0 Essay: 6.4 Rec: 8.4 ExtraC: 4.0 
-575) SAT: 2.25 GPA: 8.5 Essay: 8.5 Rec: 6.2 ExtraC: 6.5 
-576) SAT: 5.3500000000000005 GPA: 7.0 Essay: 9.7 Rec: 8.4 ExtraC: 4.9 
-577) SAT: 9.725 GPA: 8.25 Essay: 8.9 Rec: 6.1 ExtraC: 2.7 
-578) SAT: 5.875 GPA: 5.75 Essay: 8.5 Rec: 9.4 ExtraC: 5.1 
-579) SAT: 3.9000000000000004 GPA: 8.5 Essay: 8.0 Rec: 6.3 ExtraC: 4.5 
-580) SAT: 3.4499999999999997 GPA: 5.5 Essay: 5.2 Rec: 9.3 ExtraC: 7.5 
-581) SAT: 5.675 GPA: 5.25 Essay: 5.5 Rec: 7.4 ExtraC: 2.9 
-582) SAT: 9.225 GPA: 9.5 Essay: 6.7 Rec: 9.5 ExtraC: 6.0 
-583) SAT: 8.875 GPA: 9.25 Essay: 3.9 Rec: 8.9 ExtraC: 9.1 
-584) SAT: 2.15 GPA: 6.5 Essay: 3.3 Rec: 10.0 ExtraC: 3.3 
-585) SAT: 4.175 GPA: 7.0 Essay: 9.1 Rec: 6.6 ExtraC: 5.7 
-586) SAT: 1.85 GPA: 7.5 Essay: 6.8 Rec: 8.0 ExtraC: 4.5 
-587) SAT: 2.225 GPA: 5.25 Essay: 5.5 Rec: 8.3 ExtraC: 5.4 
-588) SAT: 4.725 GPA: 7.5 Essay: 5.3 Rec: 10.0 ExtraC: 5.2 
-589) SAT: 8.2 GPA: 9.5 Essay: 4.8 Rec: 9.8 ExtraC: 6.9 
-590) SAT: 1.45 GPA: 5.75 Essay: 9.6 Rec: 6.7 ExtraC: 3.3 
-591) SAT: 0.9750000000000001 GPA: 8.0 Essay: 6.8 Rec: 9.9 ExtraC: 7.9 
-592) SAT: 0.05 GPA: 5.75 Essay: 4.6 Rec: 8.2 ExtraC: 7.3 
-593) SAT: 5.324999999999999 GPA: 8.75 Essay: 8.2 Rec: 9.6 ExtraC: 4.9 
-594) SAT: 1.675 GPA: 6.75 Essay: 9.1 Rec: 8.0 ExtraC: 4.9 
-595) SAT: 2.6 GPA: 6.5 Essay: 4.8 Rec: 8.1 ExtraC: 4.1 
-596) SAT: 8.725000000000001 GPA: 8.25 Essay: 5.9 Rec: 9.2 ExtraC: 8.7 
-597) SAT: 5.775 GPA: 9.5 Essay: 6.1 Rec: 6.5 ExtraC: 9.1 
-598) SAT: 1.7999999999999998 GPA: 5.75 Essay: 3.3 Rec: 7.6 ExtraC: 7.4 
-599) SAT: 7.075 GPA: 9.75 Essay: 6.2 Rec: 7.8 ExtraC: 8.7 
-600) SAT: 8.075 GPA: 8.0 Essay: 4.4 Rec: 8.7 ExtraC: 2.9 
-601) SAT: 5.75 GPA: 9.75 Essay: 5.9 Rec: 9.3 ExtraC: 5.6 
-602) SAT: 6.775 GPA: 8.5 Essay: 3.8 Rec: 6.4 ExtraC: 6.1 
-603) SAT: 9.575 GPA: 8.5 Essay: 6.0 Rec: 7.6 ExtraC: 8.4 
-604) SAT: 3.125 GPA: 8.0 Essay: 9.6 Rec: 7.4 ExtraC: 9.9 
-605) SAT: 6.15 GPA: 5.25 Essay: 9.5 Rec: 6.3 ExtraC: 6.1 
-606) SAT: 7.574999999999999 GPA: 9.5 Essay: 3.9 Rec: 9.9 ExtraC: 6.4 
-607) SAT: 2.425 GPA: 7.75 Essay: 6.5 Rec: 8.7 ExtraC: 5.0 
-608) SAT: 9.5 GPA: 6.75 Essay: 3.5 Rec: 6.3 ExtraC: 5.5 
-609) SAT: 5.8999999999999995 GPA: 5.25 Essay: 3.8 Rec: 6.1 ExtraC: 5.4 
-610) SAT: 9.225 GPA: 6.75 Essay: 3.0 Rec: 9.4 ExtraC: 7.5 
-611) SAT: 9.875 GPA: 7.5 Essay: 8.3 Rec: 9.6 ExtraC: 6.4 
-612) SAT: 2.75 GPA: 8.25 Essay: 6.0 Rec: 7.6 ExtraC: 7.1 
-613) SAT: 9.8 GPA: 8.25 Essay: 4.2 Rec: 7.9 ExtraC: 4.6 
-614) SAT: 5.425 GPA: 7.25 Essay: 7.6 Rec: 8.5 ExtraC: 6.0 
-615) SAT: 1.025 GPA: 6.0 Essay: 6.7 Rec: 6.9 ExtraC: 3.8 
-616) SAT: 9.45 GPA: 5.75 Essay: 7.0 Rec: 9.8 ExtraC: 2.1 
-617) SAT: 2.55 GPA: 9.75 Essay: 6.4 Rec: 6.1 ExtraC: 8.8 
-618) SAT: 0.325 GPA: 6.5 Essay: 6.6 Rec: 7.8 ExtraC: 7.6 
-619) SAT: 1.525 GPA: 7.25 Essay: 5.5 Rec: 7.3 ExtraC: 9.3 
-620) SAT: 6.800000000000001 GPA: 9.25 Essay: 5.4 Rec: 7.4 ExtraC: 5.9 
-621) SAT: 8.375 GPA: 7.25 Essay: 7.9 Rec: 7.4 ExtraC: 7.4 
-622) SAT: 9.325 GPA: 6.5 Essay: 8.7 Rec: 8.0 ExtraC: 4.1 
-623) SAT: 8.299999999999999 GPA: 8.75 Essay: 4.4 Rec: 7.3 ExtraC: 8.2 
-624) SAT: 0.475 GPA: 6.75 Essay: 3.5 Rec: 8.3 ExtraC: 8.5 
-625) SAT: 7.7 GPA: 8.5 Essay: 4.7 Rec: 6.5 ExtraC: 2.4 
-626) SAT: 1.575 GPA: 9.0 Essay: 9.5 Rec: 8.0 ExtraC: 3.2 
-627) SAT: 4.175 GPA: 6.75 Essay: 7.2 Rec: 6.5 ExtraC: 7.6 
-628) SAT: 2.725 GPA: 5.25 Essay: 3.0 Rec: 6.4 ExtraC: 6.4 
-629) SAT: 2.6 GPA: 9.5 Essay: 5.2 Rec: 7.8 ExtraC: 3.9 
-630) SAT: 0.8 GPA: 7.5 Essay: 7.2 Rec: 6.6 ExtraC: 2.6 
-631) SAT: 4.0 GPA: 9.5 Essay: 8.6 Rec: 8.6 ExtraC: 2.4 
-632) SAT: 8.525 GPA: 9.0 Essay: 9.1 Rec: 9.1 ExtraC: 4.4 
-633) SAT: 0.2 GPA: 6.0 Essay: 7.5 Rec: 8.5 ExtraC: 4.6 
-634) SAT: 3.4000000000000004 GPA: 9.5 Essay: 5.6 Rec: 7.4 ExtraC: 9.9 
-635) SAT: 9.275 GPA: 8.0 Essay: 9.4 Rec: 7.0 ExtraC: 2.5 
-636) SAT: 1.55 GPA: 6.5 Essay: 7.0 Rec: 9.0 ExtraC: 5.7 
-637) SAT: 6.45 GPA: 5.75 Essay: 5.7 Rec: 7.8 ExtraC: 8.4 
-638) SAT: 4.375 GPA: 6.5 Essay: 7.2 Rec: 7.2 ExtraC: 2.7 
-639) SAT: 9.05 GPA: 6.75 Essay: 5.0 Rec: 8.2 ExtraC: 9.6 
-640) SAT: 5.9750000000000005 GPA: 9.5 Essay: 8.9 Rec: 9.9 ExtraC: 3.9 
-641) SAT: 8.35 GPA: 9.5 Essay: 8.9 Rec: 9.0 ExtraC: 3.1 
-642) SAT: 9.05 GPA: 9.5 Essay: 6.2 Rec: 7.9 ExtraC: 7.3 
-643) SAT: 9.25 GPA: 5.5 Essay: 8.7 Rec: 7.3 ExtraC: 6.6 
-644) SAT: 6.025 GPA: 8.75 Essay: 9.1 Rec: 6.8 ExtraC: 2.5 
-645) SAT: 9.525 GPA: 5.5 Essay: 5.7 Rec: 6.9 ExtraC: 7.3 
-646) SAT: 3.325 GPA: 9.25 Essay: 6.9 Rec: 6.7 ExtraC: 8.4 
-647) SAT: 7.95 GPA: 5.0 Essay: 8.0 Rec: 8.6 ExtraC: 8.2 
-648) SAT: 8.475 GPA: 7.75 Essay: 7.7 Rec: 7.2 ExtraC: 2.2 
-649) SAT: 3.35 GPA: 6.25 Essay: 4.0 Rec: 6.6 ExtraC: 6.4 
-650) SAT: 7.125 GPA: 8.75 Essay: 5.1 Rec: 8.3 ExtraC: 9.6 
-651) SAT: 3.55 GPA: 7.75 Essay: 3.5 Rec: 9.0 ExtraC: 8.2 
-652) SAT: 7.3 GPA: 5.25 Essay: 7.2 Rec: 7.2 ExtraC: 4.0 
-653) SAT: 4.050000000000001 GPA: 5.5 Essay: 4.9 Rec: 6.5 ExtraC: 7.8 
-654) SAT: 0.42500000000000004 GPA: 9.75 Essay: 4.9 Rec: 8.9 ExtraC: 4.2 
-655) SAT: 2.9 GPA: 5.25 Essay: 6.5 Rec: 7.7 ExtraC: 3.6 
-656) SAT: 0.5 GPA: 5.75 Essay: 9.6 Rec: 7.4 ExtraC: 7.9 
-657) SAT: 9.0 GPA: 8.5 Essay: 4.9 Rec: 9.9 ExtraC: 5.5 
-658) SAT: 0.4 GPA: 8.5 Essay: 6.6 Rec: 8.6 ExtraC: 9.9 
-659) SAT: 7.7 GPA: 5.25 Essay: 3.5 Rec: 6.2 ExtraC: 3.3 
-660) SAT: 7.975 GPA: 5.5 Essay: 3.9 Rec: 6.3 ExtraC: 8.5 
-661) SAT: 3.975 GPA: 6.75 Essay: 9.1 Rec: 9.6 ExtraC: 8.4 
-662) SAT: 0.725 GPA: 9.75 Essay: 9.6 Rec: 6.1 ExtraC: 4.4 
-663) SAT: 6.775 GPA: 9.5 Essay: 3.0 Rec: 9.8 ExtraC: 9.1 
-664) SAT: 4.475 GPA: 10.0 Essay: 7.1 Rec: 9.9 ExtraC: 7.1 
-665) SAT: 5.8 GPA: 8.75 Essay: 7.8 Rec: 8.6 ExtraC: 8.3 
-666) SAT: 8.5 GPA: 7.25 Essay: 9.1 Rec: 9.9 ExtraC: 6.2 
-667) SAT: 6.875 GPA: 7.0 Essay: 9.2 Rec: 8.2 ExtraC: 4.2 
-668) SAT: 6.775 GPA: 8.25 Essay: 4.6 Rec: 8.5 ExtraC: 7.3 
-669) SAT: 5.324999999999999 GPA: 6.5 Essay: 7.1 Rec: 8.2 ExtraC: 4.0 
-670) SAT: 4.725 GPA: 10.0 Essay: 4.7 Rec: 6.3 ExtraC: 9.6 
-671) SAT: 8.75 GPA: 8.25 Essay: 7.8 Rec: 8.3 ExtraC: 4.4 
-672) SAT: 4.699999999999999 GPA: 7.0 Essay: 8.3 Rec: 7.4 ExtraC: 5.2 
-673) SAT: 2.7750000000000004 GPA: 5.25 Essay: 8.4 Rec: 6.6 ExtraC: 6.7 
-674) SAT: 0.55 GPA: 9.25 Essay: 4.6 Rec: 7.2 ExtraC: 5.7 
-675) SAT: 8.825 GPA: 9.0 Essay: 8.3 Rec: 7.9 ExtraC: 4.9 
-676) SAT: 0.125 GPA: 9.75 Essay: 5.4 Rec: 7.0 ExtraC: 2.0 
-677) SAT: 2.9749999999999996 GPA: 5.75 Essay: 7.5 Rec: 9.9 ExtraC: 7.6 
-678) SAT: 9.525 GPA: 7.25 Essay: 3.8 Rec: 8.8 ExtraC: 8.4 
-679) SAT: 5.074999999999999 GPA: 10.0 Essay: 8.8 Rec: 7.1 ExtraC: 3.2 
-680) SAT: 4.25 GPA: 6.75 Essay: 9.9 Rec: 8.6 ExtraC: 7.0 
-681) SAT: 4.525 GPA: 7.75 Essay: 6.2 Rec: 6.9 ExtraC: 10.0 
-682) SAT: 8.125 GPA: 6.25 Essay: 9.5 Rec: 6.6 ExtraC: 5.9 
-683) SAT: 9.350000000000001 GPA: 7.25 Essay: 7.3 Rec: 8.3 ExtraC: 5.6 
-684) SAT: 3.15 GPA: 7.75 Essay: 9.3 Rec: 7.7 ExtraC: 4.0 
-685) SAT: 7.05 GPA: 9.75 Essay: 4.7 Rec: 8.2 ExtraC: 3.8 
-686) SAT: 3.875 GPA: 9.75 Essay: 6.9 Rec: 7.5 ExtraC: 6.9 
-687) SAT: 1.85 GPA: 9.25 Essay: 4.1 Rec: 8.6 ExtraC: 2.4 
-688) SAT: 1.4749999999999999 GPA: 7.25 Essay: 5.0 Rec: 6.3 ExtraC: 6.9 
-689) SAT: 7.675 GPA: 5.0 Essay: 3.5 Rec: 7.6 ExtraC: 6.8 
-690) SAT: 5.175 GPA: 8.5 Essay: 4.0 Rec: 7.7 ExtraC: 3.1 
-691) SAT: 3.9000000000000004 GPA: 5.75 Essay: 3.5 Rec: 8.5 ExtraC: 7.3 
-692) SAT: 2.9 GPA: 5.0 Essay: 7.4 Rec: 9.4 ExtraC: 5.2 
-693) SAT: 2.475 GPA: 5.25 Essay: 4.7 Rec: 7.6 ExtraC: 7.4 
-694) SAT: 2.8499999999999996 GPA: 7.75 Essay: 3.9 Rec: 8.3 ExtraC: 7.0 
-695) SAT: 7.35 GPA: 6.75 Essay: 7.5 Rec: 9.2 ExtraC: 7.8 
-696) SAT: 2.525 GPA: 6.75 Essay: 6.0 Rec: 7.6 ExtraC: 8.0 
-697) SAT: 5.6499999999999995 GPA: 9.0 Essay: 9.1 Rec: 8.6 ExtraC: 5.4 
-698) SAT: 5.425 GPA: 9.75 Essay: 6.1 Rec: 6.7 ExtraC: 8.2 
-699) SAT: 8.425 GPA: 7.25 Essay: 8.7 Rec: 6.3 ExtraC: 8.6 
-700) SAT: 4.875 GPA: 6.75 Essay: 5.6 Rec: 8.5 ExtraC: 9.5 
-701) SAT: 0.025 GPA: 6.75 Essay: 4.9 Rec: 8.6 ExtraC: 3.3 
-702) SAT: 9.975000000000001 GPA: 9.5 Essay: 6.4 Rec: 7.7 ExtraC: 4.5 
-703) SAT: 2.325 GPA: 10.0 Essay: 3.7 Rec: 6.4 ExtraC: 7.1 
-704) SAT: 5.2 GPA: 8.25 Essay: 7.0 Rec: 9.9 ExtraC: 8.7 
-705) SAT: 3.4749999999999996 GPA: 9.0 Essay: 4.8 Rec: 6.7 ExtraC: 9.1 
-706) SAT: 0.8 GPA: 8.25 Essay: 4.8 Rec: 7.8 ExtraC: 4.1 
-707) SAT: 1.9 GPA: 7.25 Essay: 7.3 Rec: 7.9 ExtraC: 2.9 
-708) SAT: 7.7749999999999995 GPA: 7.25 Essay: 3.2 Rec: 7.1 ExtraC: 9.2 
-709) SAT: 3.3000000000000003 GPA: 7.5 Essay: 9.3 Rec: 7.7 ExtraC: 6.9 
-710) SAT: 5.3500000000000005 GPA: 9.75 Essay: 4.8 Rec: 6.4 ExtraC: 9.3 
-711) SAT: 0.925 GPA: 7.25 Essay: 8.1 Rec: 7.4 ExtraC: 6.9 
-712) SAT: 6.075 GPA: 7.25 Essay: 4.9 Rec: 9.5 ExtraC: 9.1 
-713) SAT: 5.3500000000000005 GPA: 5.25 Essay: 5.4 Rec: 6.6 ExtraC: 6.2 
-714) SAT: 4.625 GPA: 9.75 Essay: 9.9 Rec: 7.9 ExtraC: 3.6 
-715) SAT: 8.825 GPA: 9.0 Essay: 7.9 Rec: 9.1 ExtraC: 4.0 
-716) SAT: 3.0 GPA: 6.5 Essay: 4.4 Rec: 8.3 ExtraC: 5.4 
-717) SAT: 1.125 GPA: 8.25 Essay: 9.1 Rec: 9.3 ExtraC: 2.1 
-718) SAT: 4.875 GPA: 7.25 Essay: 6.1 Rec: 9.0 ExtraC: 4.5 
-719) SAT: 3.3000000000000003 GPA: 6.5 Essay: 5.6 Rec: 8.7 ExtraC: 5.6 
-720) SAT: 8.875 GPA: 5.75 Essay: 5.7 Rec: 9.5 ExtraC: 7.1 
-721) SAT: 5.8 GPA: 8.75 Essay: 6.2 Rec: 7.1 ExtraC: 6.3 
-722) SAT: 6.975 GPA: 8.0 Essay: 9.0 Rec: 9.6 ExtraC: 3.1 
-723) SAT: 2.725 GPA: 5.0 Essay: 8.6 Rec: 6.6 ExtraC: 8.8 
-724) SAT: 8.025 GPA: 8.25 Essay: 5.0 Rec: 7.0 ExtraC: 5.1 
-725) SAT: 6.025 GPA: 8.0 Essay: 7.8 Rec: 9.9 ExtraC: 4.1 
-726) SAT: 1.35 GPA: 9.25 Essay: 5.8 Rec: 8.1 ExtraC: 7.9 
-727) SAT: 0.325 GPA: 5.5 Essay: 6.4 Rec: 7.9 ExtraC: 5.0 
-728) SAT: 0.3 GPA: 6.0 Essay: 9.7 Rec: 9.5 ExtraC: 2.7 
-729) SAT: 0.925 GPA: 5.75 Essay: 3.7 Rec: 9.6 ExtraC: 4.4 
-730) SAT: 9.425 GPA: 8.5 Essay: 9.5 Rec: 6.9 ExtraC: 9.5 
-731) SAT: 3.225 GPA: 9.25 Essay: 6.6 Rec: 6.0 ExtraC: 8.5 
-732) SAT: 7.75 GPA: 5.75 Essay: 7.7 Rec: 6.7 ExtraC: 7.3 
-733) SAT: 4.0 GPA: 6.0 Essay: 8.4 Rec: 9.6 ExtraC: 7.6 
-734) SAT: 1.45 GPA: 9.75 Essay: 9.2 Rec: 6.4 ExtraC: 8.5 
-735) SAT: 9.625 GPA: 6.0 Essay: 9.8 Rec: 6.2 ExtraC: 2.7 
-736) SAT: 2.7 GPA: 5.0 Essay: 8.4 Rec: 6.8 ExtraC: 3.9 
-737) SAT: 7.175000000000001 GPA: 7.75 Essay: 3.6 Rec: 6.9 ExtraC: 6.3 
-738) SAT: 8.875 GPA: 5.0 Essay: 7.8 Rec: 8.2 ExtraC: 3.5 
-739) SAT: 3.5 GPA: 9.75 Essay: 5.8 Rec: 6.5 ExtraC: 8.8 
-740) SAT: 1.0 GPA: 6.25 Essay: 8.5 Rec: 9.9 ExtraC: 4.9 
-741) SAT: 5.8999999999999995 GPA: 9.75 Essay: 6.9 Rec: 8.2 ExtraC: 2.1 
-742) SAT: 6.425 GPA: 9.25 Essay: 3.1 Rec: 7.7 ExtraC: 2.3 
-743) SAT: 2.5 GPA: 5.75 Essay: 7.0 Rec: 7.3 ExtraC: 5.0 
-744) SAT: 1.1 GPA: 6.0 Essay: 5.7 Rec: 9.2 ExtraC: 8.2 
-745) SAT: 5.775 GPA: 5.75 Essay: 8.1 Rec: 9.9 ExtraC: 4.1 
-746) SAT: 5.875 GPA: 5.5 Essay: 6.7 Rec: 7.5 ExtraC: 2.6 
-747) SAT: 9.0 GPA: 9.75 Essay: 3.1 Rec: 7.8 ExtraC: 6.2 
-748) SAT: 0.25 GPA: 5.5 Essay: 5.5 Rec: 6.2 ExtraC: 6.2 
-749) SAT: 3.9000000000000004 GPA: 6.5 Essay: 7.6 Rec: 9.8 ExtraC: 7.0 
-750) SAT: 0.35000000000000003 GPA: 5.25 Essay: 8.9 Rec: 7.7 ExtraC: 9.0 
-751) SAT: 6.175000000000001 GPA: 5.0 Essay: 3.1 Rec: 7.4 ExtraC: 9.9 
-752) SAT: 2.8499999999999996 GPA: 9.75 Essay: 3.5 Rec: 9.3 ExtraC: 4.5 
-753) SAT: 1.375 GPA: 8.5 Essay: 4.9 Rec: 6.6 ExtraC: 3.5 
-754) SAT: 7.925 GPA: 6.0 Essay: 5.0 Rec: 6.6 ExtraC: 3.8 
-755) SAT: 8.100000000000001 GPA: 7.75 Essay: 6.6 Rec: 7.9 ExtraC: 6.0 
-756) SAT: 1.35 GPA: 7.5 Essay: 7.0 Rec: 9.9 ExtraC: 9.5 
-757) SAT: 4.4 GPA: 8.0 Essay: 9.5 Rec: 7.8 ExtraC: 9.6 
-758) SAT: 9.15 GPA: 8.75 Essay: 9.3 Rec: 9.9 ExtraC: 6.5 
-759) SAT: 2.1 GPA: 5.75 Essay: 5.0 Rec: 7.9 ExtraC: 4.3 
-760) SAT: 4.725 GPA: 6.5 Essay: 6.3 Rec: 9.0 ExtraC: 5.4 
-761) SAT: 6.875 GPA: 7.75 Essay: 9.7 Rec: 6.8 ExtraC: 2.4 
-762) SAT: 4.55 GPA: 6.75 Essay: 6.9 Rec: 6.1 ExtraC: 4.5 
-763) SAT: 4.85 GPA: 7.25 Essay: 9.4 Rec: 7.7 ExtraC: 9.4 
-764) SAT: 8.675 GPA: 6.75 Essay: 7.7 Rec: 9.1 ExtraC: 4.6 
-765) SAT: 2.375 GPA: 10.0 Essay: 6.1 Rec: 8.1 ExtraC: 5.7 
-766) SAT: 7.3 GPA: 10.0 Essay: 8.2 Rec: 6.8 ExtraC: 8.1 
-767) SAT: 1.55 GPA: 9.5 Essay: 5.3 Rec: 6.5 ExtraC: 2.7 
-768) SAT: 3.75 GPA: 7.75 Essay: 6.0 Rec: 9.7 ExtraC: 6.8 
-769) SAT: 7.375 GPA: 7.0 Essay: 3.4 Rec: 8.6 ExtraC: 8.7 
-770) SAT: 9.9 GPA: 7.5 Essay: 4.2 Rec: 8.7 ExtraC: 4.3 
-771) SAT: 4.95 GPA: 9.5 Essay: 4.9 Rec: 9.8 ExtraC: 5.4 
-772) SAT: 7.2250000000000005 GPA: 8.5 Essay: 6.0 Rec: 7.8 ExtraC: 9.0 
-773) SAT: 1.875 GPA: 8.0 Essay: 8.3 Rec: 8.1 ExtraC: 7.8 
-774) SAT: 8.5 GPA: 9.5 Essay: 5.1 Rec: 7.1 ExtraC: 8.6 
-775) SAT: 8.95 GPA: 5.0 Essay: 4.7 Rec: 9.8 ExtraC: 7.3 
-776) SAT: 0.75 GPA: 9.75 Essay: 4.3 Rec: 7.0 ExtraC: 6.9 
-777) SAT: 4.725 GPA: 8.75 Essay: 6.6 Rec: 9.0 ExtraC: 7.5 
-778) SAT: 9.425 GPA: 7.25 Essay: 5.6 Rec: 7.5 ExtraC: 9.4 
-779) SAT: 2.5 GPA: 7.75 Essay: 6.8 Rec: 6.1 ExtraC: 2.6 
-780) SAT: 2.7 GPA: 9.25 Essay: 9.8 Rec: 8.3 ExtraC: 3.1 
-781) SAT: 7.95 GPA: 7.25 Essay: 4.0 Rec: 6.2 ExtraC: 5.4 
-782) SAT: 8.125 GPA: 5.5 Essay: 5.7 Rec: 10.0 ExtraC: 4.9 
-783) SAT: 9.9 GPA: 7.25 Essay: 3.8 Rec: 8.0 ExtraC: 3.7 
-784) SAT: 8.025 GPA: 7.25 Essay: 7.7 Rec: 6.7 ExtraC: 8.6 
-785) SAT: 5.949999999999999 GPA: 7.25 Essay: 5.7 Rec: 6.5 ExtraC: 5.5 
-786) SAT: 4.575 GPA: 7.0 Essay: 5.1 Rec: 7.7 ExtraC: 9.8 
-787) SAT: 4.425 GPA: 6.25 Essay: 6.1 Rec: 8.4 ExtraC: 4.1 
-788) SAT: 8.7 GPA: 7.0 Essay: 5.7 Rec: 7.0 ExtraC: 5.3 
-789) SAT: 7.425000000000001 GPA: 6.25 Essay: 9.2 Rec: 9.4 ExtraC: 8.0 
-790) SAT: 0.875 GPA: 8.25 Essay: 4.4 Rec: 9.0 ExtraC: 8.7 
-791) SAT: 0.2 GPA: 6.75 Essay: 4.8 Rec: 7.6 ExtraC: 5.9 
-792) SAT: 7.025 GPA: 9.25 Essay: 9.3 Rec: 6.0 ExtraC: 4.3 
-793) SAT: 8.75 GPA: 7.25 Essay: 6.6 Rec: 7.3 ExtraC: 2.4 
-794) SAT: 7.824999999999999 GPA: 6.0 Essay: 6.2 Rec: 6.6 ExtraC: 5.6 
-795) SAT: 8.6 GPA: 9.5 Essay: 7.8 Rec: 9.0 ExtraC: 8.1 
-796) SAT: 4.35 GPA: 9.25 Essay: 5.9 Rec: 8.5 ExtraC: 6.7 
-797) SAT: 2.5 GPA: 8.25 Essay: 9.6 Rec: 8.0 ExtraC: 2.5 
-798) SAT: 4.4 GPA: 6.0 Essay: 9.4 Rec: 7.4 ExtraC: 3.8 
-799) SAT: 2.05 GPA: 6.0 Essay: 7.8 Rec: 8.9 ExtraC: 6.3 
-800) SAT: 7.25 GPA: 7.5 Essay: 8.1 Rec: 6.7 ExtraC: 7.4 
-801) SAT: 1.775 GPA: 5.25 Essay: 7.0 Rec: 9.5 ExtraC: 8.2 
-802) SAT: 3.325 GPA: 6.5 Essay: 7.3 Rec: 9.0 ExtraC: 9.5 
-803) SAT: 2.0 GPA: 10.0 Essay: 7.2 Rec: 6.6 ExtraC: 6.1 
-804) SAT: 6.550000000000001 GPA: 8.0 Essay: 8.1 Rec: 8.3 ExtraC: 9.5 
-805) SAT: 9.525 GPA: 9.0 Essay: 4.1 Rec: 8.5 ExtraC: 6.0 
-806) SAT: 6.925 GPA: 6.75 Essay: 3.1 Rec: 7.7 ExtraC: 6.3 
-807) SAT: 6.800000000000001 GPA: 8.0 Essay: 7.0 Rec: 7.0 ExtraC: 5.8 
-808) SAT: 3.5749999999999997 GPA: 8.0 Essay: 8.4 Rec: 9.9 ExtraC: 4.7 
-809) SAT: 7.1499999999999995 GPA: 5.75 Essay: 5.4 Rec: 7.3 ExtraC: 4.6 
-810) SAT: 8.5 GPA: 9.75 Essay: 9.4 Rec: 8.3 ExtraC: 6.3 
-811) SAT: 8.45 GPA: 7.75 Essay: 5.3 Rec: 10.0 ExtraC: 3.3 
-812) SAT: 8.275 GPA: 8.5 Essay: 6.6 Rec: 9.4 ExtraC: 3.0 
-813) SAT: 0.55 GPA: 7.5 Essay: 8.1 Rec: 8.5 ExtraC: 8.2 
-814) SAT: 2.05 GPA: 10.0 Essay: 5.6 Rec: 9.9 ExtraC: 9.7 
-815) SAT: 7.05 GPA: 8.5 Essay: 3.9 Rec: 6.2 ExtraC: 2.1 
-816) SAT: 4.475 GPA: 9.5 Essay: 9.9 Rec: 7.4 ExtraC: 5.8 
-817) SAT: 5.2 GPA: 6.0 Essay: 3.0 Rec: 9.4 ExtraC: 3.6 
-818) SAT: 1.675 GPA: 8.25 Essay: 9.3 Rec: 8.8 ExtraC: 6.1 
-819) SAT: 0.2 GPA: 8.75 Essay: 3.2 Rec: 9.0 ExtraC: 5.0 
-820) SAT: 8.125 GPA: 9.75 Essay: 5.6 Rec: 6.7 ExtraC: 9.5 
-821) SAT: 3.3000000000000003 GPA: 9.5 Essay: 7.5 Rec: 7.8 ExtraC: 9.5 
-822) SAT: 6.5 GPA: 9.5 Essay: 8.8 Rec: 8.5 ExtraC: 4.1 
-823) SAT: 3.025 GPA: 5.75 Essay: 6.3 Rec: 7.2 ExtraC: 10.0 
-824) SAT: 6.775 GPA: 7.5 Essay: 7.7 Rec: 8.3 ExtraC: 3.3 
-825) SAT: 1.75 GPA: 8.0 Essay: 9.4 Rec: 6.8 ExtraC: 4.8 
-826) SAT: 2.925 GPA: 5.0 Essay: 5.2 Rec: 8.7 ExtraC: 3.7 
-827) SAT: 2.525 GPA: 10.0 Essay: 3.7 Rec: 9.6 ExtraC: 5.6 
-828) SAT: 0.275 GPA: 7.75 Essay: 5.5 Rec: 9.4 ExtraC: 3.4 
-829) SAT: 6.2749999999999995 GPA: 5.75 Essay: 5.3 Rec: 6.4 ExtraC: 5.8 
-830) SAT: 3.175 GPA: 9.0 Essay: 9.7 Rec: 9.9 ExtraC: 4.9 
-831) SAT: 1.1749999999999998 GPA: 5.75 Essay: 9.7 Rec: 6.1 ExtraC: 5.0 
-832) SAT: 3.075 GPA: 6.5 Essay: 5.8 Rec: 8.5 ExtraC: 9.9 
-833) SAT: 6.0 GPA: 9.25 Essay: 9.9 Rec: 8.8 ExtraC: 8.1 
-834) SAT: 4.35 GPA: 8.75 Essay: 5.2 Rec: 9.2 ExtraC: 6.7 
-835) SAT: 4.825 GPA: 7.25 Essay: 8.2 Rec: 9.2 ExtraC: 6.3 
-836) SAT: 2.175 GPA: 5.75 Essay: 5.2 Rec: 6.7 ExtraC: 2.9 
-837) SAT: 6.7 GPA: 6.5 Essay: 4.9 Rec: 8.5 ExtraC: 4.5 
-838) SAT: 6.375 GPA: 9.75 Essay: 7.5 Rec: 6.1 ExtraC: 6.5 
-839) SAT: 6.3 GPA: 8.25 Essay: 6.0 Rec: 8.5 ExtraC: 4.7 
-840) SAT: 2.0250000000000004 GPA: 5.25 Essay: 3.4 Rec: 8.1 ExtraC: 8.8 
-841) SAT: 6.425 GPA: 10.0 Essay: 5.0 Rec: 7.6 ExtraC: 8.5 
-842) SAT: 8.100000000000001 GPA: 8.0 Essay: 9.5 Rec: 6.5 ExtraC: 8.2 
-843) SAT: 0.42500000000000004 GPA: 9.0 Essay: 3.4 Rec: 7.3 ExtraC: 5.4 
-844) SAT: 3.8 GPA: 9.75 Essay: 5.5 Rec: 6.1 ExtraC: 9.9 
-845) SAT: 9.225 GPA: 8.25 Essay: 7.4 Rec: 7.4 ExtraC: 4.2 
-846) SAT: 9.6 GPA: 7.75 Essay: 5.3 Rec: 6.1 ExtraC: 2.6 
-847) SAT: 1.7000000000000002 GPA: 8.25 Essay: 3.5 Rec: 7.8 ExtraC: 2.4 
-848) SAT: 8.8 GPA: 6.25 Essay: 7.6 Rec: 9.3 ExtraC: 5.1 
-849) SAT: 4.35 GPA: 9.25 Essay: 4.3 Rec: 8.0 ExtraC: 3.4 
-850) SAT: 6.1 GPA: 9.5 Essay: 3.9 Rec: 9.9 ExtraC: 9.2 
-851) SAT: 1.1500000000000001 GPA: 9.5 Essay: 6.9 Rec: 9.0 ExtraC: 4.0 
-852) SAT: 8.299999999999999 GPA: 8.5 Essay: 8.7 Rec: 6.6 ExtraC: 7.8 
-853) SAT: 8.9 GPA: 6.75 Essay: 5.7 Rec: 9.9 ExtraC: 8.2 
-854) SAT: 4.4 GPA: 9.25 Essay: 3.3 Rec: 6.4 ExtraC: 7.3 
-855) SAT: 4.3 GPA: 7.75 Essay: 6.7 Rec: 8.5 ExtraC: 2.3 
-856) SAT: 6.949999999999999 GPA: 6.25 Essay: 9.4 Rec: 9.3 ExtraC: 3.6 
-857) SAT: 8.25 GPA: 9.75 Essay: 3.7 Rec: 7.5 ExtraC: 7.4 
-858) SAT: 3.55 GPA: 6.0 Essay: 5.7 Rec: 6.7 ExtraC: 5.0 
-859) SAT: 1.05 GPA: 5.25 Essay: 7.9 Rec: 8.0 ExtraC: 2.2 
-860) SAT: 4.725 GPA: 9.75 Essay: 9.1 Rec: 8.1 ExtraC: 2.3 
-861) SAT: 5.300000000000001 GPA: 9.75 Essay: 7.0 Rec: 6.2 ExtraC: 6.5 
-862) SAT: 6.1 GPA: 8.75 Essay: 8.5 Rec: 8.1 ExtraC: 6.6 
-863) SAT: 9.95 GPA: 6.75 Essay: 6.6 Rec: 6.4 ExtraC: 7.9 
-864) SAT: 1.875 GPA: 7.25 Essay: 9.7 Rec: 8.3 ExtraC: 7.0 
-865) SAT: 3.325 GPA: 8.5 Essay: 7.8 Rec: 6.1 ExtraC: 3.4 
-866) SAT: 7.075 GPA: 7.5 Essay: 3.7 Rec: 8.3 ExtraC: 2.2 
-867) SAT: 1.35 GPA: 5.5 Essay: 9.8 Rec: 8.8 ExtraC: 3.3 
-868) SAT: 5.300000000000001 GPA: 6.5 Essay: 9.4 Rec: 7.3 ExtraC: 8.8 
-869) SAT: 4.8 GPA: 6.5 Essay: 4.4 Rec: 10.0 ExtraC: 5.3 
-870) SAT: 9.45 GPA: 6.0 Essay: 9.1 Rec: 9.6 ExtraC: 8.0 
-871) SAT: 4.85 GPA: 6.25 Essay: 6.0 Rec: 6.7 ExtraC: 4.2 
-872) SAT: 5.949999999999999 GPA: 9.5 Essay: 8.4 Rec: 8.8 ExtraC: 5.6 
-873) SAT: 7.925 GPA: 9.25 Essay: 6.9 Rec: 9.0 ExtraC: 6.3 
-874) SAT: 7.25 GPA: 6.5 Essay: 9.0 Rec: 8.6 ExtraC: 6.9 
-875) SAT: 7.1 GPA: 5.5 Essay: 9.6 Rec: 9.7 ExtraC: 2.9 
-876) SAT: 3.5 GPA: 9.25 Essay: 5.0 Rec: 6.9 ExtraC: 8.2 
-877) SAT: 0.4 GPA: 8.5 Essay: 3.1 Rec: 7.9 ExtraC: 9.0 
-878) SAT: 2.8000000000000003 GPA: 5.25 Essay: 8.3 Rec: 6.2 ExtraC: 8.1 
-879) SAT: 2.05 GPA: 9.25 Essay: 7.2 Rec: 9.1 ExtraC: 6.9 
-880) SAT: 1.4000000000000001 GPA: 7.5 Essay: 9.3 Rec: 6.0 ExtraC: 3.1 
-881) SAT: 5.125 GPA: 8.5 Essay: 4.8 Rec: 7.8 ExtraC: 7.0 
-882) SAT: 3.65 GPA: 9.0 Essay: 6.4 Rec: 8.6 ExtraC: 2.1 
-883) SAT: 2.55 GPA: 8.5 Essay: 8.0 Rec: 7.1 ExtraC: 3.4 
-884) SAT: 5.925000000000001 GPA: 7.75 Essay: 4.6 Rec: 7.4 ExtraC: 6.8 
-885) SAT: 9.975000000000001 GPA: 7.75 Essay: 6.1 Rec: 8.4 ExtraC: 4.6 
-886) SAT: 0.525 GPA: 8.75 Essay: 8.7 Rec: 9.8 ExtraC: 7.9 
-887) SAT: 9.5 GPA: 7.25 Essay: 6.2 Rec: 6.8 ExtraC: 9.3 
-888) SAT: 0.775 GPA: 7.75 Essay: 8.0 Rec: 8.3 ExtraC: 3.9 
-889) SAT: 7.35 GPA: 9.0 Essay: 9.5 Rec: 7.8 ExtraC: 2.7 
-890) SAT: 1.025 GPA: 5.25 Essay: 7.5 Rec: 7.4 ExtraC: 5.2 
-891) SAT: 2.375 GPA: 6.75 Essay: 9.6 Rec: 8.7 ExtraC: 9.5 
-892) SAT: 2.6750000000000003 GPA: 8.75 Essay: 7.7 Rec: 6.3 ExtraC: 7.5 
-893) SAT: 4.1 GPA: 5.25 Essay: 4.1 Rec: 9.4 ExtraC: 4.0 
-894) SAT: 0.75 GPA: 9.75 Essay: 8.7 Rec: 9.2 ExtraC: 6.0 
-895) SAT: 0.5 GPA: 7.75 Essay: 5.3 Rec: 9.9 ExtraC: 9.9 
-896) SAT: 4.175 GPA: 5.5 Essay: 3.3 Rec: 6.2 ExtraC: 5.4 
-897) SAT: 4.3 GPA: 6.5 Essay: 8.4 Rec: 7.5 ExtraC: 9.9 
-898) SAT: 7.0 GPA: 8.25 Essay: 8.1 Rec: 7.5 ExtraC: 7.9 
-899) SAT: 4.2 GPA: 9.0 Essay: 8.4 Rec: 8.3 ExtraC: 7.2 
-900) SAT: 0.15 GPA: 8.25 Essay: 7.1 Rec: 9.3 ExtraC: 5.6 
-901) SAT: 0.8999999999999999 GPA: 9.5 Essay: 9.9 Rec: 7.7 ExtraC: 9.0 
-902) SAT: 9.65 GPA: 9.25 Essay: 9.8 Rec: 6.0 ExtraC: 9.2 
-903) SAT: 3.9250000000000003 GPA: 7.25 Essay: 4.4 Rec: 6.6 ExtraC: 8.5 
-904) SAT: 1.7999999999999998 GPA: 9.25 Essay: 6.2 Rec: 9.6 ExtraC: 3.9 
-905) SAT: 1.9500000000000002 GPA: 6.75 Essay: 3.1 Rec: 9.9 ExtraC: 9.3 
-906) SAT: 6.65 GPA: 10.0 Essay: 7.0 Rec: 7.0 ExtraC: 8.6 
-907) SAT: 0.15 GPA: 6.75 Essay: 8.0 Rec: 10.0 ExtraC: 8.1 
-908) SAT: 5.85 GPA: 9.75 Essay: 7.2 Rec: 8.2 ExtraC: 9.7 
-909) SAT: 5.0249999999999995 GPA: 9.75 Essay: 5.8 Rec: 8.8 ExtraC: 2.8 
-910) SAT: 2.15 GPA: 9.5 Essay: 9.8 Rec: 8.7 ExtraC: 8.3 
-911) SAT: 2.0250000000000004 GPA: 9.25 Essay: 3.8 Rec: 6.9 ExtraC: 8.7 
-912) SAT: 0.2 GPA: 9.5 Essay: 8.8 Rec: 8.3 ExtraC: 3.2 
-913) SAT: 6.45 GPA: 8.0 Essay: 6.4 Rec: 7.4 ExtraC: 6.8 
-914) SAT: 2.55 GPA: 9.75 Essay: 6.9 Rec: 9.4 ExtraC: 5.9 
-915) SAT: 5.25 GPA: 6.75 Essay: 6.1 Rec: 9.7 ExtraC: 2.5 
-916) SAT: 5.4 GPA: 5.75 Essay: 9.6 Rec: 8.0 ExtraC: 8.6 
-917) SAT: 7.35 GPA: 8.5 Essay: 7.8 Rec: 9.4 ExtraC: 9.5 
-918) SAT: 5.324999999999999 GPA: 9.25 Essay: 8.8 Rec: 7.4 ExtraC: 5.7 
-919) SAT: 9.7 GPA: 5.0 Essay: 3.4 Rec: 7.8 ExtraC: 4.9 
-920) SAT: 6.574999999999999 GPA: 8.5 Essay: 5.1 Rec: 6.9 ExtraC: 6.6 
-921) SAT: 7.975 GPA: 8.75 Essay: 9.6 Rec: 6.9 ExtraC: 7.4 
-922) SAT: 0.1 GPA: 9.0 Essay: 8.7 Rec: 9.8 ExtraC: 4.3 
-923) SAT: 6.324999999999999 GPA: 8.5 Essay: 10.0 Rec: 7.3 ExtraC: 6.4 
-924) SAT: 9.350000000000001 GPA: 9.25 Essay: 5.9 Rec: 9.1 ExtraC: 3.8 
-925) SAT: 8.725000000000001 GPA: 8.75 Essay: 4.6 Rec: 9.7 ExtraC: 3.6 
-926) SAT: 5.875 GPA: 8.0 Essay: 9.4 Rec: 9.6 ExtraC: 8.5 
-927) SAT: 4.9 GPA: 8.5 Essay: 6.9 Rec: 7.7 ExtraC: 9.4 
-928) SAT: 2.25 GPA: 7.25 Essay: 7.9 Rec: 6.2 ExtraC: 5.3 
-929) SAT: 9.875 GPA: 8.25 Essay: 3.7 Rec: 10.0 ExtraC: 2.0 
-930) SAT: 6.475 GPA: 9.75 Essay: 9.0 Rec: 6.3 ExtraC: 7.5 
-931) SAT: 0.8 GPA: 9.75 Essay: 6.0 Rec: 7.2 ExtraC: 9.0 
-932) SAT: 6.2250000000000005 GPA: 9.5 Essay: 6.2 Rec: 8.2 ExtraC: 8.3 
-933) SAT: 2.725 GPA: 5.25 Essay: 6.3 Rec: 9.3 ExtraC: 5.7 
-934) SAT: 4.025 GPA: 5.25 Essay: 9.4 Rec: 6.4 ExtraC: 2.8 
-935) SAT: 3.25 GPA: 5.5 Essay: 8.4 Rec: 7.7 ExtraC: 2.7 
-936) SAT: 7.7 GPA: 5.5 Essay: 3.1 Rec: 8.5 ExtraC: 3.2 
-937) SAT: 6.975 GPA: 8.5 Essay: 3.6 Rec: 6.5 ExtraC: 2.1 
-938) SAT: 9.549999999999999 GPA: 8.75 Essay: 9.4 Rec: 7.7 ExtraC: 4.3 
-939) SAT: 6.975 GPA: 8.5 Essay: 5.2 Rec: 6.7 ExtraC: 6.2 
-940) SAT: 7.8500000000000005 GPA: 8.0 Essay: 7.0 Rec: 8.8 ExtraC: 7.5 
-941) SAT: 6.7 GPA: 5.25 Essay: 8.4 Rec: 7.8 ExtraC: 5.7 
-942) SAT: 8.575000000000001 GPA: 6.0 Essay: 6.8 Rec: 9.5 ExtraC: 8.8 
-943) SAT: 6.8500000000000005 GPA: 7.75 Essay: 6.9 Rec: 9.1 ExtraC: 7.6 
-944) SAT: 5.75 GPA: 8.75 Essay: 6.1 Rec: 8.0 ExtraC: 3.2 
-945) SAT: 7.35 GPA: 6.0 Essay: 8.9 Rec: 6.2 ExtraC: 4.9 
-946) SAT: 3.5999999999999996 GPA: 9.25 Essay: 9.6 Rec: 9.7 ExtraC: 6.3 
-947) SAT: 6.2 GPA: 8.0 Essay: 7.0 Rec: 7.6 ExtraC: 2.4 
-948) SAT: 0.325 GPA: 6.25 Essay: 4.8 Rec: 8.3 ExtraC: 3.0 
-949) SAT: 1.075 GPA: 6.25 Essay: 7.8 Rec: 8.7 ExtraC: 2.3 
-950) SAT: 3.875 GPA: 6.25 Essay: 8.3 Rec: 9.3 ExtraC: 7.9 
-951) SAT: 9.1 GPA: 7.75 Essay: 9.4 Rec: 9.0 ExtraC: 7.0 
-952) SAT: 2.8000000000000003 GPA: 5.5 Essay: 6.2 Rec: 6.9 ExtraC: 2.4 
-953) SAT: 0.05 GPA: 9.25 Essay: 7.6 Rec: 8.3 ExtraC: 3.9 
-954) SAT: 7.05 GPA: 8.0 Essay: 6.4 Rec: 9.9 ExtraC: 3.5 
-955) SAT: 6.15 GPA: 5.5 Essay: 6.2 Rec: 7.2 ExtraC: 8.0 
-956) SAT: 4.85 GPA: 8.5 Essay: 10.0 Rec: 7.0 ExtraC: 6.2 
-957) SAT: 7.275 GPA: 5.75 Essay: 3.7 Rec: 8.6 ExtraC: 9.3 
-958) SAT: 7.2250000000000005 GPA: 9.75 Essay: 3.2 Rec: 6.7 ExtraC: 3.2 
-959) SAT: 0.75 GPA: 6.0 Essay: 9.9 Rec: 8.9 ExtraC: 8.2 
-960) SAT: 2.25 GPA: 7.25 Essay: 5.7 Rec: 8.9 ExtraC: 5.3 
-961) SAT: 5.725 GPA: 6.75 Essay: 6.4 Rec: 6.1 ExtraC: 7.1 
-962) SAT: 2.325 GPA: 7.5 Essay: 5.4 Rec: 6.9 ExtraC: 8.1 
-963) SAT: 8.675 GPA: 9.75 Essay: 9.5 Rec: 9.9 ExtraC: 6.8 
-964) SAT: 8.375 GPA: 8.5 Essay: 6.7 Rec: 9.5 ExtraC: 9.0 
-965) SAT: 6.825 GPA: 9.75 Essay: 3.5 Rec: 8.7 ExtraC: 7.4 
-966) SAT: 8.425 GPA: 9.5 Essay: 3.8 Rec: 6.9 ExtraC: 6.9 
-967) SAT: 5.225 GPA: 9.0 Essay: 9.6 Rec: 6.0 ExtraC: 8.6 
-968) SAT: 5.8999999999999995 GPA: 6.25 Essay: 5.4 Rec: 9.7 ExtraC: 5.8 
-969) SAT: 1.0 GPA: 9.0 Essay: 6.0 Rec: 6.1 ExtraC: 8.1 
-970) SAT: 0.3 GPA: 9.25 Essay: 6.2 Rec: 8.3 ExtraC: 7.8 
-971) SAT: 3.375 GPA: 6.25 Essay: 7.7 Rec: 7.6 ExtraC: 9.4 
-972) SAT: 3.4749999999999996 GPA: 6.25 Essay: 8.7 Rec: 7.9 ExtraC: 5.8 
-973) SAT: 4.3 GPA: 10.0 Essay: 5.0 Rec: 7.5 ExtraC: 10.0 
-974) SAT: 1.05 GPA: 9.75 Essay: 4.7 Rec: 7.8 ExtraC: 9.2 
-975) SAT: 7.1 GPA: 7.75 Essay: 7.9 Rec: 6.6 ExtraC: 6.6 
-976) SAT: 4.65 GPA: 5.75 Essay: 6.1 Rec: 9.7 ExtraC: 7.9 
-977) SAT: 1.6500000000000001 GPA: 6.25 Essay: 9.9 Rec: 9.4 ExtraC: 7.4 
-978) SAT: 9.075 GPA: 6.0 Essay: 9.5 Rec: 8.9 ExtraC: 7.2 
-979) SAT: 4.1 GPA: 5.75 Essay: 7.5 Rec: 8.8 ExtraC: 6.3 
-980) SAT: 6.35 GPA: 9.0 Essay: 6.6 Rec: 9.5 ExtraC: 4.0 
-981) SAT: 4.050000000000001 GPA: 8.0 Essay: 8.5 Rec: 6.4 ExtraC: 7.8 
-982) SAT: 3.5999999999999996 GPA: 7.75 Essay: 9.3 Rec: 9.2 ExtraC: 6.0 
-983) SAT: 6.4 GPA: 9.75 Essay: 8.3 Rec: 8.5 ExtraC: 8.4 
-984) SAT: 4.375 GPA: 7.75 Essay: 10.0 Rec: 7.5 ExtraC: 4.1 
-985) SAT: 6.5 GPA: 9.0 Essay: 6.0 Rec: 7.2 ExtraC: 5.8 
-986) SAT: 9.6 GPA: 9.75 Essay: 4.9 Rec: 7.9 ExtraC: 8.4 
-987) SAT: 5.2 GPA: 9.25 Essay: 5.8 Rec: 7.2 ExtraC: 9.8 
-988) SAT: 1.225 GPA: 8.25 Essay: 6.8 Rec: 6.1 ExtraC: 5.8 
-989) SAT: 0.4 GPA: 8.25 Essay: 6.1 Rec: 9.2 ExtraC: 4.4 
-990) SAT: 2.425 GPA: 6.25 Essay: 8.8 Rec: 7.0 ExtraC: 6.9 
-991) SAT: 0.9750000000000001 GPA: 9.5 Essay: 5.8 Rec: 8.1 ExtraC: 3.5 
-992) SAT: 8.675 GPA: 7.5 Essay: 3.8 Rec: 6.6 ExtraC: 9.6 
-993) SAT: 9.125 GPA: 8.25 Essay: 8.8 Rec: 7.2 ExtraC: 9.8 
-994) SAT: 8.025 GPA: 7.25 Essay: 7.5 Rec: 7.4 ExtraC: 5.6 
-995) SAT: 1.2 GPA: 7.0 Essay: 3.8 Rec: 8.2 ExtraC: 3.6 
-996) SAT: 4.1499999999999995 GPA: 9.0 Essay: 6.1 Rec: 7.0 ExtraC: 2.3 
-997) SAT: 0.525 GPA: 6.75 Essay: 9.5 Rec: 7.8 ExtraC: 9.0 
-998) SAT: 1.1 GPA: 6.5 Essay: 5.5 Rec: 6.9 ExtraC: 5.7 
-999) SAT: 3.05 GPA: 5.75 Essay: 3.9 Rec: 6.5 ExtraC: 5.5 
+Descision Boundry: 2.445 * s + 7.461 * g + 1.0 * e + 1.047 * r + 2.3 * c + -107.146 = 0
+
+0) SAT: 1490.0 GPA: 3.0 Essay: 8.1 Rec: 6.7 ExtraC: 7.4 Descison: R Class: R
+1) SAT: 1271.0 GPA: 2.1 Essay: 7.0 Rec: 9.5 ExtraC: 8.2 Descison: R Class: R
+2) SAT: 1333.0 GPA: 2.6 Essay: 7.3 Rec: 9.0 ExtraC: 9.5 Descison: R Class: R
+3) SAT: 1280.0 GPA: 4.0 Essay: 7.2 Rec: 6.6 ExtraC: 6.1 Descison: A Class: R *** ERROR
+4) SAT: 1462.0 GPA: 3.2 Essay: 8.1 Rec: 8.3 ExtraC: 9.5 Descison: A Class: A
+5) SAT: 1581.0 GPA: 3.6 Essay: 4.1 Rec: 8.5 ExtraC: 6.0 Descison: A Class: A
+6) SAT: 1477.0 GPA: 2.7 Essay: 3.1 Rec: 7.7 ExtraC: 6.3 Descison: R Class: R
+7) SAT: 1472.0 GPA: 3.2 Essay: 7.0 Rec: 7.0 ExtraC: 5.8 Descison: R Class: R
+8) SAT: 1343.0 GPA: 3.2 Essay: 8.4 Rec: 9.9 ExtraC: 4.7 Descison: R Class: R
+9) SAT: 1486.0 GPA: 2.3 Essay: 5.4 Rec: 7.3 ExtraC: 4.6 Descison: R Class: R
+10) SAT: 1540.0 GPA: 3.9 Essay: 9.4 Rec: 8.3 ExtraC: 6.3 Descison: A Class: A
+11) SAT: 1538.0 GPA: 3.1 Essay: 5.3 Rec: 10.0 ExtraC: 3.3 Descison: R Class: R
+12) SAT: 1531.0 GPA: 3.4 Essay: 6.6 Rec: 9.4 ExtraC: 3.0 Descison: R Class: R
+13) SAT: 1222.0 GPA: 3.0 Essay: 8.1 Rec: 8.5 ExtraC: 8.2 Descison: R Class: R
+14) SAT: 1282.0 GPA: 4.0 Essay: 5.6 Rec: 9.9 ExtraC: 9.7 Descison: A Class: A
+15) SAT: 1482.0 GPA: 3.4 Essay: 3.9 Rec: 6.2 ExtraC: 2.1 Descison: R Class: R
+16) SAT: 1379.0 GPA: 3.8 Essay: 9.9 Rec: 7.4 ExtraC: 5.8 Descison: A Class: A
+17) SAT: 1408.0 GPA: 2.4 Essay: 3.0 Rec: 9.4 ExtraC: 3.6 Descison: R Class: R
+18) SAT: 1267.0 GPA: 3.3 Essay: 9.3 Rec: 8.8 ExtraC: 6.1 Descison: R Class: R
+19) SAT: 1208.0 GPA: 3.5 Essay: 3.2 Rec: 9.0 ExtraC: 5.0 Descison: R Class: R
+20) SAT: 1525.0 GPA: 3.9 Essay: 5.6 Rec: 6.7 ExtraC: 9.5 Descison: A Class: A
+21) SAT: 1332.0 GPA: 3.8 Essay: 7.5 Rec: 7.8 ExtraC: 9.5 Descison: A Class: A
+22) SAT: 1460.0 GPA: 3.8 Essay: 8.8 Rec: 8.5 ExtraC: 4.1 Descison: A Class: A
+23) SAT: 1321.0 GPA: 2.3 Essay: 6.3 Rec: 7.2 ExtraC: 10.0 Descison: R Class: R
+24) SAT: 1471.0 GPA: 3.0 Essay: 7.7 Rec: 8.3 ExtraC: 3.3 Descison: R Class: R
+25) SAT: 1270.0 GPA: 3.2 Essay: 9.4 Rec: 6.8 ExtraC: 4.8 Descison: R Class: R
+26) SAT: 1317.0 GPA: 2.0 Essay: 5.2 Rec: 8.7 ExtraC: 3.7 Descison: R Class: R
+27) SAT: 1301.0 GPA: 4.0 Essay: 3.7 Rec: 9.6 ExtraC: 5.6 Descison: A Class: R *** ERROR
+28) SAT: 1211.0 GPA: 3.1 Essay: 5.5 Rec: 9.4 ExtraC: 3.4 Descison: R Class: R
+29) SAT: 1451.0 GPA: 2.3 Essay: 5.3 Rec: 6.4 ExtraC: 5.8 Descison: R Class: R
+30) SAT: 1327.0 GPA: 3.6 Essay: 9.7 Rec: 9.9 ExtraC: 4.9 Descison: R Class: R
+31) SAT: 1247.0 GPA: 2.3 Essay: 9.7 Rec: 6.1 ExtraC: 5.0 Descison: R Class: R
+32) SAT: 1323.0 GPA: 2.6 Essay: 5.8 Rec: 8.5 ExtraC: 9.9 Descison: R Class: R
+33) SAT: 1440.0 GPA: 3.7 Essay: 9.9 Rec: 8.8 ExtraC: 8.1 Descison: A Class: A
+34) SAT: 1374.0 GPA: 3.5 Essay: 5.2 Rec: 9.2 ExtraC: 6.7 Descison: R Class: R
+35) SAT: 1393.0 GPA: 2.9 Essay: 8.2 Rec: 9.2 ExtraC: 6.3 Descison: R Class: R
+36) SAT: 1287.0 GPA: 2.3 Essay: 5.2 Rec: 6.7 ExtraC: 2.9 Descison: R Class: R
+37) SAT: 1468.0 GPA: 2.6 Essay: 4.9 Rec: 8.5 ExtraC: 4.5 Descison: R Class: R
+38) SAT: 1455.0 GPA: 3.9 Essay: 7.5 Rec: 6.1 ExtraC: 6.5 Descison: A Class: A
+39) SAT: 1452.0 GPA: 3.3 Essay: 6.0 Rec: 8.5 ExtraC: 4.7 Descison: R Class: R
+40) SAT: 1281.0 GPA: 2.1 Essay: 3.4 Rec: 8.1 ExtraC: 8.8 Descison: R Class: R
+41) SAT: 1457.0 GPA: 4.0 Essay: 5.0 Rec: 7.6 ExtraC: 8.5 Descison: A Class: A
+42) SAT: 1524.0 GPA: 3.2 Essay: 9.5 Rec: 6.5 ExtraC: 8.2 Descison: A Class: A
+43) SAT: 1217.0 GPA: 3.6 Essay: 3.4 Rec: 7.3 ExtraC: 5.4 Descison: R Class: R
+44) SAT: 1352.0 GPA: 3.9 Essay: 5.5 Rec: 6.1 ExtraC: 9.9 Descison: A Class: A
+45) SAT: 1569.0 GPA: 3.3 Essay: 7.4 Rec: 7.4 ExtraC: 4.2 Descison: A Class: A
+46) SAT: 1584.0 GPA: 3.1 Essay: 5.3 Rec: 6.1 ExtraC: 2.6 Descison: R Class: R
+47) SAT: 1268.0 GPA: 3.3 Essay: 3.5 Rec: 7.8 ExtraC: 2.4 Descison: R Class: R
+48) SAT: 1552.0 GPA: 2.5 Essay: 7.6 Rec: 9.3 ExtraC: 5.1 Descison: R Class: R
+49) SAT: 1374.0 GPA: 3.7 Essay: 4.3 Rec: 8.0 ExtraC: 3.4 Descison: R Class: R
+50) SAT: 1444.0 GPA: 3.8 Essay: 3.9 Rec: 9.9 ExtraC: 9.2 Descison: A Class: A
+51) SAT: 1246.0 GPA: 3.8 Essay: 6.9 Rec: 9.0 ExtraC: 4.0 Descison: R Class: R
+52) SAT: 1532.0 GPA: 3.4 Essay: 8.7 Rec: 6.6 ExtraC: 7.8 Descison: A Class: A
+53) SAT: 1556.0 GPA: 2.7 Essay: 5.7 Rec: 9.9 ExtraC: 8.2 Descison: R Class: R
+54) SAT: 1376.0 GPA: 3.7 Essay: 3.3 Rec: 6.4 ExtraC: 7.3 Descison: R Class: R
+55) SAT: 1372.0 GPA: 3.1 Essay: 6.7 Rec: 8.5 ExtraC: 2.3 Descison: R Class: R
+56) SAT: 1478.0 GPA: 2.5 Essay: 9.4 Rec: 9.3 ExtraC: 3.6 Descison: R Class: R
+57) SAT: 1530.0 GPA: 3.9 Essay: 3.7 Rec: 7.5 ExtraC: 7.4 Descison: A Class: A
+58) SAT: 1342.0 GPA: 2.4 Essay: 5.7 Rec: 6.7 ExtraC: 5.0 Descison: R Class: R
+59) SAT: 1242.0 GPA: 2.1 Essay: 7.9 Rec: 8.0 ExtraC: 2.2 Descison: R Class: R
+60) SAT: 1389.0 GPA: 3.9 Essay: 9.1 Rec: 8.1 ExtraC: 2.3 Descison: A Class: R *** ERROR
+61) SAT: 1412.0 GPA: 3.9 Essay: 7.0 Rec: 6.2 ExtraC: 6.5 Descison: A Class: A
+62) SAT: 1444.0 GPA: 3.5 Essay: 8.5 Rec: 8.1 ExtraC: 6.6 Descison: A Class: A
+63) SAT: 1598.0 GPA: 2.7 Essay: 6.6 Rec: 6.4 ExtraC: 7.9 Descison: R Class: R
+64) SAT: 1275.0 GPA: 2.9 Essay: 9.7 Rec: 8.3 ExtraC: 7.0 Descison: R Class: R
+65) SAT: 1333.0 GPA: 3.4 Essay: 7.8 Rec: 6.1 ExtraC: 3.4 Descison: R Class: R
+66) SAT: 1483.0 GPA: 3.0 Essay: 3.7 Rec: 8.3 ExtraC: 2.2 Descison: R Class: R
+67) SAT: 1254.0 GPA: 2.2 Essay: 9.8 Rec: 8.8 ExtraC: 3.3 Descison: R Class: R
+68) SAT: 1412.0 GPA: 2.6 Essay: 9.4 Rec: 7.3 ExtraC: 8.8 Descison: R Class: R
+69) SAT: 1392.0 GPA: 2.6 Essay: 4.4 Rec: 10.0 ExtraC: 5.3 Descison: R Class: R
+70) SAT: 1578.0 GPA: 2.4 Essay: 9.1 Rec: 9.6 ExtraC: 8.0 Descison: R Class: R
+71) SAT: 1394.0 GPA: 2.5 Essay: 6.0 Rec: 6.7 ExtraC: 4.2 Descison: R Class: R
+72) SAT: 1438.0 GPA: 3.8 Essay: 8.4 Rec: 8.8 ExtraC: 5.6 Descison: A Class: A
+73) SAT: 1517.0 GPA: 3.7 Essay: 6.9 Rec: 9.0 ExtraC: 6.3 Descison: A Class: A
+74) SAT: 1490.0 GPA: 2.6 Essay: 9.0 Rec: 8.6 ExtraC: 6.9 Descison: R Class: R
+75) SAT: 1484.0 GPA: 2.2 Essay: 9.6 Rec: 9.7 ExtraC: 2.9 Descison: R Class: R
+76) SAT: 1340.0 GPA: 3.7 Essay: 5.0 Rec: 6.9 ExtraC: 8.2 Descison: A Class: A
+77) SAT: 1216.0 GPA: 3.4 Essay: 3.1 Rec: 7.9 ExtraC: 9.0 Descison: R Class: R
+78) SAT: 1312.0 GPA: 2.1 Essay: 8.3 Rec: 6.2 ExtraC: 8.1 Descison: R Class: R
+79) SAT: 1282.0 GPA: 3.7 Essay: 7.2 Rec: 9.1 ExtraC: 6.9 Descison: R Class: R
+80) SAT: 1256.0 GPA: 3.0 Essay: 9.3 Rec: 6.0 ExtraC: 3.1 Descison: R Class: R
+81) SAT: 1405.0 GPA: 3.4 Essay: 4.8 Rec: 7.8 ExtraC: 7.0 Descison: R Class: R
+82) SAT: 1346.0 GPA: 3.6 Essay: 6.4 Rec: 8.6 ExtraC: 2.1 Descison: R Class: R
+83) SAT: 1302.0 GPA: 3.4 Essay: 8.0 Rec: 7.1 ExtraC: 3.4 Descison: R Class: R
+84) SAT: 1437.0 GPA: 3.1 Essay: 4.6 Rec: 7.4 ExtraC: 6.8 Descison: R Class: R
+85) SAT: 1599.0 GPA: 3.1 Essay: 6.1 Rec: 8.4 ExtraC: 4.6 Descison: A Class: A
+86) SAT: 1221.0 GPA: 3.5 Essay: 8.7 Rec: 9.8 ExtraC: 7.9 Descison: R Class: R
+87) SAT: 1580.0 GPA: 2.9 Essay: 6.2 Rec: 6.8 ExtraC: 9.3 Descison: A Class: A
+88) SAT: 1231.0 GPA: 3.1 Essay: 8.0 Rec: 8.3 ExtraC: 3.9 Descison: R Class: R
+89) SAT: 1494.0 GPA: 3.6 Essay: 9.5 Rec: 7.8 ExtraC: 2.7 Descison: A Class: A
+90) SAT: 1241.0 GPA: 2.1 Essay: 7.5 Rec: 7.4 ExtraC: 5.2 Descison: R Class: R
+91) SAT: 1295.0 GPA: 2.7 Essay: 9.6 Rec: 8.7 ExtraC: 9.5 Descison: R Class: R
+92) SAT: 1307.0 GPA: 3.5 Essay: 7.7 Rec: 6.3 ExtraC: 7.5 Descison: R Class: R
+93) SAT: 1364.0 GPA: 2.1 Essay: 4.1 Rec: 9.4 ExtraC: 4.0 Descison: R Class: R
+94) SAT: 1230.0 GPA: 3.9 Essay: 8.7 Rec: 9.2 ExtraC: 6.0 Descison: R Class: R
+95) SAT: 1220.0 GPA: 3.1 Essay: 5.3 Rec: 9.9 ExtraC: 9.9 Descison: R Class: R
+96) SAT: 1367.0 GPA: 2.2 Essay: 3.3 Rec: 6.2 ExtraC: 5.4 Descison: R Class: R
+97) SAT: 1372.0 GPA: 2.6 Essay: 8.4 Rec: 7.5 ExtraC: 9.9 Descison: R Class: R
+98) SAT: 1480.0 GPA: 3.3 Essay: 8.1 Rec: 7.5 ExtraC: 7.9 Descison: A Class: A
+99) SAT: 1368.0 GPA: 3.6 Essay: 8.4 Rec: 8.3 ExtraC: 7.2 Descison: A Class: A
+100) SAT: 1206.0 GPA: 3.3 Essay: 7.1 Rec: 9.3 ExtraC: 5.6 Descison: R Class: R
+101) SAT: 1236.0 GPA: 3.8 Essay: 9.9 Rec: 7.7 ExtraC: 9.0 Descison: A Class: A
+102) SAT: 1586.0 GPA: 3.7 Essay: 9.8 Rec: 6.0 ExtraC: 9.2 Descison: A Class: A
+103) SAT: 1357.0 GPA: 2.9 Essay: 4.4 Rec: 6.6 ExtraC: 8.5 Descison: R Class: R
+104) SAT: 1272.0 GPA: 3.7 Essay: 6.2 Rec: 9.6 ExtraC: 3.9 Descison: R Class: R
+105) SAT: 1278.0 GPA: 2.7 Essay: 3.1 Rec: 9.9 ExtraC: 9.3 Descison: R Class: R
+106) SAT: 1466.0 GPA: 4.0 Essay: 7.0 Rec: 7.0 ExtraC: 8.6 Descison: A Class: A
+107) SAT: 1206.0 GPA: 2.7 Essay: 8.0 Rec: 10.0 ExtraC: 8.1 Descison: R Class: R
+108) SAT: 1434.0 GPA: 3.9 Essay: 7.2 Rec: 8.2 ExtraC: 9.7 Descison: A Class: A
+109) SAT: 1401.0 GPA: 3.9 Essay: 5.8 Rec: 8.8 ExtraC: 2.8 Descison: R Class: R
+110) SAT: 1286.0 GPA: 3.8 Essay: 9.8 Rec: 8.7 ExtraC: 8.3 Descison: A Class: A
+111) SAT: 1281.0 GPA: 3.7 Essay: 3.8 Rec: 6.9 ExtraC: 8.7 Descison: R Class: R
+112) SAT: 1208.0 GPA: 3.8 Essay: 8.8 Rec: 8.3 ExtraC: 3.2 Descison: R Class: R
+113) SAT: 1458.0 GPA: 3.2 Essay: 6.4 Rec: 7.4 ExtraC: 6.8 Descison: R Class: R
+114) SAT: 1302.0 GPA: 3.9 Essay: 6.9 Rec: 9.4 ExtraC: 5.9 Descison: A Class: A
+115) SAT: 1410.0 GPA: 2.7 Essay: 6.1 Rec: 9.7 ExtraC: 2.5 Descison: R Class: R
+116) SAT: 1416.0 GPA: 2.3 Essay: 9.6 Rec: 8.0 ExtraC: 8.6 Descison: R Class: R
+117) SAT: 1494.0 GPA: 3.4 Essay: 7.8 Rec: 9.4 ExtraC: 9.5 Descison: A Class: A
+118) SAT: 1413.0 GPA: 3.7 Essay: 8.8 Rec: 7.4 ExtraC: 5.7 Descison: A Class: A
+119) SAT: 1588.0 GPA: 2.0 Essay: 3.4 Rec: 7.8 ExtraC: 4.9 Descison: R Class: R
+120) SAT: 1463.0 GPA: 3.4 Essay: 5.1 Rec: 6.9 ExtraC: 6.6 Descison: R Class: R
+121) SAT: 1519.0 GPA: 3.5 Essay: 9.6 Rec: 6.9 ExtraC: 7.4 Descison: A Class: A
+122) SAT: 1204.0 GPA: 3.6 Essay: 8.7 Rec: 9.8 ExtraC: 4.3 Descison: R Class: R
+123) SAT: 1453.0 GPA: 3.4 Essay: 10.0 Rec: 7.3 ExtraC: 6.4 Descison: A Class: A
+124) SAT: 1574.0 GPA: 3.7 Essay: 5.9 Rec: 9.1 ExtraC: 3.8 Descison: A Class: A
+125) SAT: 1549.0 GPA: 3.5 Essay: 4.6 Rec: 9.7 ExtraC: 3.6 Descison: A Class: A
+126) SAT: 1435.0 GPA: 3.2 Essay: 9.4 Rec: 9.6 ExtraC: 8.5 Descison: A Class: A
+127) SAT: 1396.0 GPA: 3.4 Essay: 6.9 Rec: 7.7 ExtraC: 9.4 Descison: A Class: A
+128) SAT: 1290.0 GPA: 2.9 Essay: 7.9 Rec: 6.2 ExtraC: 5.3 Descison: R Class: R
+129) SAT: 1595.0 GPA: 3.3 Essay: 3.7 Rec: 10.0 ExtraC: 2.0 Descison: R Class: R
+130) SAT: 1459.0 GPA: 3.9 Essay: 9.0 Rec: 6.3 ExtraC: 7.5 Descison: A Class: A
+131) SAT: 1232.0 GPA: 3.9 Essay: 6.0 Rec: 7.2 ExtraC: 9.0 Descison: A Class: A
+132) SAT: 1449.0 GPA: 3.8 Essay: 6.2 Rec: 8.2 ExtraC: 8.3 Descison: A Class: A
+133) SAT: 1309.0 GPA: 2.1 Essay: 6.3 Rec: 9.3 ExtraC: 5.7 Descison: R Class: R
+134) SAT: 1361.0 GPA: 2.1 Essay: 9.4 Rec: 6.4 ExtraC: 2.8 Descison: R Class: R
+135) SAT: 1330.0 GPA: 2.2 Essay: 8.4 Rec: 7.7 ExtraC: 2.7 Descison: R Class: R
+136) SAT: 1508.0 GPA: 2.2 Essay: 3.1 Rec: 8.5 ExtraC: 3.2 Descison: R Class: R
+137) SAT: 1479.0 GPA: 3.4 Essay: 3.6 Rec: 6.5 ExtraC: 2.1 Descison: R Class: R
+138) SAT: 1582.0 GPA: 3.5 Essay: 9.4 Rec: 7.7 ExtraC: 4.3 Descison: A Class: A
+139) SAT: 1479.0 GPA: 3.4 Essay: 5.2 Rec: 6.7 ExtraC: 6.2 Descison: R Class: R
+140) SAT: 1514.0 GPA: 3.2 Essay: 7.0 Rec: 8.8 ExtraC: 7.5 Descison: A Class: A
+141) SAT: 1468.0 GPA: 2.1 Essay: 8.4 Rec: 7.8 ExtraC: 5.7 Descison: R Class: R
+142) SAT: 1543.0 GPA: 2.4 Essay: 6.8 Rec: 9.5 ExtraC: 8.8 Descison: R Class: R
+143) SAT: 1474.0 GPA: 3.1 Essay: 6.9 Rec: 9.1 ExtraC: 7.6 Descison: A Class: A
+144) SAT: 1430.0 GPA: 3.5 Essay: 6.1 Rec: 8.0 ExtraC: 3.2 Descison: R Class: R
+145) SAT: 1494.0 GPA: 2.4 Essay: 8.9 Rec: 6.2 ExtraC: 4.9 Descison: R Class: R
+146) SAT: 1344.0 GPA: 3.7 Essay: 9.6 Rec: 9.7 ExtraC: 6.3 Descison: A Class: A
+147) SAT: 1448.0 GPA: 3.2 Essay: 7.0 Rec: 7.6 ExtraC: 2.4 Descison: R Class: R
+148) SAT: 1213.0 GPA: 2.5 Essay: 4.8 Rec: 8.3 ExtraC: 3.0 Descison: R Class: R
+149) SAT: 1243.0 GPA: 2.5 Essay: 7.8 Rec: 8.7 ExtraC: 2.3 Descison: R Class: R
+150) SAT: 1355.0 GPA: 2.5 Essay: 8.3 Rec: 9.3 ExtraC: 7.9 Descison: R Class: R
+151) SAT: 1564.0 GPA: 3.1 Essay: 9.4 Rec: 9.0 ExtraC: 7.0 Descison: A Class: A
+152) SAT: 1312.0 GPA: 2.2 Essay: 6.2 Rec: 6.9 ExtraC: 2.4 Descison: R Class: R
+153) SAT: 1202.0 GPA: 3.7 Essay: 7.6 Rec: 8.3 ExtraC: 3.9 Descison: R Class: R
+154) SAT: 1482.0 GPA: 3.2 Essay: 6.4 Rec: 9.9 ExtraC: 3.5 Descison: R Class: R
+155) SAT: 1446.0 GPA: 2.2 Essay: 6.2 Rec: 7.2 ExtraC: 8.0 Descison: R Class: R
+156) SAT: 1394.0 GPA: 3.4 Essay: 10.0 Rec: 7.0 ExtraC: 6.2 Descison: R Class: A *** ERROR
+157) SAT: 1491.0 GPA: 2.3 Essay: 3.7 Rec: 8.6 ExtraC: 9.3 Descison: R Class: R
+158) SAT: 1489.0 GPA: 3.9 Essay: 3.2 Rec: 6.7 ExtraC: 3.2 Descison: A Class: R *** ERROR
+159) SAT: 1230.0 GPA: 2.4 Essay: 9.9 Rec: 8.9 ExtraC: 8.2 Descison: R Class: R
+160) SAT: 1290.0 GPA: 2.9 Essay: 5.7 Rec: 8.9 ExtraC: 5.3 Descison: R Class: R
+161) SAT: 1429.0 GPA: 2.7 Essay: 6.4 Rec: 6.1 ExtraC: 7.1 Descison: R Class: R
+162) SAT: 1293.0 GPA: 3.0 Essay: 5.4 Rec: 6.9 ExtraC: 8.1 Descison: R Class: R
+163) SAT: 1547.0 GPA: 3.9 Essay: 9.5 Rec: 9.9 ExtraC: 6.8 Descison: A Class: A
+164) SAT: 1535.0 GPA: 3.4 Essay: 6.7 Rec: 9.5 ExtraC: 9.0 Descison: A Class: A
+165) SAT: 1473.0 GPA: 3.9 Essay: 3.5 Rec: 8.7 ExtraC: 7.4 Descison: A Class: A
+166) SAT: 1537.0 GPA: 3.8 Essay: 3.8 Rec: 6.9 ExtraC: 6.9 Descison: A Class: A
+167) SAT: 1409.0 GPA: 3.6 Essay: 9.6 Rec: 6.0 ExtraC: 8.6 Descison: A Class: A
+168) SAT: 1436.0 GPA: 2.5 Essay: 5.4 Rec: 9.7 ExtraC: 5.8 Descison: R Class: R
+169) SAT: 1240.0 GPA: 3.6 Essay: 6.0 Rec: 6.1 ExtraC: 8.1 Descison: R Class: R
+170) SAT: 1212.0 GPA: 3.7 Essay: 6.2 Rec: 8.3 ExtraC: 7.8 Descison: R Class: R
+171) SAT: 1335.0 GPA: 2.5 Essay: 7.7 Rec: 7.6 ExtraC: 9.4 Descison: R Class: R
+172) SAT: 1339.0 GPA: 2.5 Essay: 8.7 Rec: 7.9 ExtraC: 5.8 Descison: R Class: R
+173) SAT: 1372.0 GPA: 4.0 Essay: 5.0 Rec: 7.5 ExtraC: 10.0 Descison: A Class: A
+174) SAT: 1242.0 GPA: 3.9 Essay: 4.7 Rec: 7.8 ExtraC: 9.2 Descison: A Class: A
+175) SAT: 1484.0 GPA: 3.1 Essay: 7.9 Rec: 6.6 ExtraC: 6.6 Descison: R Class: R
+176) SAT: 1386.0 GPA: 2.3 Essay: 6.1 Rec: 9.7 ExtraC: 7.9 Descison: R Class: R
+177) SAT: 1266.0 GPA: 2.5 Essay: 9.9 Rec: 9.4 ExtraC: 7.4 Descison: R Class: R
+178) SAT: 1563.0 GPA: 2.4 Essay: 9.5 Rec: 8.9 ExtraC: 7.2 Descison: R Class: R
+179) SAT: 1364.0 GPA: 2.3 Essay: 7.5 Rec: 8.8 ExtraC: 6.3 Descison: R Class: R
+180) SAT: 1454.0 GPA: 3.6 Essay: 6.6 Rec: 9.5 ExtraC: 4.0 Descison: A Class: A
+181) SAT: 1362.0 GPA: 3.2 Essay: 8.5 Rec: 6.4 ExtraC: 7.8 Descison: R Class: R
+182) SAT: 1344.0 GPA: 3.1 Essay: 9.3 Rec: 9.2 ExtraC: 6.0 Descison: R Class: R
+183) SAT: 1456.0 GPA: 3.9 Essay: 8.3 Rec: 8.5 ExtraC: 8.4 Descison: A Class: A
+184) SAT: 1375.0 GPA: 3.1 Essay: 10.0 Rec: 7.5 ExtraC: 4.1 Descison: R Class: R
+185) SAT: 1460.0 GPA: 3.6 Essay: 6.0 Rec: 7.2 ExtraC: 5.8 Descison: A Class: A
+186) SAT: 1584.0 GPA: 3.9 Essay: 4.9 Rec: 7.9 ExtraC: 8.4 Descison: A Class: A
+187) SAT: 1408.0 GPA: 3.7 Essay: 5.8 Rec: 7.2 ExtraC: 9.8 Descison: A Class: A
+188) SAT: 1249.0 GPA: 3.3 Essay: 6.8 Rec: 6.1 ExtraC: 5.8 Descison: R Class: R
+189) SAT: 1216.0 GPA: 3.3 Essay: 6.1 Rec: 9.2 ExtraC: 4.4 Descison: R Class: R
+190) SAT: 1297.0 GPA: 2.5 Essay: 8.8 Rec: 7.0 ExtraC: 6.9 Descison: R Class: R
+191) SAT: 1239.0 GPA: 3.8 Essay: 5.8 Rec: 8.1 ExtraC: 3.5 Descison: R Class: R
+192) SAT: 1547.0 GPA: 3.0 Essay: 3.8 Rec: 6.6 ExtraC: 9.6 Descison: A Class: A
+193) SAT: 1565.0 GPA: 3.3 Essay: 8.8 Rec: 7.2 ExtraC: 9.8 Descison: A Class: A
+194) SAT: 1521.0 GPA: 2.9 Essay: 7.5 Rec: 7.4 ExtraC: 5.6 Descison: R Class: R
+195) SAT: 1248.0 GPA: 2.8 Essay: 3.8 Rec: 8.2 ExtraC: 3.6 Descison: R Class: R
+196) SAT: 1366.0 GPA: 3.6 Essay: 6.1 Rec: 7.0 ExtraC: 2.3 Descison: R Class: R
+197) SAT: 1221.0 GPA: 2.7 Essay: 9.5 Rec: 7.8 ExtraC: 9.0 Descison: R Class: R
+198) SAT: 1244.0 GPA: 2.6 Essay: 5.5 Rec: 6.9 ExtraC: 5.7 Descison: R Class: R
+199) SAT: 1322.0 GPA: 2.3 Essay: 3.9 Rec: 6.5 ExtraC: 5.5 Descison: R Class: R
+
+Error Rate = 97.5 %

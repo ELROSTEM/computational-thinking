@@ -20,6 +20,24 @@ def normalize_sat(sat, max_sat, min_sat):
     """
     return (10*((sat - 1200) / (1600 - 1200)))
 
+def unnormalize_gpa(gpa):
+    """
+    Unnormalize the gpa score
+    :param gpa: gpa score
+    :return: unnormalized gpa score
+    """
+    return (gpa) / 2.5
+
+def unnormalize_sat(sat):
+    """
+    Unnormalize the SAT score
+    :param sat: SAT score
+    :param max_sat: maximum SAT score
+    :param min_sat: minimum SAT score
+    :return: unnormalized SAT score
+    """
+    return (1200 + (1600 - 1200) * sat / 10)
+
 def calculateOutput(weights, sat, gpa, essay, rec, extra):
     """
     Calculate the output of the perceptron
@@ -63,7 +81,7 @@ with open(f'./runs/{run}', 'r') as f:
         weights = [float(i) for i in weights]
         
 # Read the data from the file
-with open('data.txt', 'r') as f:
+with open('application.txt', 'r') as f:
     for row in f:
             row_lst = row.split()
             sat.append(float(row_lst[0]))
@@ -108,10 +126,16 @@ print(val[-10:])
 
 print(f'Run-{run} Accuracy:', 100*(correct/len(result)))
 
+outputList = []
 
-    
-with open(f'./outputs/testing_output.txt', 'w') as f:
-    f.write("Descision Boundry\n\n")
-    for i in range(0, len(result)):
-        f.write(f"{i}) SAT: {sat[i]} GPA: {gpa[i]} Essay: {essay[i]} Rec: {rec[i]} ExtraC: {extra[i]} \n")
+with open(f'./outputs/deploy_output.txt', 'w') as f:
+    f.write(f"Descision Boundry: {weights[1]} * s + {weights[2]} * g + {weights[3]} * e + {weights[4]} * r + {weights[5]} * c + {weights[0]} = 0\n\n")
+    for i in range(0, len(sat)):
+        if val[i] == 1:
+            val[i] = 'A'
+        else:
+            val[i] = 'R'
+
+       
+        f.write(f"{i}) SAT: {unnormalize_sat(sat[i])} GPA: {unnormalize_gpa(gpa[i])} Essay: {essay[i]} Rec: {rec[i]} ExtraC: {extra[i]} Descison: {val[i]}\n")
     
