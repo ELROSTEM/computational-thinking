@@ -70,7 +70,6 @@ gpa = []
 essay = []
 rec = []
 extra = []
-result = []
 
 # most recent run
 run = os.listdir('./runs')[-1]
@@ -89,10 +88,6 @@ with open('application.txt', 'r') as f:
             essay.append(float(row_lst[2]))
             rec.append(float(row_lst[3]))
             extra.append(float(row_lst[4]))
-            if row_lst[5] == 'A':
-                result.append(1)
-            else:
-                result.append(-1)
 
 
 # Normalize the sat score
@@ -105,37 +100,16 @@ for i in range(0, len(gpa)):
 
 # Calculate the output
 val = []
-err = []
-for i in range(0, len(result)):
+for i in range(0, len(sat)):
     out, error = calculateOutput(weights, sat[i], gpa[i], essay[i], rec[i], extra[i])
     val.append(out)
-    err.append(error)
-
-
-
-correct = 0
-for i in range(0, len(result)):
-    if result[i] == val[i]:
-        print('Correct')
-        correct += 1
-    else:
-        print(f'Incorrect: {err[i]}')
-
-print(result[-10:])
-print(val[-10:])
-
-print(f'Run-{run} Accuracy:', 100*(correct/len(result)))
-
-outputList = []
 
 with open(f'./outputs/deploy_output.txt', 'w') as f:
-    f.write(f"Descision Boundry: {weights[1]} * s + {weights[2]} * g + {weights[3]} * e + {weights[4]} * r + {weights[5]} * c + {weights[0]} = 0\n\n")
-    for i in range(0, len(sat)):
+    for i in range(0, len(val)):
         if val[i] == 1:
             val[i] = 'A'
         else:
             val[i] = 'R'
-
-       
-        f.write(f"{i}) SAT: {unnormalize_sat(sat[i])} GPA: {unnormalize_gpa(gpa[i])} Essay: {essay[i]} Rec: {rec[i]} ExtraC: {extra[i]} Descison: {val[i]}\n")
+        f.write(f"{i}) SAT: {unnormalize_sat(sat[i])} GPA: {unnormalize_gpa(gpa[i])} Essay: {essay[i]} Rec: {rec[i]} ExtraC: {extra[i]} Prediction: {val[i]}\n")
+        print(f"{i}) SAT: {unnormalize_sat(sat[i])} GPA: {unnormalize_gpa(gpa[i])} Essay: {essay[i]} Rec: {rec[i]} ExtraC: {extra[i]} Prediction: {val[i]}")
     
