@@ -72,15 +72,14 @@ rec = []
 extra = []
 
 # most recent run
-run = os.listdir('./runs')[-1]
-with open(f'./runs/{run}', 'r') as f:
+with open(f'./outputs/weights.txt', 'r') as f:
     for row in f:
         weights = row.split()
         weights = [i.replace(',', '') for i in weights]
         weights = [float(i) for i in weights]
         
 # Read the data from the file
-with open('application.txt', 'r') as f:
+with open('./inputs/application.txt', 'r') as f:
     for row in f:
             row_lst = row.split()
             sat.append(float(row_lst[0]))

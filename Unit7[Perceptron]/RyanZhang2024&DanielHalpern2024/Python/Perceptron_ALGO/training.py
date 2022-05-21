@@ -63,7 +63,7 @@ weights = [random()*10, random()*10, random()*10, random()*10, random()*10, rand
 startingWeights = weights
 
 # Read the data from the file
-with open('training.txt', 'r') as f:
+with open('./inputs/training.txt', 'r') as f:
     for row in f:
             row_lst = row.split()
             sat.append(float(row_lst[0]))
@@ -86,8 +86,8 @@ for i in range(0, len(gpa)):
 
 print("Initial Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {} \n".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
 
-learning_rate = 0.0001
-max_epoch = 1000
+learning_rate = 0.0005
+max_epoch = 1000000
 errorList = []
 epochs = []
 trainingOut_list = []
@@ -139,23 +139,20 @@ while True:
     if epoch > max_epoch:
         break
 
-try:
-    run = os.listdir('./runs')[-1][0]
-    with open(f'./runs/{int(run)+1}.txt', 'w') as f:
-        f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
-except Exception as e:
-    with open(f'./runs/1.txt', 'w') as f:
-        f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
 
-    with open(f'./outputs/errors.txt', 'w') as f:
-       for i in range(0, len(errorList)):
-           f.write(f"{errorList[i]}\n")
-    
-    with open(f'./outputs/training_output.txt', 'w') as f:
-        f.write(f"Initial Equation : {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0\n\n")
-        for i in range(0, len(trainingOut_list)):
-           f.write(f"{trainingOut_list[i]}\n")
-        f.write(f"\nFinal Equation: {trainingOut_list[len(trainingOut_list)-1]}")
+with open(f'./outputs/weights.txt', 'w') as f:
+    f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
+
+with open(f'./outputs/errors.txt', 'w') as f:
+    for i in range(0, len(errorList)):
+        f.write(f"{errorList[i]}\n")
+
+with open(f'./outputs/training_output.txt', 'w') as f:
+    f.write(f"Initial Equation : {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0\n\n")
+    for i in range(0, len(trainingOut_list)):
+        f.write(f"{trainingOut_list[i]}\n")
+    f.write(f"\nFinal Equation: {trainingOut_list[len(trainingOut_list)-1]}")
+
 
 # plotting graph
 

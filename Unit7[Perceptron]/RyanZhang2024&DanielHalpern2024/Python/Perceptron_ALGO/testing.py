@@ -73,15 +73,14 @@ extra = []
 result = []
 
 # most recent run
-run = os.listdir('./runs')[-1]
-with open(f'./runs/{run}', 'r') as f:
+with open(f'./outputs/weights.txt', 'r') as f:
     for row in f:
         weights = row.split()
         weights = [i.replace(',', '') for i in weights]
         weights = [float(i) for i in weights]
         
 # Read the data from the file
-with open('testing.txt', 'r') as f:
+with open('./inputs/testing.txt', 'r') as f:
     for row in f:
             row_lst = row.split()
             sat.append(float(row_lst[0]))
@@ -113,18 +112,15 @@ for i in range(0, len(result)):
 
 
 
-correct = 0
+incorrect = 0
 for i in range(0, len(result)):
     if result[i] == val[i]:
         print('Correct')
-        correct += 1
     else:
         print(f'Incorrect: {err[i]}')
+        incorrect += 1
 
-print(result[-10:])
-print(val[-10:])
-
-print(f'Run-{run} Accuracy:', 100*(correct/len(result)))
+print(f'Error Rate:', 100*(incorrect/len(result)))
 
 outputList = []
 
@@ -145,5 +141,5 @@ with open(f'./outputs/testing_output.txt', 'w') as f:
             f.write(f"{i}) SAT: {unnormalize_sat(sat[i])} GPA: {unnormalize_gpa(gpa[i])} Essay: {essay[i]} Rec: {rec[i]} ExtraC: {extra[i]} Descison: {val[i]} Class: {result[i]}\n")
         else:
             f.write(f"{i}) SAT: {unnormalize_sat(sat[i])} GPA: {unnormalize_gpa(gpa[i])} Essay: {essay[i]} Rec: {rec[i]} ExtraC: {extra[i]} Descison: {val[i]} Class: {result[i]} *** ERROR\n")
-    f.write(f"\nError Rate = {100*(correct/len(result))} %")
+    f.write(f"\nError Rate = {100*(incorrect/len(result))} %")
     
