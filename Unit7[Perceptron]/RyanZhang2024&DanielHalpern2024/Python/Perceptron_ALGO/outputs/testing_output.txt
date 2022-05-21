@@ -1,4 +1,4 @@
-Descision Boundry: 0.030318575093006103 * s + 0.10247409757801638 * g + 0.016806183655131438 * e + 0.008246170203414274 * r + 0.03444635484144507 * c + -1.4795595292104156 = 0
+Descision Boundry: 0.026181075093006642 * s + 0.07572409757801636 * g + 0.012006183655131964 * e + 0.0065961702034129845 * r + 0.026296354841446212 * c + -1.1005595292104573 = 0
 
 0) SAT: 1490.0 GPA: 3.0 Essay: 8.1 Rec: 6.7 ExtraC: 7.4 Descison: R Class: R
 1) SAT: 1271.0 GPA: 2.1 Essay: 7.0 Rec: 9.5 ExtraC: 8.2 Descison: R Class: R
@@ -45,7 +45,7 @@ Descision Boundry: 0.030318575093006103 * s + 0.10247409757801638 * g + 0.016806
 42) SAT: 1524.0 GPA: 3.2 Essay: 9.5 Rec: 6.5 ExtraC: 8.2 Descison: A Class: A
 43) SAT: 1217.0 GPA: 3.6 Essay: 3.4 Rec: 7.3 ExtraC: 5.4 Descison: R Class: R
 44) SAT: 1352.0 GPA: 3.9 Essay: 5.5 Rec: 6.1 ExtraC: 9.9 Descison: A Class: A
-45) SAT: 1569.0 GPA: 3.3 Essay: 7.4 Rec: 7.4 ExtraC: 4.2 Descison: R Class: A *** ERROR
+45) SAT: 1569.0 GPA: 3.3 Essay: 7.4 Rec: 7.4 ExtraC: 4.2 Descison: A Class: A
 46) SAT: 1584.0 GPA: 3.1 Essay: 5.3 Rec: 6.1 ExtraC: 2.6 Descison: R Class: R
 47) SAT: 1268.0 GPA: 3.3 Essay: 3.5 Rec: 7.8 ExtraC: 2.4 Descison: R Class: R
 48) SAT: 1552.0 GPA: 2.5 Essay: 7.6 Rec: 9.3 ExtraC: 5.1 Descison: R Class: R
@@ -63,7 +63,7 @@ Descision Boundry: 0.030318575093006103 * s + 0.10247409757801638 * g + 0.016806
 60) SAT: 1389.0 GPA: 3.9 Essay: 9.1 Rec: 8.1 ExtraC: 2.3 Descison: R Class: R
 61) SAT: 1412.0 GPA: 3.9 Essay: 7.0 Rec: 6.2 ExtraC: 6.5 Descison: A Class: A
 62) SAT: 1444.0 GPA: 3.5 Essay: 8.5 Rec: 8.1 ExtraC: 6.6 Descison: A Class: A
-63) SAT: 1598.0 GPA: 2.7 Essay: 6.6 Rec: 6.4 ExtraC: 7.9 Descison: R Class: R
+63) SAT: 1598.0 GPA: 2.7 Essay: 6.6 Rec: 6.4 ExtraC: 7.9 Descison: A Class: R *** ERROR
 64) SAT: 1275.0 GPA: 2.9 Essay: 9.7 Rec: 8.3 ExtraC: 7.0 Descison: R Class: R
 65) SAT: 1333.0 GPA: 3.4 Essay: 7.8 Rec: 6.1 ExtraC: 3.4 Descison: R Class: R
 66) SAT: 1483.0 GPA: 3.0 Essay: 3.7 Rec: 8.3 ExtraC: 2.2 Descison: R Class: R
@@ -76,7 +76,7 @@ Descision Boundry: 0.030318575093006103 * s + 0.10247409757801638 * g + 0.016806
 73) SAT: 1517.0 GPA: 3.7 Essay: 6.9 Rec: 9.0 ExtraC: 6.3 Descison: A Class: A
 74) SAT: 1490.0 GPA: 2.6 Essay: 9.0 Rec: 8.6 ExtraC: 6.9 Descison: R Class: R
 75) SAT: 1484.0 GPA: 2.2 Essay: 9.6 Rec: 9.7 ExtraC: 2.9 Descison: R Class: R
-76) SAT: 1340.0 GPA: 3.7 Essay: 5.0 Rec: 6.9 ExtraC: 8.2 Descison: R Class: A *** ERROR
+76) SAT: 1340.0 GPA: 3.7 Essay: 5.0 Rec: 6.9 ExtraC: 8.2 Descison: A Class: A
 77) SAT: 1216.0 GPA: 3.4 Essay: 3.1 Rec: 7.9 ExtraC: 9.0 Descison: R Class: R
 78) SAT: 1312.0 GPA: 2.1 Essay: 8.3 Rec: 6.2 ExtraC: 8.1 Descison: R Class: R
 79) SAT: 1282.0 GPA: 3.7 Essay: 7.2 Rec: 9.1 ExtraC: 6.9 Descison: R Class: R
@@ -89,7 +89,7 @@ Descision Boundry: 0.030318575093006103 * s + 0.10247409757801638 * g + 0.016806
 86) SAT: 1221.0 GPA: 3.5 Essay: 8.7 Rec: 9.8 ExtraC: 7.9 Descison: R Class: R
 87) SAT: 1580.0 GPA: 2.9 Essay: 6.2 Rec: 6.8 ExtraC: 9.3 Descison: A Class: A
 88) SAT: 1231.0 GPA: 3.1 Essay: 8.0 Rec: 8.3 ExtraC: 3.9 Descison: R Class: R
-89) SAT: 1494.0 GPA: 3.6 Essay: 9.5 Rec: 7.8 ExtraC: 2.7 Descison: R Class: A *** ERROR
+89) SAT: 1494.0 GPA: 3.6 Essay: 9.5 Rec: 7.8 ExtraC: 2.7 Descison: A Class: A
 90) SAT: 1241.0 GPA: 2.1 Essay: 7.5 Rec: 7.4 ExtraC: 5.2 Descison: R Class: R
 91) SAT: 1295.0 GPA: 2.7 Essay: 9.6 Rec: 8.7 ExtraC: 9.5 Descison: R Class: R
 92) SAT: 1307.0 GPA: 3.5 Essay: 7.7 Rec: 6.3 ExtraC: 7.5 Descison: R Class: R
@@ -114,7 +114,7 @@ Descision Boundry: 0.030318575093006103 * s + 0.10247409757801638 * g + 0.016806
 111) SAT: 1281.0 GPA: 3.7 Essay: 3.8 Rec: 6.9 ExtraC: 8.7 Descison: R Class: R
 112) SAT: 1208.0 GPA: 3.8 Essay: 8.8 Rec: 8.3 ExtraC: 3.2 Descison: R Class: R
 113) SAT: 1458.0 GPA: 3.2 Essay: 6.4 Rec: 7.4 ExtraC: 6.8 Descison: R Class: R
-114) SAT: 1302.0 GPA: 3.9 Essay: 6.9 Rec: 9.4 ExtraC: 5.9 Descison: R Class: A *** ERROR
+114) SAT: 1302.0 GPA: 3.9 Essay: 6.9 Rec: 9.4 ExtraC: 5.9 Descison: A Class: A
 115) SAT: 1410.0 GPA: 2.7 Essay: 6.1 Rec: 9.7 ExtraC: 2.5 Descison: R Class: R
 116) SAT: 1416.0 GPA: 2.3 Essay: 9.6 Rec: 8.0 ExtraC: 8.6 Descison: R Class: R
 117) SAT: 1494.0 GPA: 3.4 Essay: 7.8 Rec: 9.4 ExtraC: 9.5 Descison: A Class: A
@@ -125,7 +125,7 @@ Descision Boundry: 0.030318575093006103 * s + 0.10247409757801638 * g + 0.016806
 122) SAT: 1204.0 GPA: 3.6 Essay: 8.7 Rec: 9.8 ExtraC: 4.3 Descison: R Class: R
 123) SAT: 1453.0 GPA: 3.4 Essay: 10.0 Rec: 7.3 ExtraC: 6.4 Descison: A Class: A
 124) SAT: 1574.0 GPA: 3.7 Essay: 5.9 Rec: 9.1 ExtraC: 3.8 Descison: A Class: A
-125) SAT: 1549.0 GPA: 3.5 Essay: 4.6 Rec: 9.7 ExtraC: 3.6 Descison: R Class: A *** ERROR
+125) SAT: 1549.0 GPA: 3.5 Essay: 4.6 Rec: 9.7 ExtraC: 3.6 Descison: A Class: A
 126) SAT: 1435.0 GPA: 3.2 Essay: 9.4 Rec: 9.6 ExtraC: 8.5 Descison: A Class: A
 127) SAT: 1396.0 GPA: 3.4 Essay: 6.9 Rec: 7.7 ExtraC: 9.4 Descison: A Class: A
 128) SAT: 1290.0 GPA: 2.9 Essay: 7.9 Rec: 6.2 ExtraC: 5.3 Descison: R Class: R
@@ -143,7 +143,7 @@ Descision Boundry: 0.030318575093006103 * s + 0.10247409757801638 * g + 0.016806
 140) SAT: 1514.0 GPA: 3.2 Essay: 7.0 Rec: 8.8 ExtraC: 7.5 Descison: A Class: A
 141) SAT: 1468.0 GPA: 2.1 Essay: 8.4 Rec: 7.8 ExtraC: 5.7 Descison: R Class: R
 142) SAT: 1543.0 GPA: 2.4 Essay: 6.8 Rec: 9.5 ExtraC: 8.8 Descison: R Class: R
-143) SAT: 1474.0 GPA: 3.1 Essay: 6.9 Rec: 9.1 ExtraC: 7.6 Descison: R Class: A *** ERROR
+143) SAT: 1474.0 GPA: 3.1 Essay: 6.9 Rec: 9.1 ExtraC: 7.6 Descison: A Class: A
 144) SAT: 1430.0 GPA: 3.5 Essay: 6.1 Rec: 8.0 ExtraC: 3.2 Descison: R Class: R
 145) SAT: 1494.0 GPA: 2.4 Essay: 8.9 Rec: 6.2 ExtraC: 4.9 Descison: R Class: R
 146) SAT: 1344.0 GPA: 3.7 Essay: 9.6 Rec: 9.7 ExtraC: 6.3 Descison: A Class: A
@@ -185,7 +185,7 @@ Descision Boundry: 0.030318575093006103 * s + 0.10247409757801638 * g + 0.016806
 182) SAT: 1344.0 GPA: 3.1 Essay: 9.3 Rec: 9.2 ExtraC: 6.0 Descison: R Class: R
 183) SAT: 1456.0 GPA: 3.9 Essay: 8.3 Rec: 8.5 ExtraC: 8.4 Descison: A Class: A
 184) SAT: 1375.0 GPA: 3.1 Essay: 10.0 Rec: 7.5 ExtraC: 4.1 Descison: R Class: R
-185) SAT: 1460.0 GPA: 3.6 Essay: 6.0 Rec: 7.2 ExtraC: 5.8 Descison: R Class: A *** ERROR
+185) SAT: 1460.0 GPA: 3.6 Essay: 6.0 Rec: 7.2 ExtraC: 5.8 Descison: A Class: A
 186) SAT: 1584.0 GPA: 3.9 Essay: 4.9 Rec: 7.9 ExtraC: 8.4 Descison: A Class: A
 187) SAT: 1408.0 GPA: 3.7 Essay: 5.8 Rec: 7.2 ExtraC: 9.8 Descison: A Class: A
 188) SAT: 1249.0 GPA: 3.3 Essay: 6.8 Rec: 6.1 ExtraC: 5.8 Descison: R Class: R
@@ -201,4 +201,4 @@ Descision Boundry: 0.030318575093006103 * s + 0.10247409757801638 * g + 0.016806
 198) SAT: 1244.0 GPA: 2.6 Essay: 5.5 Rec: 6.9 ExtraC: 5.7 Descison: R Class: R
 199) SAT: 1322.0 GPA: 2.3 Essay: 3.9 Rec: 6.5 ExtraC: 5.5 Descison: R Class: R
 
-Error Rate = 5.0 %
+Error Rate = 2.0 %
