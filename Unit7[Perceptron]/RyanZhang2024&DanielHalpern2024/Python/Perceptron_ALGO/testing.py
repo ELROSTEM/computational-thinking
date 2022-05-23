@@ -1,7 +1,3 @@
-
-import os
-
-
 def normalize_gpa(gpa):
     """
     Normalize the gpa score
