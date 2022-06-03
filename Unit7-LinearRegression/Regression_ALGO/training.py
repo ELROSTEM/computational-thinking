@@ -6,24 +6,68 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
+#
 
-def normalize_gpa(gpa):
+def normalizeType(type):
     """
-    Normalize the gpa score
-    :param gpa: gpa score
-    :return: normalized gpa score
+    Normalize the type of the apartment
+    :param type: type of the apartment
+    :return: the normalized type
     """
-    return (gpa) * 2.5
+    if type == 'coop':
+        return 0
+    else:
+        return 1
 
-def normalize_sat(sat, max_sat, min_sat):
+def normalizeBedroom(bedroom):
     """
-    Normalize the SAT score
-    :param sat: SAT score
-    :param max_sat: maximum SAT score
-    :param min_sat: minimum SAT score
-    :return: normalized SAT score
+    Normalize the number of bedrooms
+    :param bedroom: number of bedrooms
+    :return: the normalized number of bedrooms
     """
-    return (10*((sat - 1200) / (1600 - 1200)))
+    return (bedroom - 1)/6
+
+def normalizeBathroom(bathroom):
+    """
+    Normalize the number of bathrooms
+    :param bathroom: number of bathrooms
+    :return: the normalized number of bathrooms
+    """
+    return (bathroom - 1)/5
+
+def normalizeLivingroom(livingroom):
+    """
+    Normalize the number of livingrooms
+    :param livingroom: number of livingrooms
+    :return: the normalized number of livingrooms
+    """
+    return (livingroom - 1)/2
+
+def normalizeDiningroom(diningroom):
+    """
+    Normalize the number of diningrooms
+    :param diningroom: number of diningrooms
+    :return: the normalized number of diningrooms
+    """
+    return diningroom - 1
+
+def normalizeCondition(condition):
+    """
+    Normalize the condition of the apartment
+    :param condition: condition of the apartment
+    :return: the normalized condition
+    """
+    return (livingroom - 2)/3
+
+def normalizeArea(area):
+    """
+    Normalize the area of the apartment
+    :param area: area of the apartment
+    :return: the normalized area
+    """
+    return (area-900)/3600
+
+
 
 def calculateOutput(weights, sat, gpa, essay, rec, extra):
     """
@@ -51,12 +95,15 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
 
 
 # Training Data
-sat = []
-gpa = []
-essay = []
-rec = []
-extra = []
-result = []
+
+type = []
+bedroom = []
+bathroom = []
+livingroom = []
+diningroom = []
+condition = []
+area = []
+price = []
 
 # Weights
 weights = [random()*10, random()*10, random()*10, random()*10, random()*10, random()*10]
@@ -66,23 +113,19 @@ startingWeights = weights
 with open('./inputs/training.txt', 'r') as f:
     for row in f:
             row_lst = row.split()
-            sat.append(float(row_lst[0]))
-            gpa.append(float(row_lst[1]))
-            essay.append(float(row_lst[2]))
-            rec.append(float(row_lst[3]))
-            extra.append(float(row_lst[4]))
-            if row_lst[5] == 'A':
-                result.append(1)
-            else:
-                result.append(-1)
+            type.append(float(row_lst[0]))
+            bedroom.append(float(row_lst[1]))
+            bathroom.append(float(row_lst[2]))
+            livingroom.append(float(row_lst[3]))
+            diningroom.append(float(row_lst[4]))
+            condition.append(float(row_lst[5]))
+            area.append(float(row_lst[6]))
 
 # Normalize the sat score
-for i in range(0, len(sat)):
+for i in range(0, len(type)):
     sat[i] = normalize_sat(sat[i], max(sat), min(sat))
 
-# Normalize the gpa score
-for i in range(0, len(gpa)):
-    gpa[i] = normalize_gpa(gpa[i])
+
 
 print("Initial Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {} \n".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
 
