@@ -41,7 +41,7 @@ def normalizeLivingroom(livingroom):
     :param livingroom: number of livingrooms
     :return: the normalized number of livingrooms
     """
-    return (livingroom - 1)/2
+    return (livingroom)/2
 
 def normalizeDiningroom(diningroom):
     """
@@ -49,7 +49,7 @@ def normalizeDiningroom(diningroom):
     :param diningroom: number of diningrooms
     :return: the normalized number of diningrooms
     """
-    return diningroom - 1
+    return diningroom 
 
 def normalizeCondition(condition):
     """
@@ -57,7 +57,7 @@ def normalizeCondition(condition):
     :param condition: condition of the apartment
     :return: the normalized condition
     """
-    return (livingroom - 2)/3
+    return (condition - 2)/3
 
 def normalizeArea(area):
     """
@@ -103,9 +103,10 @@ diningroom = []
 condition = []
 area = []
 price = []
+house = []
 
 # Weights
-weights = [random()*10, random()*10, random()*10, random()*10, random()*10, random()*10, random()*10, random()*10]
+weights = [random()*10, random()*10, random()*10, random()*10, random()*10, random()*10, random()*10]
 startingWeights = weights
 
 # Read the data from the file
@@ -119,21 +120,41 @@ with open('./inputs/training.txt', 'r') as f:
             diningroom.append(float(row_lst[4]))
             condition.append(float(row_lst[5]))
             area.append(float(row_lst[6]))
+            print(row_lst)
 
-# Normalize the sat score
+# Normalize the values
 for i in range(0, len(type)):
     type[i] = normalizeType(type[i])
-    bedroom[i] = normalizeType(bedroom[i])
-    bathroom[i] = normalizeType(bathroom[i])
-    livingroom[i] = normalizeType(livingroom[i])
-    diningroom[i] = normalizeType(diningroom[i])
-    condition[i] = normalizeType(condition[i])
-    area[i] = normalizeType(area[i])
+    bedroom[i] = normalizeBedroom(bedroom[i])
+    bathroom[i] = normalizeBathroom(bathroom[i])
+    livingroom[i] = normalizeLivingroom(livingroom[i])
+    diningroom[i] = normalizeDiningroom(diningroom[i])
+    condition[i] = normalizeCondition(condition[i])
+    area[i] = normalizeArea(area[i])
+    house.append([type[i], bedroom[i], bathroom[i], livingroom[i], diningroom[i], condition[i], area[i]])
+
+
+#Matrixing
+house = np.matrix(house)
+weights = np.matrix(np.vstack(np.array(weights)))
+error = np.matrix(np.zeros(len(house)))
+answer = np.add(np.matmul(house , weights), error)
+print(answer)
+
+print(house)
+print(weights)
+
+
+
+
+
+# Training
 
 print(f"Starting Equation: {weights[1]} * type + {weights[2]} * gpa + {weights[3]} * essay + {weights[4]} * rec + {weights[5]} * extra + {weights[0]}")
 
+
 learning_rate = 0.0005
-max_epoch = 10000
+max_epoch = 799
 errorList = []
 epochs = []
 trainingOut_list = []
@@ -141,9 +162,10 @@ epoch = 0
 while epoch < max_epoch:
     epoch += 1
     r = randint(0, len(type)-1)
-    print(calculateOutput(weights, type[r], bedroom[r], bathroom[r], livingroom[r], diningroom[r], condition[r], area[r]))
-
-
+    #print(calculateOutput(weights, type[r], bedroom[r], bathroom[r], livingroom[r], diningroom[r], condition[r], area[r]))
+    # print(type[epoch], bedroom[epoch], bathroom[epoch], livingroom[epoch], diningroom[epoch], condition[epoch])
+    # a = np.matrix([[type, bedroom, bathroom, livingroom, diningroom, condition]])
+    # print(a)
 
 #with open(f'./outputs/weights.txt', 'w') as f:
 #    f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
