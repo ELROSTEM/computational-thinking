@@ -68,8 +68,7 @@ def normalizeArea(area):
     return (area-900)/3600
 
 
-
-def calculateOutput(weights, sat, gpa, essay, rec, extra):
+def calculateOutput(weights, type, bedroom, bathroom, livingroom, diningroom, condition, area):
     """
     Calculate the output of the perceptron
     :param weights: weights of the perceptron
@@ -80,7 +79,7 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
     :param extra: extra score
     :return: the output of the perceptron
     """
-    sum = weights[1] * sat + weights[2] * gpa + weights[3] * essay + weights[4] * rec + weights[5] * extra + weights[0]
+    sum = weights[1] * type + weights[2] * bedroom + weights[3] * bathroom + weights[4] * livingroom + weights[5] * diningroom + weights[6] * condition + weights[7] * area + weights[0]
     if sum > 0:
         return 1
     else:
@@ -106,14 +105,14 @@ area = []
 price = []
 
 # Weights
-weights = [random()*10, random()*10, random()*10, random()*10, random()*10, random()*10]
+weights = [random()*10, random()*10, random()*10, random()*10, random()*10, random()*10, random()*10, random()*10]
 startingWeights = weights
 
 # Read the data from the file
 with open('./inputs/training.txt', 'r') as f:
     for row in f:
             row_lst = row.split()
-            type.append(float(row_lst[0]))
+            type.append(row_lst[0])
             bedroom.append(float(row_lst[1]))
             bathroom.append(float(row_lst[2]))
             livingroom.append(float(row_lst[3]))
@@ -123,69 +122,41 @@ with open('./inputs/training.txt', 'r') as f:
 
 # Normalize the sat score
 for i in range(0, len(type)):
-    sat[i] = normalize_sat(sat[i], max(sat), min(sat))
+    type[i] = normalizeType(type[i])
+    bedroom[i] = normalizeType(bedroom[i])
+    bathroom[i] = normalizeType(bathroom[i])
+    livingroom[i] = normalizeType(livingroom[i])
+    diningroom[i] = normalizeType(diningroom[i])
+    condition[i] = normalizeType(condition[i])
+    area[i] = normalizeType(area[i])
 
-
-
-print("Initial Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {} \n".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
+print(f"Starting Equation: {weights[1]} * type + {weights[2]} * gpa + {weights[3]} * essay + {weights[4]} * rec + {weights[5]} * extra + {weights[0]}")
 
 learning_rate = 0.0005
-max_epoch = 1000000
+max_epoch = 10000
 errorList = []
 epochs = []
 trainingOut_list = []
 epoch = 0
-while True:
+while epoch < max_epoch:
     epoch += 1
-    r = randint(0, len(result)-1)
-    if calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) > result[r]:
-        weights[1] -= learning_rate * sat[r]
-        weights[2] -= learning_rate * gpa[r]
-        weights[3] -= learning_rate * essay[r]
-        weights[4] -= learning_rate * rec[r]
-        weights[5] -= learning_rate * extra[r]
-        weights[0] -= learning_rate
-    elif calculateOutput(weights, sat[r], gpa[r], essay[r], rec[r], extra[r]) < result[r]:
-        weights[1] += learning_rate * sat[r]
-        weights[2] += learning_rate * gpa[r]
-        weights[3] += learning_rate * essay[r]
-        weights[4] += learning_rate * rec[r]
-        weights[5] += learning_rate * extra[r]
-        weights[0] += learning_rate
-
-    error = 0
-    for i in range(0, len(result)):
-        if result[i] != calculateOutput(weights, sat[i], gpa[i], essay[i], rec[i], extra[i]):
-            error += 1
-
-    # For graphs    
-    errorList.append(100*(error/len(result)))
-    epochs.append(epoch)
-    
-    # Print each epoch
-    print("-----------------------------------------------------")
-    print("Epoch {}:".format(epoch))
-    print("Weights: w1 = {}, w2 = {}, w3 = {}, w4 = {}, w5 = {}, w0(bias) = {}".format(weights[1], weights[2], weights[3], weights[4], weights[5], weights[0]))
-    print("-----------------------------------------------------")
-    trainingOut_list.append(f"Iteration: {epoch} Equation {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0 \tERR ="+ str(100*(error/len(result)))+ "%")
+    r = randint(0, len(type)-1)
+    print(calculateOutput(weights, type[r], bedroom[r], bathroom[r], livingroom[r], diningroom[r], condition[r], area[r]))
 
 
-    if epoch > max_epoch:
-        break
 
+#with open(f'./outputs/weights.txt', 'w') as f:
+#    f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
 
-with open(f'./outputs/weights.txt', 'w') as f:
-    f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
+#with open(f'./outputs/errors.txt', 'w') as f:
+#    for i in range(0, len(errorList)):
+#        f.write(f"{errorList[i]}\n")
 
-with open(f'./outputs/errors.txt', 'w') as f:
-    for i in range(0, len(errorList)):
-        f.write(f"{errorList[i]}\n")
-
-with open(f'./outputs/training_output.txt', 'w') as f:
-    f.write(f"Initial Equation : {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0\n\n")
-    for i in range(0, len(trainingOut_list)):
-        f.write(f"{trainingOut_list[i]}\n")
-    f.write(f"\nFinal Equation: {trainingOut_list[len(trainingOut_list)-1]}")
+#with open(f'./outputs/training_output.txt', 'w') as f:
+#    f.write(f"Initial Equation : {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0\n\n")
+#    for i in range(0, len(trainingOut_list)):
+#        f.write(f"{trainingOut_list[i]}\n")
+#    f.write(f"\nFinal Equation: {trainingOut_list[len(trainingOut_list)-1]}")
 
 
 # plotting graph
