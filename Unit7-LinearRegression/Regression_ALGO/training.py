@@ -87,7 +87,7 @@ def calculateOutput(weights, house, error):
 #                                               APP START                                                              #
 #                                                                                                                      
 # TO DO LIST:                                                                                                          #
-#   - Work on constant term which is column 6 whcih is all ones                                                        #                                 
+#   X Work on constant term which is column 6 whcih is all ones                                                        #                                 
 #   - work on normalizing the price                                                                                    #
 ########################################################################################################################
 
@@ -101,11 +101,12 @@ livingroom = []
 diningroom = []
 condition = []
 area = []
+bias = []
 price = []
 house = []
 
 # Weights
-weights = [random()*10, random()*10, random()*10, random()*10, random()*10, random()*10, random()*10]
+weights = [random()*10, random()*10, random()*10, random()*10, random()*10, random()*10, random()*10, random()*10]
 startingWeights = weights
 
 # Read the data from the file
@@ -119,6 +120,7 @@ with open('./inputs/training.txt', 'r') as f:
             diningroom.append(float(row_lst[4]))
             condition.append(float(row_lst[5]))
             area.append(float(row_lst[6]))
+            bias.append(1)
             price.append(float(row_lst[7]))
 
 
@@ -131,7 +133,7 @@ for i in range(0, len(type)):
     diningroom[i] = normalizeDiningroom(diningroom[i])
     condition[i] = normalizeCondition(condition[i])
     area[i] = normalizeArea(area[i])
-    house.append([type[i], bedroom[i], bathroom[i], livingroom[i], diningroom[i], condition[i], area[i]])
+    house.append([type[i], bedroom[i], bathroom[i], livingroom[i], diningroom[i], condition[i], area[i], bias[i]])
 
 
 #Matrixing
@@ -141,7 +143,7 @@ error = np.matrix(np.zeros((len(house), 1)))
 
 # Training Loop
 learning_rate = 0.0025
-max_epoch = 100
+max_epoch = 100000
 epoch = 0
 while epoch < max_epoch:
     epoch += 1
