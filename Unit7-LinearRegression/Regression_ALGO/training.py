@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-#
 
 def normalizeType(type):
     """
@@ -68,28 +67,28 @@ def normalizeArea(area):
     return (area-900)/3600
 
 
-def calculateOutput(weights, type, bedroom, bathroom, livingroom, diningroom, condition, area):
+def calculateOutput(weights, house, error):
     """
     Calculate the output of the perceptron
     :param weights: weights of the perceptron
-    :param sat: SAT score
-    :param gpa: GPA score
-    :param essay: essay score
-    :param rec: recommendation score
-    :param extra: extra score
+    :param house: house matrix
+    :param error: error matrix
     :return: the output of the perceptron
     """
-    sum = weights[1] * type + weights[2] * bedroom + weights[3] * bathroom + weights[4] * livingroom + weights[5] * diningroom + weights[6] * condition + weights[7] * area + weights[0]
-    if sum > 0:
-        return 1
-    else:
-        return -1
+
+    output = np.add(np.matmul(house , weights), error)
+
+    return output
+    
 
 
 ########################################################################################################################
 #                                                                                                                      # 
 #                                               APP START                                                              #
-#                                                                                                                      #
+#                                                                                                                      
+# TO DO LIST:                                                                                                          #
+#   - Work on constant term which is column 6 whcih is all ones                                                        #                                 
+#   - work on normalizing the price                                                                                    #
 ########################################################################################################################
 
 
@@ -120,7 +119,8 @@ with open('./inputs/training.txt', 'r') as f:
             diningroom.append(float(row_lst[4]))
             condition.append(float(row_lst[5]))
             area.append(float(row_lst[6]))
-            print(row_lst)
+            price.append(float(row_lst[7]))
+
 
 # Normalize the values
 for i in range(0, len(type)):
@@ -137,35 +137,33 @@ for i in range(0, len(type)):
 #Matrixing
 house = np.matrix(house)
 weights = np.matrix(np.vstack(np.array(weights)))
-error = np.matrix(np.zeros(len(house)))
-answer = np.add(np.matmul(house , weights), error)
-print(answer)
+error = np.matrix(np.zeros((len(house), 1)))
 
-print(house)
-print(weights)
-
-
-
-
-
-# Training
-
-print(f"Starting Equation: {weights[1]} * type + {weights[2]} * gpa + {weights[3]} * essay + {weights[4]} * rec + {weights[5]} * extra + {weights[0]}")
-
-
-learning_rate = 0.0005
-max_epoch = 799
-errorList = []
-epochs = []
-trainingOut_list = []
+# Training Loop
+learning_rate = 0.0025
+max_epoch = 100
 epoch = 0
 while epoch < max_epoch:
     epoch += 1
-    r = randint(0, len(type)-1)
-    #print(calculateOutput(weights, type[r], bedroom[r], bathroom[r], livingroom[r], diningroom[r], condition[r], area[r]))
-    # print(type[epoch], bedroom[epoch], bathroom[epoch], livingroom[epoch], diningroom[epoch], condition[epoch])
-    # a = np.matrix([[type, bedroom, bathroom, livingroom, diningroom, condition]])
-    # print(a)
+
+    output = calculateOutput(weights, house, error)
+
+    # Calculate the Mean Squared Error
+    sum_error = 0
+    error_lst = []
+    for i in range(0, len(price)):
+        sum_error += (output[i, 0] - price[i])**2
+        error_lst.append(output[i, 0] - price[i])
+    
+    error = np.matrix(np.vstack(np.array(error_lst)))
+    mean_square_error = sum_error/800
+
+    # Calculate the Gradient
+    gradient = np.matmul(house.transpose(), error)
+    weights = np.add(weights, ((learning_rate/800) * gradient))
+
+    print(f"Epoch: {epoch} | MSE: {mean_square_error}")
+    print(f"New weights: ", weights)
 
 #with open(f'./outputs/weights.txt', 'w') as f:
 #    f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
