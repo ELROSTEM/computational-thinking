@@ -66,6 +66,22 @@ def normalizeArea(area):
     """
     return (area-900)/3600
 
+def normalizePrice(price):
+    """
+    Normalize the price of the apartment
+    :param price: price of the apartment
+    :return: the normalized price
+    """
+    return (price - 1000000)/5000000
+
+def unnormalizePrice(price):
+    """
+    Normalize the price of the apartment
+    :param price: price of the apartment
+    :return: the normalized price
+    """
+    return (price * 5000000) + 1000000
+
 
 def calculateOutput(weights, house, error):
     """
@@ -75,8 +91,9 @@ def calculateOutput(weights, house, error):
     :param error: error matrix
     :return: the output of the perceptron
     """
-
+    print("error in function: ", error)
     output = np.add(np.matmul(house , weights), error)
+    # output = np.matmul(house , weights)
 
     return output
     
@@ -85,10 +102,7 @@ def calculateOutput(weights, house, error):
 ########################################################################################################################
 #                                                                                                                      # 
 #                                               APP START                                                              #
-#                                                                                                                      
-# TO DO LIST:                                                                                                          #
-#   X Work on constant term which is column 6 whcih is all ones                                                        #                                 
-#   - work on normalizing the price                                                                                    #
+#                                                                                                                      #
 ########################################################################################################################
 
 
@@ -106,7 +120,7 @@ price = []
 house = []
 
 # Weights
-weights = [random()*10, random()*10, random()*10, random()*10, random()*10, random()*10, random()*10, random()*10]
+weights = [random(), random(), random(), random(), random(), random(), random(), random()]
 startingWeights = weights
 
 # Read the data from the file
@@ -133,6 +147,7 @@ for i in range(0, len(type)):
     diningroom[i] = normalizeDiningroom(diningroom[i])
     condition[i] = normalizeCondition(condition[i])
     area[i] = normalizeArea(area[i])
+    price[i] = normalizePrice(price[i])
     house.append([type[i], bedroom[i], bathroom[i], livingroom[i], diningroom[i], condition[i], area[i], bias[i]])
 
 
@@ -143,29 +158,26 @@ error = np.matrix(np.zeros((len(house), 1)))
 
 # Training Loop
 learning_rate = 0.0025
-max_epoch = 100000
+max_epoch = 10
 epoch = 0
 while epoch < max_epoch:
     epoch += 1
-
+    print(epoch)
     output = calculateOutput(weights, house, error)
 
     # Calculate the Mean Squared Error
-    sum_error = 0
-    error_lst = []
     for i in range(0, len(price)):
-        sum_error += (output[i, 0] - price[i])**2
-        error_lst.append(output[i, 0] - price[i])
-    
-    error = np.matrix(np.vstack(np.array(error_lst)))
-    mean_square_error = sum_error/800
+        error[i] = price[i] - np.matmul(house[i], weights)
+        MSE = np.square(np.subtract(output[i, 0], price[i])).mean()
+        print("output = ", output[i, 0], "price = ", price[i], "error = ", output[i, 0] - price[i], "MSE = ", MSE)
 
-    # Calculate the Gradient
+    # Calculate the Gradient Descent
     gradient = np.matmul(house.transpose(), error)
     weights = np.add(weights, ((learning_rate/800) * gradient))
 
-    print(f"Epoch: {epoch} | MSE: {mean_square_error}")
     print(f"New weights: ", weights)
+
+print(unnormalizePrice(output))
 
 #with open(f'./outputs/weights.txt', 'w') as f:
 #    f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
