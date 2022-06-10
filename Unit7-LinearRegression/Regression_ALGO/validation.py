@@ -59,6 +59,9 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
 #                                                                                                                      #
 ########################################################################################################################
 
+# Calculate mean percent error
+            # difference = np.subtract(output[i, 0], price[i])
+            # percent_error = abs((difference*100)/price[i])
 
 # Data
 sat = []

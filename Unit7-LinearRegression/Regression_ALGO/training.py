@@ -158,39 +158,46 @@ error = np.matrix(np.zeros((len(house), 1)))
 
 # Training Loop
 learning_rate = 0.0025
-max_epoch = 10
+max_epoch = 100
 epoch = 0
+trainingOut_list = []
 while epoch < max_epoch:
     epoch += 1
     print(epoch)
     output = calculateOutput(weights, house, error)
 
-    # Calculate the Mean Squared Error
+    # Calculate the Mean Squared Error (MSE)
+    sum_SE = 0
     for i in range(0, len(price)):
         error[i] = price[i] - np.matmul(house[i], weights)
-        MSE = np.square(np.subtract(output[i, 0], price[i])).mean()
-        print("output = ", output[i, 0], "price = ", price[i], "error = ", output[i, 0] - price[i], "MSE = ", MSE)
+        index_SE = np.square(np.subtract(output[i, 0], price[i]))
+
+        sum_SE += index_SE
 
     # Calculate the Gradient Descent
     gradient = np.matmul(house.transpose(), error)
     weights = np.add(weights, ((learning_rate/800) * gradient))
 
     print(f"New weights: ", weights)
+    epoch_data = f"{epoch}, MSE = {sum_SE/800}"
+    trainingOut_list.append(epoch_data)
 
 print(unnormalizePrice(output))
 
-#with open(f'./outputs/weights.txt', 'w') as f:
-#    f.write("{}, {}, {}, {}, {}, {}".format(weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]))
+# Write the weights to a file
+with open(f'./outputs/weights.txt', 'w') as f:
+    f.write(str(weights))
 
-#with open(f'./outputs/errors.txt', 'w') as f:
+# with open(f'./outputs/errors.txt', 'w') as f:
 #    for i in range(0, len(errorList)):
 #        f.write(f"{errorList[i]}\n")
 
-#with open(f'./outputs/training_output.txt', 'w') as f:
-#    f.write(f"Initial Equation : {weights[1]}*s + {weights[2]}*g + {weights[3]}*e + {weights[4]}*r + {weights[5]}*c + {weights[0]} = 0\n\n")
-#    for i in range(0, len(trainingOut_list)):
-#        f.write(f"{trainingOut_list[i]}\n")
-#    f.write(f"\nFinal Equation: {trainingOut_list[len(trainingOut_list)-1]}")
+# Write the output to a file
+with open(f'./outputs/training_output.txt', 'w') as f:
+   f.write(f"Initial Equation : price = {weights[0]}*type + {weights[1]}*bed + {weights[2]}*bath + {weights[3]}*living + {weights[4]}*dining + {weights[5]}*condition + {weights[6]}*area + {weights[7]}\n\n")
+   for i in range(0, len(trainingOut_list)):
+       f.write(f"{trainingOut_list[i]}\n")
+   f.write(f"\nFinal Equation: {trainingOut_list[len(trainingOut_list)-1]}")
 
 
 # plotting graph
