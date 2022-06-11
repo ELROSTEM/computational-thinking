@@ -1,100 +1,100 @@
-0) SAT: 1239.0 GPA: 3.9 Essay: 9.1 Rec: 9.0 ExtraC: 4.3 Prediction: R
-1) SAT: 1330.0 GPA: 3.7 Essay: 7.8 Rec: 7.8 ExtraC: 5.4 Prediction: R
-2) SAT: 1552.0 GPA: 3.7 Essay: 4.6 Rec: 7.3 ExtraC: 2.9 Prediction: A
-3) SAT: 1306.0 GPA: 2.8 Essay: 6.2 Rec: 6.8 ExtraC: 8.6 Prediction: R
-4) SAT: 1330.0 GPA: 2.6 Essay: 4.0 Rec: 8.7 ExtraC: 6.3 Prediction: R
-5) SAT: 1439.0 GPA: 4.0 Essay: 7.7 Rec: 8.9 ExtraC: 3.0 Prediction: A
-6) SAT: 1243.0 GPA: 3.6 Essay: 3.4 Rec: 9.9 ExtraC: 6.5 Prediction: R
-7) SAT: 1338.0 GPA: 2.6 Essay: 6.0 Rec: 6.1 ExtraC: 8.0 Prediction: R
-8) SAT: 1543.0 GPA: 3.8 Essay: 7.3 Rec: 6.3 ExtraC: 3.8 Prediction: A
-9) SAT: 1489.0 GPA: 2.7 Essay: 7.2 Rec: 6.7 ExtraC: 6.4 Prediction: R
-10) SAT: 1371.0 GPA: 3.0 Essay: 9.0 Rec: 8.3 ExtraC: 3.5 Prediction: R
-11) SAT: 1355.0 GPA: 2.3 Essay: 4.2 Rec: 6.2 ExtraC: 9.1 Prediction: R
-12) SAT: 1318.0 GPA: 2.3 Essay: 8.0 Rec: 7.4 ExtraC: 3.2 Prediction: R
-13) SAT: 1309.0 GPA: 3.4 Essay: 6.2 Rec: 8.8 ExtraC: 7.8 Prediction: R
-14) SAT: 1282.0 GPA: 3.1 Essay: 7.5 Rec: 9.3 ExtraC: 7.2 Prediction: R
-15) SAT: 1546.0 GPA: 3.1 Essay: 3.0 Rec: 7.9 ExtraC: 7.8 Prediction: A
-16) SAT: 1419.0 GPA: 3.8 Essay: 4.7 Rec: 7.6 ExtraC: 5.7 Prediction: A
-17) SAT: 1370.0 GPA: 3.6 Essay: 7.4 Rec: 8.4 ExtraC: 8.8 Prediction: A
-18) SAT: 1408.0 GPA: 3.8 Essay: 3.1 Rec: 6.9 ExtraC: 4.0 Prediction: R
-19) SAT: 1265.0 GPA: 3.0 Essay: 9.6 Rec: 8.5 ExtraC: 3.7 Prediction: R
-20) SAT: 1469.0 GPA: 3.7 Essay: 8.4 Rec: 7.2 ExtraC: 7.2 Prediction: A
-21) SAT: 1369.0 GPA: 2.4 Essay: 4.4 Rec: 7.7 ExtraC: 7.2 Prediction: R
-22) SAT: 1568.0 GPA: 3.9 Essay: 6.8 Rec: 6.6 ExtraC: 5.0 Prediction: A
-23) SAT: 1207.0 GPA: 3.2 Essay: 4.2 Rec: 8.6 ExtraC: 3.5 Prediction: R
-24) SAT: 1211.0 GPA: 2.3 Essay: 3.6 Rec: 6.2 ExtraC: 5.2 Prediction: R
-25) SAT: 1334.0 GPA: 2.4 Essay: 9.3 Rec: 7.1 ExtraC: 8.6 Prediction: R
-26) SAT: 1244.0 GPA: 3.9 Essay: 7.6 Rec: 9.5 ExtraC: 4.2 Prediction: R
-27) SAT: 1320.0 GPA: 2.6 Essay: 6.1 Rec: 8.0 ExtraC: 7.9 Prediction: R
-28) SAT: 1238.0 GPA: 2.8 Essay: 7.9 Rec: 8.6 ExtraC: 6.6 Prediction: R
-29) SAT: 1233.0 GPA: 3.3 Essay: 4.1 Rec: 7.0 ExtraC: 4.5 Prediction: R
-30) SAT: 1339.0 GPA: 2.6 Essay: 6.4 Rec: 7.7 ExtraC: 4.7 Prediction: R
-31) SAT: 1555.0 GPA: 3.5 Essay: 6.8 Rec: 9.2 ExtraC: 2.4 Prediction: R
-32) SAT: 1348.0 GPA: 3.8 Essay: 3.1 Rec: 6.1 ExtraC: 8.3 Prediction: A
-33) SAT: 1312.0 GPA: 2.7 Essay: 3.7 Rec: 8.9 ExtraC: 8.6 Prediction: R
-34) SAT: 1531.0 GPA: 3.6 Essay: 4.7 Rec: 8.1 ExtraC: 5.8 Prediction: A
-35) SAT: 1525.0 GPA: 3.2 Essay: 3.9 Rec: 9.9 ExtraC: 9.0 Prediction: A
-36) SAT: 1379.0 GPA: 2.6 Essay: 4.1 Rec: 9.7 ExtraC: 8.1 Prediction: R
-37) SAT: 1397.0 GPA: 3.6 Essay: 6.7 Rec: 6.1 ExtraC: 6.9 Prediction: A
-38) SAT: 1433.0 GPA: 2.8 Essay: 6.6 Rec: 8.4 ExtraC: 5.5 Prediction: R
-39) SAT: 1321.0 GPA: 3.8 Essay: 8.3 Rec: 7.6 ExtraC: 6.9 Prediction: A
-40) SAT: 1433.0 GPA: 2.5 Essay: 6.0 Rec: 9.3 ExtraC: 8.1 Prediction: R
-41) SAT: 1561.0 GPA: 3.3 Essay: 5.6 Rec: 6.2 ExtraC: 6.9 Prediction: A
-42) SAT: 1300.0 GPA: 3.0 Essay: 9.5 Rec: 7.6 ExtraC: 5.4 Prediction: R
-43) SAT: 1477.0 GPA: 3.8 Essay: 4.7 Rec: 6.9 ExtraC: 9.5 Prediction: A
-44) SAT: 1545.0 GPA: 3.6 Essay: 5.5 Rec: 7.5 ExtraC: 5.2 Prediction: A
-45) SAT: 1514.0 GPA: 3.4 Essay: 5.0 Rec: 8.2 ExtraC: 2.7 Prediction: R
-46) SAT: 1557.0 GPA: 2.3 Essay: 5.2 Rec: 7.3 ExtraC: 9.7 Prediction: R
-47) SAT: 1229.0 GPA: 2.5 Essay: 7.2 Rec: 7.8 ExtraC: 4.1 Prediction: R
-48) SAT: 1282.0 GPA: 3.4 Essay: 8.3 Rec: 6.6 ExtraC: 2.9 Prediction: R
-49) SAT: 1271.0 GPA: 3.7 Essay: 3.1 Rec: 7.7 ExtraC: 2.5 Prediction: R
-50) SAT: 1583.0 GPA: 2.6 Essay: 9.1 Rec: 7.2 ExtraC: 7.4 Prediction: R
-51) SAT: 1308.0 GPA: 2.2 Essay: 5.5 Rec: 8.2 ExtraC: 7.2 Prediction: R
-52) SAT: 1375.0 GPA: 2.9 Essay: 8.5 Rec: 9.0 ExtraC: 8.2 Prediction: R
-53) SAT: 1496.0 GPA: 3.6 Essay: 3.0 Rec: 7.3 ExtraC: 4.2 Prediction: R
-54) SAT: 1309.0 GPA: 3.1 Essay: 9.8 Rec: 6.1 ExtraC: 7.5 Prediction: R
-55) SAT: 1233.0 GPA: 2.4 Essay: 6.6 Rec: 6.4 ExtraC: 7.1 Prediction: R
-56) SAT: 1430.0 GPA: 2.1 Essay: 9.5 Rec: 7.8 ExtraC: 5.0 Prediction: R
-57) SAT: 1440.0 GPA: 3.4 Essay: 6.3 Rec: 9.8 ExtraC: 4.2 Prediction: R
-58) SAT: 1245.0 GPA: 2.8 Essay: 8.0 Rec: 9.6 ExtraC: 3.1 Prediction: R
-59) SAT: 1398.0 GPA: 3.3 Essay: 9.8 Rec: 8.0 ExtraC: 9.8 Prediction: A
-60) SAT: 1294.0 GPA: 3.6 Essay: 6.6 Rec: 6.8 ExtraC: 8.4 Prediction: R
-61) SAT: 1281.0 GPA: 2.6 Essay: 3.1 Rec: 8.9 ExtraC: 5.1 Prediction: R
-62) SAT: 1461.0 GPA: 2.6 Essay: 6.2 Rec: 8.3 ExtraC: 7.9 Prediction: R
-63) SAT: 1528.0 GPA: 2.4 Essay: 6.2 Rec: 7.2 ExtraC: 3.1 Prediction: R
-64) SAT: 1491.0 GPA: 2.8 Essay: 6.7 Rec: 7.8 ExtraC: 4.4 Prediction: R
-65) SAT: 1469.0 GPA: 3.9 Essay: 9.6 Rec: 8.6 ExtraC: 5.6 Prediction: A
-66) SAT: 1566.0 GPA: 3.7 Essay: 4.5 Rec: 7.7 ExtraC: 2.7 Prediction: A
-67) SAT: 1210.0 GPA: 3.3 Essay: 5.6 Rec: 6.2 ExtraC: 4.9 Prediction: R
-68) SAT: 1506.0 GPA: 3.4 Essay: 7.6 Rec: 6.9 ExtraC: 4.2 Prediction: R
-69) SAT: 1360.0 GPA: 2.1 Essay: 6.2 Rec: 9.4 ExtraC: 4.6 Prediction: R
-70) SAT: 1439.0 GPA: 3.2 Essay: 8.1 Rec: 6.5 ExtraC: 2.3 Prediction: R
-71) SAT: 1212.0 GPA: 3.6 Essay: 9.8 Rec: 9.9 ExtraC: 5.5 Prediction: R
-72) SAT: 1368.0 GPA: 3.8 Essay: 5.2 Rec: 8.6 ExtraC: 4.6 Prediction: R
-73) SAT: 1359.0 GPA: 3.3 Essay: 9.7 Rec: 9.1 ExtraC: 7.7 Prediction: A
-74) SAT: 1327.0 GPA: 3.1 Essay: 5.8 Rec: 9.9 ExtraC: 8.0 Prediction: R
-75) SAT: 1473.0 GPA: 2.8 Essay: 8.6 Rec: 6.6 ExtraC: 3.9 Prediction: R
-76) SAT: 1248.0 GPA: 3.5 Essay: 8.7 Rec: 9.4 ExtraC: 9.0 Prediction: R
-77) SAT: 1540.0 GPA: 3.8 Essay: 7.7 Rec: 9.3 ExtraC: 8.8 Prediction: A
-78) SAT: 1246.0 GPA: 2.5 Essay: 8.2 Rec: 7.7 ExtraC: 9.1 Prediction: R
-79) SAT: 1224.0 GPA: 3.7 Essay: 6.9 Rec: 6.1 ExtraC: 6.8 Prediction: R
-80) SAT: 1306.0 GPA: 2.7 Essay: 4.0 Rec: 8.7 ExtraC: 4.5 Prediction: R
-81) SAT: 1557.0 GPA: 2.7 Essay: 7.8 Rec: 8.8 ExtraC: 6.0 Prediction: R
-82) SAT: 1568.0 GPA: 3.6 Essay: 4.7 Rec: 9.0 ExtraC: 7.3 Prediction: A
-83) SAT: 1244.0 GPA: 3.2 Essay: 6.8 Rec: 9.2 ExtraC: 5.4 Prediction: R
-84) SAT: 1358.0 GPA: 3.8 Essay: 7.7 Rec: 6.5 ExtraC: 4.7 Prediction: R
-85) SAT: 1423.0 GPA: 2.4 Essay: 4.1 Rec: 6.5 ExtraC: 3.7 Prediction: R
-86) SAT: 1505.0 GPA: 2.8 Essay: 6.9 Rec: 9.6 ExtraC: 2.4 Prediction: R
-87) SAT: 1546.0 GPA: 3.6 Essay: 5.8 Rec: 8.2 ExtraC: 5.9 Prediction: A
-88) SAT: 1560.0 GPA: 3.0 Essay: 5.1 Rec: 6.6 ExtraC: 3.7 Prediction: R
-89) SAT: 1584.0 GPA: 2.5 Essay: 8.7 Rec: 8.0 ExtraC: 2.3 Prediction: R
-90) SAT: 1292.0 GPA: 3.8 Essay: 9.6 Rec: 9.6 ExtraC: 2.3 Prediction: R
-91) SAT: 1311.0 GPA: 2.9 Essay: 4.6 Rec: 7.8 ExtraC: 6.6 Prediction: R
-92) SAT: 1378.0 GPA: 2.4 Essay: 9.7 Rec: 10.0 ExtraC: 2.9 Prediction: R
-93) SAT: 1203.0 GPA: 3.7 Essay: 9.4 Rec: 7.7 ExtraC: 5.4 Prediction: R
-94) SAT: 1357.0 GPA: 2.6 Essay: 9.3 Rec: 8.8 ExtraC: 5.6 Prediction: R
-95) SAT: 1245.0 GPA: 3.3 Essay: 7.9 Rec: 9.7 ExtraC: 3.3 Prediction: R
-96) SAT: 1498.0 GPA: 2.3 Essay: 3.4 Rec: 8.8 ExtraC: 2.4 Prediction: R
-97) SAT: 1239.0 GPA: 3.9 Essay: 6.6 Rec: 7.3 ExtraC: 5.3 Prediction: R
-98) SAT: 1236.0 GPA: 3.6 Essay: 7.3 Rec: 6.2 ExtraC: 8.2 Prediction: R
-99) SAT: 1492.0 GPA: 2.1 Essay: 7.5 Rec: 8.6 ExtraC: 5.7 Prediction: R
+4191294.966055556
+1365910.9034444445
+3268946.8927777777
+3457266.5699444446
+2396469.4505000003
+3431970.934888889
+3250770.259111111
+3074367.0568333333
+3521323.9355555554
+3081452.6612777775
+2638600.6253333334
+3011928.0505
+1322702.9602777776
+1165668.0518333334
+2286786.559611111
+2356402.358722222
+2853737.1626666663
+3630098.4945555557
+1646170.8222222223
+1371374.5977777778
+1981029.4006111112
+1201182.065
+2188860.918777778
+5382727.551277778
+1877374.6083888889
+3797327.1200555554
+2559386.626611111
+3210705.4511666666
+1268066.0169444445
+2481565.7168888887
+2611436.329
+1960649.6433333333
+3932478.6477222224
+3503214.662388889
+2645423.171222222
+3406147.5766666667
+3749977.3863333333
+1922905.3945
+1789892.7062222222
+1883748.9184444444
+2021096.492388889
+2534300.6744444445
+2482894.9059444442
+2399201.297666667
+3154471.577888889
+2259468.0879444443
+2608998.5423333333
+1410531.0738333333
+1291742.0257222222
+2514796.1187222223
+2513437.2671666667
+1255317.3968333334
+3526643.0236666664
+1869179.0668888888
+1418726.6153333334
+1767127.3131666665
+3134562.433666667
+3373867.022166667
+2050236.1955
+2763416.5473333336
+5188869.741944445
+3479242.198111111
+2715825.184388889
+2875591.94
+2394742.9582222225
+2410128.686333333
+1901961.232888889
+2594891.0706666666
+3772097.6207222226
+1859508.5053333333
+2278591.0181111116
+2391005.7561666667
+1267155.4012222223
+2489761.258388889
+2182486.608722222
+1496537.9559444445
+3800790.355
+2347717.058666667
+2147170.4662777777
+1238926.3138333333
+1852787.9838888887
+2335458.197111111
+2743238.3952222224
+2567572.599
+3001989.7480555554
+1300848.1829444445
+1243479.3924444444
+1807758.8092777778
+1435117.6983333332
+1436938.9297777778
+2859200.857
+3215891.8355
+1355894.1305
+1759842.3873888887
+1391408.1436666667
+3564416.935
+5235311.143777778
+2446962.3194444445
+1527498.8905
+1779529.7218888889

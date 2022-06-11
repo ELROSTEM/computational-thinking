@@ -1,56 +1,102 @@
-def normalize_gpa(gpa):
-    """
-    Normalize the gpa score
-    :param gpa: gpa score
-    :return: normalized gpa score
-    """
-    return (gpa) * 2.5
+from random import randint, random
 
-def normalize_sat(sat, max_sat, min_sat):
-    """
-    Normalize the SAT score
-    :param sat: SAT score
-    :param max_sat: maximum SAT score
-    :param min_sat: minimum SAT score
-    :return: normalized SAT score
-    """
-    return (10*((sat - 1200) / (1600 - 1200)))
+# Plotting libraries
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
 
-def unnormalize_gpa(gpa):
-    """
-    Unnormalize the gpa score
-    :param gpa: gpa score
-    :return: unnormalized gpa score
-    """
-    return (gpa) / 2.5
 
-def unnormalize_sat(sat):
+def normalizeType(type):
     """
-    Unnormalize the SAT score
-    :param sat: SAT score
-    :param max_sat: maximum SAT score
-    :param min_sat: minimum SAT score
-    :return: unnormalized SAT score
+    Normalize the type of the apartment
+    :param type: type of the apartment
+    :return: the normalized type
     """
-    return (1200 + (1600 - 1200) * sat / 10)
+    if type == 'coop':
+        return 0
+    else:
+        return 1
 
-def calculateOutput(weights, sat, gpa, essay, rec, extra):
+def normalizeBedroom(bedroom):
+    """
+    Normalize the number of bedrooms
+    :param bedroom: number of bedrooms
+    :return: the normalized number of bedrooms
+    """
+    return (bedroom - 1)/6
+
+def normalizeBathroom(bathroom):
+    """
+    Normalize the number of bathrooms
+    :param bathroom: number of bathrooms
+    :return: the normalized number of bathrooms
+    """
+    return (bathroom - 1)/5
+
+def normalizeLivingroom(livingroom):
+    """
+    Normalize the number of livingrooms
+    :param livingroom: number of livingrooms
+    :return: the normalized number of livingrooms
+    """
+    return (livingroom)/2
+
+def normalizeDiningroom(diningroom):
+    """
+    Normalize the number of diningrooms
+    :param diningroom: number of diningrooms
+    :return: the normalized number of diningrooms
+    """
+    return diningroom 
+
+def normalizeCondition(condition):
+    """
+    Normalize the condition of the apartment
+    :param condition: condition of the apartment
+    :return: the normalized condition
+    """
+    return (condition - 2)/3
+
+def normalizeArea(area):
+    """
+    Normalize the area of the apartment
+    :param area: area of the apartment
+    :return: the normalized area
+    """
+    return (area-900)/3600
+
+def normalizePrice(price):
+    """
+    Normalize the price of the apartment
+    :param price: price of the apartment
+    :return: the normalized price
+    """
+    return (price - 1000000)/5000000
+
+def unnormalizePrice(price):
+    """
+    Normalize the price of the apartment
+    :param price: price of the apartment
+    :return: the normalized price
+    """
+    return (price * 5000000) + 1000000
+
+
+def calculateOutput(weights, house, error):
     """
     Calculate the output of the perceptron
     :param weights: weights of the perceptron
-    :param sat: SAT score
-    :param gpa: GPA score
-    :param essay: essay score
-    :param rec: recommendation score
-    :param extra: extra score
+    :param house: house matrix
+    :param error: error matrix
     :return: the output of the perceptron
     """
+    # print("error in function: ", error)
+    output = np.add(np.matmul(house , weights), error)
+    # output = np.matmul(house , weights)
 
-    sum =  weights[1] * sat + weights[2] * gpa + weights[3] * essay + weights[4] * rec + weights[5] * extra + weights[0]
-    if sum >= 0:
-        return 1, sum
-    else:
-        return -1, sum
+    return output
+    
 
 
 ########################################################################################################################
@@ -60,51 +106,58 @@ def calculateOutput(weights, sat, gpa, essay, rec, extra):
 ########################################################################################################################
 
 
-# Data
-sat = []
-gpa = []
-essay = []
-rec = []
-extra = []
+# Training Data
+type = []
+bedroom = []
+bathroom = []
+livingroom = []
+diningroom = []
+condition = []
+area = []
+bias = []
+house = []
 
-# most recent run
+# Weights
+weights = []
 with open(f'./outputs/weights.txt', 'r') as f:
     for row in f:
-        weights = row.split()
-        weights = [i.replace(',', '') for i in weights]
-        weights = [float(i) for i in weights]
-        
+        row = row.replace('\n', '')
+        row = row.replace('[', '')
+        row = row.replace(']', '')
+        row = row.replace(' ', '')
+        row = float(row)
+        weights.append(row)
+
+
 # Read the data from the file
-with open('./inputs/application.txt', 'r') as f:
+with open('./inputs/deployment.txt', 'r') as f:
     for row in f:
-            row_lst = row.split()
-            sat.append(float(row_lst[0]))
-            gpa.append(float(row_lst[1]))
-            essay.append(float(row_lst[2]))
-            rec.append(float(row_lst[3]))
-            extra.append(float(row_lst[4]))
+        row_lst = row.split()
+        type.append(row_lst[0])
+        bedroom.append(float(row_lst[1]))
+        bathroom.append(float(row_lst[2]))
+        livingroom.append(float(row_lst[3]))
+        diningroom.append(float(row_lst[4]))
+        condition.append(float(row_lst[5]))
+        area.append(float(row_lst[6]))
+        bias.append(1)
 
 
-# Normalize the sat score
-for i in range(0, len(sat)):
-    sat[i] = normalize_sat(sat[i], max(sat), min(sat))
-
-# Normalize the gpa score
-for i in range(0, len(gpa)):
-    gpa[i] = normalize_gpa(gpa[i])
+# Normalize the values
+for i in range(0, len(type)):
+    type[i] = normalizeType(type[i])
+    bedroom[i] = normalizeBedroom(bedroom[i])
+    bathroom[i] = normalizeBathroom(bathroom[i])
+    livingroom[i] = normalizeLivingroom(livingroom[i])
+    diningroom[i] = normalizeDiningroom(diningroom[i])
+    condition[i] = normalizeCondition(condition[i])
+    area[i] = normalizeArea(area[i])
+    house.append([type[i], bedroom[i], bathroom[i], livingroom[i], diningroom[i], condition[i], area[i], bias[i]])
 
 # Calculate the output
-val = []
-for i in range(0, len(sat)):
-    out, error = calculateOutput(weights, sat[i], gpa[i], essay[i], rec[i], extra[i])
-    val.append(out)
+with open('./outputs/deploy_output.txt', 'w') as f:
+    for i in range(0, len(type)):
+        prediction = weights[0]*type[i] + weights[1]*bedroom[i] + weights[2]*bathroom[i] + weights[3]*livingroom[i] + weights[4]*diningroom[i] + weights[5]*condition[i] + weights[6]*area[i] + weights[7]*bias[i]
+        prediction = unnormalizePrice(prediction)
 
-with open(f'./outputs/deploy_output.txt', 'w') as f:
-    for i in range(0, len(val)):
-        if val[i] == 1:
-            val[i] = 'A'
-        else:
-            val[i] = 'R'
-        f.write(f"{i}) SAT: {unnormalize_sat(sat[i])} GPA: {unnormalize_gpa(gpa[i])} Essay: {essay[i]} Rec: {rec[i]} ExtraC: {extra[i]} Prediction: {val[i]}\n")
-        print(f"{i}) SAT: {unnormalize_sat(sat[i])} GPA: {unnormalize_gpa(gpa[i])} Essay: {essay[i]} Rec: {rec[i]} ExtraC: {extra[i]} Prediction: {val[i]}")
-    
+        f.write(f'{prediction}\n')

@@ -91,7 +91,7 @@ def calculateOutput(weights, house, error):
     :param error: error matrix
     :return: the output of the perceptron
     """
-    print("error in function: ", error)
+    # print("error in function: ", error)
     output = np.add(np.matmul(house , weights), error)
     # output = np.matmul(house , weights)
 
@@ -158,15 +158,15 @@ error = np.matrix(np.zeros((len(house), 1)))
 
 # Training Loop
 learning_rate = 0.0025
-max_epoch = 100
+max_epoch = 10000
 epoch = 0
-trainingOut_list = []
+trainingout_list = []
+error_list = []
 while epoch < max_epoch:
     epoch += 1
-    print(epoch)
     output = calculateOutput(weights, house, error)
 
-    # Calculate the Mean Squared Error (MSE)
+    # Calculate the error per index
     sum_SE = 0
     for i in range(0, len(price)):
         error[i] = price[i] - np.matmul(house[i], weights)
@@ -178,9 +178,13 @@ while epoch < max_epoch:
     gradient = np.matmul(house.transpose(), error)
     weights = np.add(weights, ((learning_rate/800) * gradient))
 
-    print(f"New weights: ", weights)
-    epoch_data = f"{epoch}, MSE = {sum_SE/800}"
-    trainingOut_list.append(epoch_data)
+    # Calculate the Mean Square Error for the epoch
+    MSE = sum_SE/len(price)
+
+    epoch_data = f"{epoch}, MSE = {MSE}, {weights[0]}*type + {weights[1]}*bed + {weights[2]}*bath + {weights[3]}*living + {weights[4]}*dining + {weights[5]}*condition + {weights[6]}*area + {weights[7]}"
+    print(epoch_data)
+    trainingout_list.append(epoch_data)
+    error_list.append(MSE)
 
 print(unnormalizePrice(output))
 
@@ -188,16 +192,17 @@ print(unnormalizePrice(output))
 with open(f'./outputs/weights.txt', 'w') as f:
     f.write(str(weights))
 
-# with open(f'./outputs/errors.txt', 'w') as f:
-#    for i in range(0, len(errorList)):
-#        f.write(f"{errorList[i]}\n")
+# Write the error to a file
+with open(f'./outputs/errors.txt', 'w') as f:
+   for i in range(0, len(error_list)):
+       f.write(f"{error_list[i]}\n")
 
 # Write the output to a file
 with open(f'./outputs/training_output.txt', 'w') as f:
    f.write(f"Initial Equation : price = {weights[0]}*type + {weights[1]}*bed + {weights[2]}*bath + {weights[3]}*living + {weights[4]}*dining + {weights[5]}*condition + {weights[6]}*area + {weights[7]}\n\n")
-   for i in range(0, len(trainingOut_list)):
-       f.write(f"{trainingOut_list[i]}\n")
-   f.write(f"\nFinal Equation: {trainingOut_list[len(trainingOut_list)-1]}")
+   for i in range(0, len(trainingout_list)):
+       f.write(f"{trainingout_list[i]}\n")
+   f.write(f"\nFinal Equation: {trainingout_list[len(trainingout_list)-1]}")
 
 
 # plotting graph
