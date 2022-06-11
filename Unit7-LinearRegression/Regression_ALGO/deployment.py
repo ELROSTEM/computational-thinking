@@ -161,3 +161,4 @@ with open('./outputs/deploy_output.txt', 'w') as f:
         prediction = unnormalizePrice(prediction)
 
         f.write(f'{prediction}\n')
+        print(f'{prediction}\n')

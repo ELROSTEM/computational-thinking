@@ -158,7 +158,7 @@ error = np.matrix(np.zeros((len(house), 1)))
 
 # Training Loop
 learning_rate = 0.0025
-max_epoch = 10000
+max_epoch = 50000
 epoch = 0
 trainingout_list = []
 error_list = []
