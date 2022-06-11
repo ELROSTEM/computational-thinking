@@ -167,7 +167,7 @@ with open('./outputs/validation_output.txt', 'w') as f:
         percent_error = (abs(error)/price[i])*100
 
         info = f'{i})    Price: {price[i]}   Prediction: {prediction}    Error: {error}   Percent Error: {percent_error}'
-        f.write(info)
+        f.write(f"{info}\n")
         print(info)
 
 
